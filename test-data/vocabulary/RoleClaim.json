@@ -1,0 +1,105 @@
+{
+  "digest": "2564a6055035623f",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "RoleClaim",
+  "personal": {},
+  "records": [
+    {
+      "ClaimType": "booking.view_own",
+      "ClaimValue": "true",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "booking.create_for_customer",
+      "ClaimValue": "allowed",
+      "RoleId": 1,
+      "Version": 2
+    },
+    {
+      "ClaimType": "system.manage_users",
+      "ClaimValue": "full",
+      "RoleId": 2,
+      "Version": 3
+    },
+    {
+      "ClaimType": "checkin.issue_boarding_pass",
+      "ClaimValue": "terminal",
+      "RoleId": 3,
+      "Version": 4
+    },
+    {
+      "ClaimType": "gate.scan_boarding_pass",
+      "ClaimValue": "enabled",
+      "RoleId": 4,
+      "Version": 5
+    },
+    {
+      "ClaimType": "loyalty.redeem_miles",
+      "ClaimValue": "member",
+      "RoleId": 5,
+      "Version": 6
+    },
+    {
+      "ClaimType": "support.refund_limit_usd",
+      "ClaimValue": "250",
+      "RoleId": 6,
+      "Version": 7
+    },
+    {
+      "ClaimType": "baggage.update_tag_status",
+      "ClaimValue": "ramp",
+      "RoleId": 7,
+      "Version": 8
+    },
+    {
+      "ClaimType": "crew.view_roster",
+      "ClaimValue": "assigned_flights",
+      "RoleId": 8,
+      "Version": 9
+    },
+    {
+      "ClaimType": "flight.sign_release",
+      "ClaimValue": "captain",
+      "RoleId": 9,
+      "Version": 10
+    },
+    {
+      "ClaimType": "dispatch.amend_flight_plan",
+      "ClaimValue": "approved",
+      "RoleId": 10,
+      "Version": 11
+    },
+    {
+      "ClaimType": "pricing.edit_fare_class",
+      "ClaimValue": "Y,M,K,L",
+      "RoleId": 11,
+      "Version": 12
+    },
+    {
+      "ClaimType": "fleet.schedule_maintenance",
+      "ClaimValue": "narrowbody",
+      "RoleId": 12,
+      "Version": 13
+    },
+    {
+      "ClaimType": "group.block_seats_max",
+      "ClaimValue": "40",
+      "RoleId": 13,
+      "Version": 14
+    },
+    {
+      "ClaimType": "security.view_passport_data",
+      "ClaimValue": "restricted",
+      "RoleId": 14,
+      "Version": 15
+    },
+    {
+      "ClaimType": "audit.export_logs",
+      "ClaimValue": "read_only",
+      "RoleId": 15,
+      "Version": 16
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

@@ -1,0 +1,59 @@
+{
+  "object": "UserToken",
+  "table": "UserToken",
+  "source": "src/Identity/Identity/Models/UserToken.cs:7",
+  "columns": [
+    "Version",
+    "UserId",
+    "LoginProvider",
+    "Name",
+    "Value"
+  ],
+  "rejections": [
+    {
+      "ref": "usertoken-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "usertoken-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": null,
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "LoginProvider",
+        "rule": "`LoginProvider` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "usertoken-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": "",
+        "Name": null,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "Name",
+        "rule": "`Name` is declared NOT NULL"
+      }
+    }
+  ]
+}

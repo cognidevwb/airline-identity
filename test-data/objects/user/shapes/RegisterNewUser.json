@@ -1,0 +1,589 @@
+{
+  "shape": "RegisterNewUser",
+  "role": "command",
+  "source": "src/Identity/Identity/Features/RegisteringNewUser/V1/RegisterNewUser.cs:26",
+  "columns": [
+    "FirstName",
+    "LastName",
+    "Username",
+    "Email",
+    "Password",
+    "ConfirmPassword",
+    "PassportNumber"
+  ],
+  "records": [
+    {
+      "ref": "user-amara-okafor-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass000",
+        "Email": "amara.okafor@example.com",
+        "FirstName": "Amara",
+        "LastName": "Okafor",
+        "PassportNumber": "X00001023",
+        "Password": "Str0ng!Pass000",
+        "Username": "amara.okafor"
+      }
+    },
+    {
+      "ref": "user-liam-brennan-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass001",
+        "Email": "liam.brennan@example.com",
+        "FirstName": "Liam",
+        "LastName": "Brennan",
+        "PassportNumber": "X00001024",
+        "Password": "Str0ng!Pass001",
+        "Username": "liam.brennan"
+      }
+    },
+    {
+      "ref": "user-sofia-marchetti-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass002",
+        "Email": "sofia.marchetti@example.com",
+        "FirstName": "Sofia",
+        "LastName": "Marchetti",
+        "PassportNumber": "X00001025",
+        "Password": "Str0ng!Pass002",
+        "Username": "sofia.marchetti"
+      }
+    },
+    {
+      "ref": "user-hiroshi-tanaka-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass003",
+        "Email": "hiroshi.tanaka@example.com",
+        "FirstName": "Hiroshi",
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001026",
+        "Password": "Str0ng!Pass003",
+        "Username": "hiroshi.tanaka"
+      }
+    },
+    {
+      "ref": "user-priya-raghavan-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass004",
+        "Email": "priya.raghavan@example.com",
+        "FirstName": "Priya",
+        "LastName": "Raghavan",
+        "PassportNumber": "X00001027",
+        "Password": "Str0ng!Pass004",
+        "Username": "priya.raghavan"
+      }
+    },
+    {
+      "ref": "user-mateus-oliveira-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass005",
+        "Email": "mateus.oliveira@example.com",
+        "FirstName": "Mateus",
+        "LastName": "Oliveira",
+        "PassportNumber": "X00001028",
+        "Password": "Str0ng!Pass005",
+        "Username": "mateus.oliveira"
+      }
+    },
+    {
+      "ref": "user-fatima-almansoori-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass006",
+        "Email": "fatima.almansoori@example.com",
+        "FirstName": "Fatima",
+        "LastName": "Al-Mansoori",
+        "PassportNumber": "X00001029",
+        "Password": "Str0ng!Pass006",
+        "Username": "fatima.almansoori"
+      }
+    },
+    {
+      "ref": "user-erik-johansson-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass007",
+        "Email": "erik.johansson@example.com",
+        "FirstName": "Erik",
+        "LastName": "Johansson",
+        "PassportNumber": "X00001030",
+        "Password": "Str0ng!Pass007",
+        "Username": "erik.johansson"
+      }
+    },
+    {
+      "ref": "user-chloe-dubois-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass008",
+        "Email": "chloe.dubois@example.com",
+        "FirstName": "Chloe",
+        "LastName": "Dubois",
+        "PassportNumber": "X00001031",
+        "Password": "Str0ng!Pass008",
+        "Username": "chloe.dubois"
+      }
+    },
+    {
+      "ref": "user-daniel-mwangi-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass009",
+        "Email": "daniel.mwangi@example.com",
+        "FirstName": "Daniel",
+        "LastName": "Mwangi",
+        "PassportNumber": "X00001032",
+        "Password": "Str0ng!Pass009",
+        "Username": "daniel.mwangi"
+      }
+    },
+    {
+      "ref": "user-elena-petrova-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass010",
+        "Email": "elena.petrova@example.com",
+        "FirstName": "Elena",
+        "LastName": "Petrova",
+        "PassportNumber": "X00001033",
+        "Password": "Str0ng!Pass010",
+        "Username": "elena.petrova"
+      }
+    },
+    {
+      "ref": "user-carlos-ramirez-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass011",
+        "Email": "carlos.ramirez@example.com",
+        "FirstName": "Carlos",
+        "LastName": "Ramirez",
+        "PassportNumber": "X00001034",
+        "Password": "Str0ng!Pass011",
+        "Username": "carlos.ramirez"
+      }
+    },
+    {
+      "ref": "user-aisha-khan-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass012",
+        "Email": "aisha.khan@example.com",
+        "FirstName": "Aisha",
+        "LastName": "Khan",
+        "PassportNumber": "X00001035",
+        "Password": "Str0ng!Pass012",
+        "Username": "aisha.khan"
+      }
+    },
+    {
+      "ref": "user-tomasz-kowalski-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass013",
+        "Email": "tomasz.kowalski@example.com",
+        "FirstName": "Tomasz",
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001036",
+        "Password": "Str0ng!Pass013",
+        "Username": "tomasz.kowalski"
+      }
+    },
+    {
+      "ref": "user-grace-nguyen-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass014",
+        "Email": "grace.nguyen@example.com",
+        "FirstName": "Grace",
+        "LastName": "Nguyen",
+        "PassportNumber": "X00001037",
+        "Password": "Str0ng!Pass014",
+        "Username": "grace.nguyen"
+      }
+    },
+    {
+      "ref": "user-noah-fischer-example-com-2",
+      "kind": "record",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass015",
+        "Email": "noah.fischer@example.com",
+        "FirstName": "Noah",
+        "LastName": "Fischer",
+        "PassportNumber": "X00001038",
+        "Password": "Str0ng!Pass015",
+        "Username": "noah.fischer"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "ref": "registernewuser-case-1",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "registernewuser-case-2",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass000",
+        "Email": "alice.whitfield@example.com",
+        "FirstName": "text",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "X00001001",
+        "Password": "Str0ng!Pass000",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "registernewuser-case-3",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "Alice Whitfield",
+        "LastName": "text",
+        "PassportNumber": "X00001002",
+        "Password": "Str0ng!Pass000",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "registernewuser-case-4",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass000",
+        "Email": "alice.whitfield@example.com",
+        "FirstName": "Alice Whitfield",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "X00001003",
+        "Password": "text",
+        "Username": "text"
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "registernewuser-case-5",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "alice.whitfield@example.com",
+        "FirstName": "Alice Whitfield",
+        "LastName": "text",
+        "PassportNumber": "X00001004",
+        "Password": "text",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "registernewuser-case-6",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "Alice Whitfield",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "registernewuser-case-7",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "alice.whitfield@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "Str0ng!Pass000",
+        "Username": "text"
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "registernewuser-case-8",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "Str0ng!Pass000",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "registernewuser-case-9",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "X00001008",
+        "Password": "text",
+        "Username": "text"
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "registernewuser-case-10",
+      "kind": "case",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "X00001009",
+        "Password": "text",
+        "Username": "text"
+      },
+      "case": "covering-0010"
+    }
+  ],
+  "rejections": [
+    {
+      "ref": "registernewuser-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": null,
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "FirstName",
+        "rule": "`FirstName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "FirstName",
+        "rule": "violates a declared constraint on `FirstName`"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": null,
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "LastName",
+        "rule": "`LastName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-4",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "LastName",
+        "rule": "violates a declared constraint on `LastName`"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-5",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": null
+      },
+      "violates": {
+        "field": "Username",
+        "rule": "`Username` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-6",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": ""
+      },
+      "violates": {
+        "field": "Username",
+        "rule": "violates a declared constraint on `Username`"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-7",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": null,
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "Email",
+        "rule": "`Email` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-8",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "not-an-email",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "Email",
+        "rule": "violates a declared constraint on `Email`"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-9",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": null,
+        "Username": "text"
+      },
+      "violates": {
+        "field": "Password",
+        "rule": "`Password` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-10",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "Password",
+        "rule": "violates a declared constraint on `Password`"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-11",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": null,
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "ConfirmPassword",
+        "rule": "`ConfirmPassword` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-12",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "ConfirmPassword",
+        "rule": "violates a declared constraint on `ConfirmPassword`"
+      }
+    },
+    {
+      "ref": "registernewuser-rejection-13",
+      "kind": "rejection",
+      "data": {
+        "ConfirmPassword": "text",
+        "Email": "user@example.com",
+        "FirstName": "text",
+        "LastName": "text",
+        "PassportNumber": null,
+        "Password": "text",
+        "Username": "text"
+      },
+      "violates": {
+        "field": "PassportNumber",
+        "rule": "`PassportNumber` is declared NOT NULL"
+      }
+    }
+  ]
+}

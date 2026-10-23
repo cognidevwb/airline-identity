@@ -1,0 +1,42 @@
+{
+  "id": "locked-out-user",
+  "title": "Locked-out user",
+  "source": "staged scenario",
+  "why": "Checks that the lockout rule is enforced, so a user at the failure limit with a future LockoutEnd is refused even with the correct password.",
+  "setup": [
+    {
+      "ref": "user-locked",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 5,
+        "ConcurrencyStamp": "cs-user-locked-3",
+        "Email": "marcus.oyelaran@example.com",
+        "EmailConfirmed": true,
+        "FirstName": "Marcus",
+        "Id": "b1c2d3e4-0002-4000-8000-000000000102",
+        "LastName": "Oyelaran",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-10-24T09:00:00Z",
+        "NormalizedEmail": "MARCUS.OYELARAN@EXAMPLE.COM",
+        "NormalizedUserName": "MARCUS.OYELARAN@EXAMPLE.COM",
+        "PassPortNumber": "P7654321",
+        "PasswordHash": "AQAAAAEAACcQAAAAEFakeHashLocked==",
+        "PhoneNumber": "+442071230102",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "ss-user-locked-3",
+        "TwoFactorEnabled": false,
+        "UserName": "marcus.oyelaran@example.com",
+        "Version": 3
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "Attempt to sign in as marcus.oyelaran@example.com with the correct password, on 2026-10-23, before LockoutEnd."
+    }
+  ],
+  "expect": [
+    "Sign-in is rejected as locked out and no session or token is issued. AccessFailedCount stays 5 and LockoutEnd is unchanged. The correct password does not bypass the lockout. After 2026-10-24T09:00:00Z a correct sign-in succeeds and resets the failure count to 0."
+  ]
+}

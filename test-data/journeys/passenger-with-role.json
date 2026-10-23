@@ -1,0 +1,62 @@
+{
+  "id": "passenger-with-role",
+  "title": "Passenger account",
+  "source": "staged scenario",
+  "why": "Checks that a normal passenger signs in, resolves to the Passenger role through UserRole, and that the passport and confirmed email are available for booking.",
+  "setup": [
+    {
+      "ref": "role-passenger",
+      "table": "Role",
+      "values": {
+        "ConcurrencyStamp": "cs-role-passenger-1",
+        "Id": "a1b2c3d4-0001-4000-8000-000000000001",
+        "Name": "Passenger",
+        "NormalizedName": "PASSENGER",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "user-passenger",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 0,
+        "ConcurrencyStamp": "cs-user-passenger-1",
+        "Email": "amelia.hartmann@example.com",
+        "EmailConfirmed": true,
+        "FirstName": "Amelia",
+        "Id": "b1c2d3e4-0001-4000-8000-000000000101",
+        "LastName": "Hartmann",
+        "LockoutEnabled": true,
+        "LockoutEnd": null,
+        "NormalizedEmail": "AMELIA.HARTMANN@EXAMPLE.COM",
+        "NormalizedUserName": "AMELIA.HARTMANN@EXAMPLE.COM",
+        "PassPortNumber": "X1234567",
+        "PasswordHash": "AQAAAAEAACcQAAAAEFakeHashPassenger==",
+        "PhoneNumber": "+14155550101",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "ss-user-passenger-1",
+        "TwoFactorEnabled": false,
+        "UserName": "amelia.hartmann@example.com",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "userrole-passenger",
+      "table": "UserRole",
+      "values": {
+        "RoleId": "role-passenger",
+        "UserId": "user-passenger",
+        "Version": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "Sign in as amelia.hartmann@example.com with the correct password, then request the profile and the list of roles for that user."
+    }
+  ],
+  "expect": [
+    "Sign-in succeeds and the access failure count stays 0. The roles list contains exactly one role, Passenger. The profile returns passport X1234567 and shows the email as confirmed, so the user is allowed to make a booking."
+  ]
+}

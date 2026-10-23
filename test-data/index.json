@@ -1,0 +1,107 @@
+{
+  "repository": "airline-identity",
+  "domain": "Identity and Access Management Software",
+  "report": {
+    "rows": 395,
+    "entities": 13,
+    "coverage": "pairwise"
+  },
+  "reconciled": {
+    "rows": 395,
+    "matches_report": true
+  },
+  "objects": [
+    {
+      "object": "Other",
+      "table": null,
+      "records": 0,
+      "cases": 0,
+      "rejections": 0,
+      "calls": 0,
+      "events": 0,
+      "shapes": [
+        "AuthOptions",
+        "GET /"
+      ]
+    },
+    {
+      "object": "Role",
+      "table": "Role",
+      "records": 16,
+      "cases": 7,
+      "rejections": 3,
+      "calls": 0,
+      "events": 0,
+      "shapes": []
+    },
+    {
+      "object": "RoleClaim",
+      "table": "RoleClaim",
+      "records": 16,
+      "cases": 13,
+      "rejections": 1,
+      "calls": 0,
+      "events": 0,
+      "shapes": []
+    },
+    {
+      "object": "User",
+      "table": "User",
+      "records": 16,
+      "cases": 18,
+      "rejections": 14,
+      "calls": 1,
+      "events": 0,
+      "shapes": [
+        "RegisterNewUser",
+        "RegisterNewUserRequestDto",
+        "RegisterNewUserResponseDto",
+        "RegisterNewUserResult"
+      ]
+    },
+    {
+      "object": "UserClaim",
+      "table": "UserClaim",
+      "records": 16,
+      "cases": 13,
+      "rejections": 1,
+      "calls": 0,
+      "events": 0,
+      "shapes": []
+    },
+    {
+      "object": "UserLogin",
+      "table": "UserLogin",
+      "records": 16,
+      "cases": 15,
+      "rejections": 3,
+      "calls": 0,
+      "events": 0,
+      "shapes": []
+    },
+    {
+      "object": "UserRole",
+      "table": "UserRole",
+      "records": 16,
+      "cases": 16,
+      "rejections": 1,
+      "calls": 0,
+      "events": 0,
+      "shapes": []
+    },
+    {
+      "object": "UserToken",
+      "table": "UserToken",
+      "records": 16,
+      "cases": 16,
+      "rejections": 3,
+      "calls": 0,
+      "events": 0,
+      "shapes": []
+    }
+  ],
+  "calls": 1,
+  "journeys": 7,
+  "failures": 1,
+  "personal": "values that cannot belong to a person: example.com, reserved phone ranges, passport and card numbers that cannot be issued"
+}

@@ -1,0 +1,29 @@
+{
+  "object": "UserClaim",
+  "table": "UserClaim",
+  "source": "src/Identity/Identity/Models/UserClaim.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ClaimType",
+    "ClaimValue",
+    "UserId"
+  ],
+  "rejections": [
+    {
+      "ref": "userclaim-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "",
+        "Id": 1029,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    }
+  ]
+}

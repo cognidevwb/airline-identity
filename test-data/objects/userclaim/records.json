@@ -1,0 +1,238 @@
+{
+  "object": "UserClaim",
+  "table": "UserClaim",
+  "source": "src/Identity/Identity/Models/UserClaim.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ClaimType",
+    "ClaimValue",
+    "UserId"
+  ],
+  "records": [
+    {
+      "ref": "userclaim-passport-number",
+      "kind": "record",
+      "data": {
+        "ClaimType": "passport_number",
+        "ClaimValue": "NG4829163",
+        "Id": 1013,
+        "UserId": "e0a63e12-0000-4000-8000-000000001018",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-amara-okafor-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-phone-number",
+      "kind": "record",
+      "data": {
+        "ClaimType": "phone_number",
+        "ClaimValue": "+44 7700 900123",
+        "Id": 1014,
+        "UserId": "e0a63e12-0000-4000-8000-000000001019",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-liam-brennan-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-role",
+      "kind": "record",
+      "data": {
+        "ClaimType": "role",
+        "ClaimValue": "Passenger",
+        "Id": 1015,
+        "UserId": "e0a63e12-0000-4000-8000-000000001020",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-sofia-marchetti-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-passport-number-2",
+      "kind": "record",
+      "data": {
+        "ClaimType": "passport_number",
+        "ClaimValue": "TH5521908",
+        "Id": 1016,
+        "UserId": "e0a63e12-0000-4000-8000-000000001021",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-phone-number-2",
+      "kind": "record",
+      "data": {
+        "ClaimType": "phone_number",
+        "ClaimValue": "+91 98765 43210",
+        "Id": 1017,
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-priya-raghavan-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-role-2",
+      "kind": "record",
+      "data": {
+        "ClaimType": "role",
+        "ClaimValue": "Agent",
+        "Id": 1018,
+        "UserId": "e0a63e12-0000-4000-8000-000000001023",
+        "Version": 5
+      },
+      "links": {
+        "UserId": "user-mateus-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-nationality",
+      "kind": "record",
+      "data": {
+        "ClaimType": "nationality",
+        "ClaimValue": "United Arab Emirates",
+        "Id": 1019,
+        "UserId": "e0a63e12-0000-4000-8000-000000001024",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-role-3",
+      "kind": "record",
+      "data": {
+        "ClaimType": "role",
+        "ClaimValue": "CheckInStaff",
+        "Id": 1020,
+        "UserId": "e0a63e12-0000-4000-8000-000000001025",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-erik-johansson-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-passport-number-3",
+      "kind": "record",
+      "data": {
+        "ClaimType": "passport_number",
+        "ClaimValue": "19AB34567",
+        "Id": 1021,
+        "UserId": "e0a63e12-0000-4000-8000-000000001026",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-chloe-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-phone-number-3",
+      "kind": "record",
+      "data": {
+        "ClaimType": "phone_number",
+        "ClaimValue": "+254 712 345678",
+        "Id": 1022,
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-mwangi-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-loyalty-tier",
+      "kind": "record",
+      "data": {
+        "ClaimType": "loyalty_tier",
+        "ClaimValue": "Gold",
+        "Id": 1023,
+        "UserId": "e0a63e12-0000-4000-8000-000000001028",
+        "Version": 4
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-passport-number-4",
+      "kind": "record",
+      "data": {
+        "ClaimType": "passport_number",
+        "ClaimValue": "XDA482916",
+        "Id": 1024,
+        "UserId": "e0a63e12-0000-4000-8000-000000001029",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-carlos-ramirez-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-role-4",
+      "kind": "record",
+      "data": {
+        "ClaimType": "role",
+        "ClaimValue": "Admin",
+        "Id": 1025,
+        "UserId": "e0a63e12-0000-4000-8000-000000001030",
+        "Version": 5
+      },
+      "links": {
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-phone-number-4",
+      "kind": "record",
+      "data": {
+        "ClaimType": "phone_number",
+        "ClaimValue": "+48 512 345 678",
+        "Id": 1026,
+        "UserId": "e0a63e12-0000-4000-8000-000000001031",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-meal-preference",
+      "kind": "record",
+      "data": {
+        "ClaimType": "meal_preference",
+        "ClaimValue": "Vegetarian",
+        "Id": 1027,
+        "UserId": "e0a63e12-0000-4000-8000-000000001032",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-grace-nguyen-example-com"
+      }
+    },
+    {
+      "ref": "userclaim-seat-preference",
+      "kind": "record",
+      "data": {
+        "ClaimType": "seat_preference",
+        "ClaimValue": "Aisle",
+        "Id": 1028,
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-noah-fischer-example-com"
+      }
+    }
+  ]
+}

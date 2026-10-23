@@ -1,0 +1,64 @@
+{
+  "id": "social-login-user",
+  "title": "Social sign-in",
+  "source": "staged scenario",
+  "why": "Checks that an account linked to Google resolves through its UserLogin row and that its refresh token is stored and retrievable, without needing a local password.",
+  "setup": [
+    {
+      "ref": "user-social",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 0,
+        "ConcurrencyStamp": "cs-user-social-1",
+        "Email": "lena.kowalczyk@gmail.com",
+        "EmailConfirmed": true,
+        "FirstName": "Lena",
+        "Id": "b1c2d3e4-0004-4000-8000-000000000104",
+        "LastName": "Kowalczyk",
+        "LockoutEnabled": true,
+        "LockoutEnd": null,
+        "NormalizedEmail": "LENA.KOWALCZYK@GMAIL.COM",
+        "NormalizedUserName": "LENA.KOWALCZYK@GMAIL.COM",
+        "PassPortNumber": "AB9081726",
+        "PasswordHash": null,
+        "PhoneNumber": null,
+        "PhoneNumberConfirmed": false,
+        "SecurityStamp": "ss-user-social-1",
+        "TwoFactorEnabled": false,
+        "UserName": "lena.kowalczyk@gmail.com",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "login-google",
+      "table": "UserLogin",
+      "values": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Google",
+        "ProviderKey": "108234567890123456789",
+        "UserId": "user-social",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "token-google-refresh",
+      "table": "UserToken",
+      "values": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "user-social",
+        "Value": "1//0gFakeRefreshTokenForTestingOnly",
+        "Version": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "Complete an external sign-in with provider Google and provider key 108234567890123456789, then look up the stored refresh_token for that user and provider."
+    }
+  ],
+  "expect": [
+    "The provider key resolves to Lena Kowalczyk's account and sign-in succeeds without a password. Exactly one UserLogin row exists for the Google provider. The stored token with name refresh_token is returned for this user and provider. A different provider key matches no account."
+  ]
+}

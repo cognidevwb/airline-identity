@@ -1,0 +1,115 @@
+{
+  "id": "multi-role-staff",
+  "title": "Multi-role staff",
+  "source": "staged scenario",
+  "why": "Checks that a user holding several roles gets the combined set of roles and role claims, with no duplicates and none missing.",
+  "setup": [
+    {
+      "ref": "role-agent",
+      "table": "Role",
+      "values": {
+        "ConcurrencyStamp": "cs-role-agent-1",
+        "Id": "a1b2c3d4-0002-4000-8000-000000000002",
+        "Name": "Agent",
+        "NormalizedName": "AGENT",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "role-admin",
+      "table": "Role",
+      "values": {
+        "ConcurrencyStamp": "cs-role-admin-1",
+        "Id": "a1b2c3d4-0003-4000-8000-000000000003",
+        "Name": "Admin",
+        "NormalizedName": "ADMIN",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "roleclaim-agent-book",
+      "table": "RoleClaim",
+      "values": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.manage",
+        "Id": 1,
+        "RoleId": "role-agent",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "roleclaim-admin-fleet",
+      "table": "RoleClaim",
+      "values": {
+        "ClaimType": "permission",
+        "ClaimValue": "fleet.manage",
+        "Id": 2,
+        "RoleId": "role-admin",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "user-staff",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 0,
+        "ConcurrencyStamp": "cs-user-staff-2",
+        "Email": "priya.venkataraman@skyline-air.example",
+        "EmailConfirmed": true,
+        "FirstName": "Priya",
+        "Id": "b1c2d3e4-0003-4000-8000-000000000103",
+        "LastName": "Venkataraman",
+        "LockoutEnabled": true,
+        "LockoutEnd": null,
+        "NormalizedEmail": "PRIYA.VENKATARAMAN@SKYLINE-AIR.EXAMPLE",
+        "NormalizedUserName": "PRIYA.VENKATARAMAN@SKYLINE-AIR.EXAMPLE",
+        "PassPortNumber": "K2468135",
+        "PasswordHash": "AQAAAAEAACcQAAAAEFakeHashStaff==",
+        "PhoneNumber": "+912212345603",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "ss-user-staff-2",
+        "TwoFactorEnabled": true,
+        "UserName": "priya.venkataraman@skyline-air.example",
+        "Version": 2
+      }
+    },
+    {
+      "ref": "userrole-staff-agent",
+      "table": "UserRole",
+      "values": {
+        "RoleId": "role-agent",
+        "UserId": "user-staff",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "userrole-staff-admin",
+      "table": "UserRole",
+      "values": {
+        "RoleId": "role-admin",
+        "UserId": "user-staff",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "userclaim-staff-desk",
+      "table": "UserClaim",
+      "values": {
+        "ClaimType": "desk",
+        "ClaimValue": "terminal-2",
+        "Id": 1,
+        "UserId": "user-staff",
+        "Version": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "Request the roles and the effective claims for priya.venkataraman@skyline-air.example, then try one booking-management action and one fleet-management action as this user."
+    }
+  ],
+  "expect": [
+    "The roles list contains Agent and Admin, each once. The effective claims are bookings.manage and fleet.manage from the roles, plus the user-level desk=terminal-2 claim. Both the booking-management and fleet-management actions are authorized. A user with only the Agent role would be refused the fleet action."
+  ]
+}

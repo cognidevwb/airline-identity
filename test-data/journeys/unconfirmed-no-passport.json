@@ -1,0 +1,42 @@
+{
+  "id": "unconfirmed-no-passport",
+  "title": "Unverified account",
+  "source": "staged scenario",
+  "why": "Checks that an account with nothing verified (email, phone, passport, 2FA) can sign in or register but is stopped from actions that need verified details, such as making a booking.",
+  "setup": [
+    {
+      "ref": "user-unverified",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 0,
+        "ConcurrencyStamp": "cs-user-unverified-1",
+        "Email": "tomas.berglund@example.com",
+        "EmailConfirmed": false,
+        "FirstName": "Tomas",
+        "Id": "b1c2d3e4-0005-4000-8000-000000000105",
+        "LastName": "Berglund",
+        "LockoutEnabled": true,
+        "LockoutEnd": null,
+        "NormalizedEmail": "TOMAS.BERGLUND@EXAMPLE.COM",
+        "NormalizedUserName": "TOMAS.BERGLUND@EXAMPLE.COM",
+        "PassPortNumber": "",
+        "PasswordHash": "AQAAAAEAACcQAAAAEFakeHashUnverified==",
+        "PhoneNumber": "+46701234505",
+        "PhoneNumberConfirmed": false,
+        "SecurityStamp": "ss-user-unverified-1",
+        "TwoFactorEnabled": false,
+        "UserName": "tomas.berglund@example.com",
+        "Version": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "Sign in as tomas.berglund@example.com with the correct password, then try to book a seat on a flight."
+    }
+  ],
+  "expect": [
+    "If the system requires a confirmed email to sign in, sign-in is refused with an unconfirmed-email result. If sign-in is allowed, the booking is refused because the email is unconfirmed and the passport number is empty. No 2FA challenge is raised because TwoFactorEnabled is false. No booking row is created."
+  ]
+}

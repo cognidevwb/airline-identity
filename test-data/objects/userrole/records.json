@@ -1,0 +1,220 @@
+{
+  "object": "UserRole",
+  "table": "UserRole",
+  "source": "src/Identity/Identity/Models/UserRole.cs:7",
+  "columns": [
+    "Version",
+    "UserId",
+    "RoleId"
+  ],
+  "records": [
+    {
+      "ref": "userrole-1",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "UserId": "e0a63e12-0000-4000-8000-000000001018",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-passenger",
+        "UserId": "user-amara-okafor-example-com"
+      }
+    },
+    {
+      "ref": "userrole-2",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "UserId": "e0a63e12-0000-4000-8000-000000001019",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-agent",
+        "UserId": "user-liam-brennan-example-com"
+      }
+    },
+    {
+      "ref": "userrole-3",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "UserId": "e0a63e12-0000-4000-8000-000000001020",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-loyaltymember",
+        "UserId": "user-sofia-marchetti-example-com"
+      }
+    },
+    {
+      "ref": "userrole-4",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "UserId": "e0a63e12-0000-4000-8000-000000001021",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-admin",
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userrole-5",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Version": 5
+      },
+      "links": {
+        "RoleId": "role-customersupport",
+        "UserId": "user-priya-raghavan-example-com"
+      }
+    },
+    {
+      "ref": "userrole-6",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "UserId": "e0a63e12-0000-4000-8000-000000001023",
+        "Version": 6
+      },
+      "links": {
+        "RoleId": "role-checkinstaff",
+        "UserId": "user-mateus-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "userrole-7",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001020",
+        "UserId": "e0a63e12-0000-4000-8000-000000001024",
+        "Version": 7
+      },
+      "links": {
+        "RoleId": "role-groupbookingagent",
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "userrole-8",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "UserId": "e0a63e12-0000-4000-8000-000000001025",
+        "Version": 8
+      },
+      "links": {
+        "RoleId": "role-gateagent",
+        "UserId": "user-erik-johansson-example-com"
+      }
+    },
+    {
+      "ref": "userrole-9",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001022",
+        "UserId": "e0a63e12-0000-4000-8000-000000001026",
+        "Version": 9
+      },
+      "links": {
+        "RoleId": "role-auditor",
+        "UserId": "user-chloe-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userrole-10",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Version": 10
+      },
+      "links": {
+        "RoleId": "role-baggagehandler",
+        "UserId": "user-daniel-mwangi-example-com"
+      }
+    },
+    {
+      "ref": "userrole-11",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001016",
+        "UserId": "e0a63e12-0000-4000-8000-000000001028",
+        "Version": 11
+      },
+      "links": {
+        "RoleId": "role-pilot",
+        "UserId": "user-elena-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userrole-12",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001017",
+        "UserId": "e0a63e12-0000-4000-8000-000000001029",
+        "Version": 12
+      },
+      "links": {
+        "RoleId": "role-dispatcher",
+        "UserId": "user-carlos-ramirez-example-com"
+      }
+    },
+    {
+      "ref": "userrole-13",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001015",
+        "UserId": "e0a63e12-0000-4000-8000-000000001030",
+        "Version": 13
+      },
+      "links": {
+        "RoleId": "role-flightcrew",
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "userrole-14",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001019",
+        "UserId": "e0a63e12-0000-4000-8000-000000001031",
+        "Version": 14
+      },
+      "links": {
+        "RoleId": "role-fleetplanner",
+        "UserId": "user-tomasz-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "userrole-15",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001018",
+        "UserId": "e0a63e12-0000-4000-8000-000000001032",
+        "Version": 15
+      },
+      "links": {
+        "RoleId": "role-revenuemanager",
+        "UserId": "user-grace-nguyen-example-com"
+      }
+    },
+    {
+      "ref": "userrole-16",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001021",
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Version": 16
+      },
+      "links": {
+        "RoleId": "role-securityofficer",
+        "UserId": "user-noah-fischer-example-com"
+      }
+    }
+  ]
+}

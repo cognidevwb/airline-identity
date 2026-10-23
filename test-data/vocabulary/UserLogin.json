@@ -1,0 +1,121 @@
+{
+  "digest": "d1f05dc8beb066de",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "UserLogin",
+  "personal": {},
+  "records": [
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Amara Okafor",
+      "ProviderKey": "108234957126340581927",
+      "UserId": 0,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "ProviderDisplayName": "Liam Brennan",
+      "ProviderKey": "a3c7e1d2-5f84-4b09-9e61-2d8b0c4f7a15",
+      "UserId": 1,
+      "Version": 1
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Sofia Marchetti",
+      "ProviderKey": "112906473815209346718",
+      "UserId": 2,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Facebook",
+      "ProviderDisplayName": "Chinedu Eze",
+      "ProviderKey": "10161894327055418",
+      "UserId": 3,
+      "Version": 5
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Emily Tremblay",
+      "ProviderKey": "104517832069471530284",
+      "UserId": 4,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "ProviderDisplayName": "Lukas Hoffmann",
+      "ProviderKey": "6e1f9b43-c2a8-4d70-b835-f09a17d5c2e6",
+      "UserId": 5,
+      "Version": 2
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Camille Dubois",
+      "ProviderKey": "117380245619782034561",
+      "UserId": 6,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Arjun Venkataraman",
+      "ProviderKey": "101649738205516479023",
+      "UserId": 7,
+      "Version": 3
+    },
+    {
+      "LoginProvider": "Facebook",
+      "ProviderDisplayName": "Olivia Mitchell",
+      "ProviderKey": "7492018356214087",
+      "UserId": 8,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Haruto Nakamura",
+      "ProviderKey": "115028964731850296437",
+      "UserId": 9,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "ProviderDisplayName": "Beatriz Carvalho",
+      "ProviderKey": "d84a2c97-1b30-4e5f-a6d9-73c0e8b1f452",
+      "UserId": 10,
+      "Version": 1
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Thabo Nkosi",
+      "ProviderKey": "109873125406928715340",
+      "UserId": 11,
+      "Version": 5
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Elena Garcia",
+      "ProviderKey": "113562087194325608719",
+      "UserId": 12,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Facebook",
+      "ProviderDisplayName": "Daan Visser",
+      "ProviderKey": "3058217496320815",
+      "UserId": 13,
+      "Version": 0
+    },
+    {
+      "LoginProvider": "Google",
+      "ProviderDisplayName": "Wanjiru Kamau",
+      "ProviderKey": "106241853970318452697",
+      "UserId": 14,
+      "Version": 4
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "ProviderDisplayName": "Astrid Lindqvist",
+      "ProviderKey": "2b97f6a0-8d13-4c5e-b402-e5a9c1d73f68",
+      "UserId": 15,
+      "Version": 0
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

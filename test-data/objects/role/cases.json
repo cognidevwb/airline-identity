@@ -1,0 +1,98 @@
+{
+  "object": "Role",
+  "table": "Role",
+  "source": "src/Identity/Identity/Models/Role.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ConcurrencyStamp",
+    "Name",
+    "NormalizedName"
+  ],
+  "cases": [
+    {
+      "ref": "role-case-1",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001000",
+        "Name": "",
+        "NormalizedName": "",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "role-case-2",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "text",
+        "Id": "902b7e39-0000-4000-8000-000000001001",
+        "Name": "Alice Whitfield",
+        "NormalizedName": "Alice Whitfield",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "role-case-3",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "GBP",
+        "Id": "902b7e39-0000-4000-8000-000000001002",
+        "Name": "",
+        "NormalizedName": "Alice Whitfield",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "role-case-4",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001003",
+        "Name": "Alice Whitfield",
+        "NormalizedName": "",
+        "Version": 100
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "role-case-5",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "text",
+        "Id": "902b7e39-0000-4000-8000-000000001004",
+        "Name": "",
+        "NormalizedName": "",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "role-case-6",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "GBP",
+        "Id": "902b7e39-0000-4000-8000-000000001005",
+        "Name": "Alice Whitfield",
+        "NormalizedName": "",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "role-case-7",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001006",
+        "Name": "",
+        "NormalizedName": "Alice Whitfield",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    }
+  ]
+}

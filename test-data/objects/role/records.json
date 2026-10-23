@@ -1,0 +1,190 @@
+{
+  "object": "Role",
+  "table": "Role",
+  "source": "src/Identity/Identity/Models/Role.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ConcurrencyStamp",
+    "Name",
+    "NormalizedName"
+  ],
+  "records": [
+    {
+      "ref": "role-passenger",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "3f6a1c92-7b4e-4d58-9a21-c0e5b8d17a34",
+        "Id": "902b7e39-0000-4000-8000-000000001007",
+        "Name": "Passenger",
+        "NormalizedName": "PASSENGER",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "role-agent",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "a81d5e07-2c93-4f6b-8e14-5d7a0b93c2f1",
+        "Id": "902b7e39-0000-4000-8000-000000001008",
+        "Name": "Agent",
+        "NormalizedName": "AGENT",
+        "Version": 2
+      }
+    },
+    {
+      "ref": "role-admin",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "5c2e9b4a-e610-47d3-b7a8-1f4d62e8a095",
+        "Id": "902b7e39-0000-4000-8000-000000001009",
+        "Name": "Admin",
+        "NormalizedName": "ADMIN",
+        "Version": 3
+      }
+    },
+    {
+      "ref": "role-checkinstaff",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "d7094f31-86ab-4c25-91e3-a3b6f7c0d58e",
+        "Id": "902b7e39-0000-4000-8000-000000001010",
+        "Name": "CheckInStaff",
+        "NormalizedName": "CHECKINSTAFF",
+        "Version": 4
+      }
+    },
+    {
+      "ref": "role-gateagent",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "1e8b73c6-4d0f-4a92-bc57-9e2a6d481f03",
+        "Id": "902b7e39-0000-4000-8000-000000001011",
+        "Name": "GateAgent",
+        "NormalizedName": "GATEAGENT",
+        "Version": 5
+      }
+    },
+    {
+      "ref": "role-loyaltymember",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "b39f0a58-d1c7-4e66-8a02-7c5e13b9d4a6",
+        "Id": "902b7e39-0000-4000-8000-000000001012",
+        "Name": "LoyaltyMember",
+        "NormalizedName": "LOYALTYMEMBER",
+        "Version": 6
+      }
+    },
+    {
+      "ref": "role-customersupport",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "72c4e8d1-0a5b-43f9-a6d8-e91b0c3f5782",
+        "Id": "902b7e39-0000-4000-8000-000000001013",
+        "Name": "CustomerSupport",
+        "NormalizedName": "CUSTOMERSUPPORT",
+        "Version": 7
+      }
+    },
+    {
+      "ref": "role-baggagehandler",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "f05a2b79-3e86-4c1d-9b47-2d8c6a1e90b5",
+        "Id": "902b7e39-0000-4000-8000-000000001014",
+        "Name": "BaggageHandler",
+        "NormalizedName": "BAGGAGEHANDLER",
+        "Version": 8
+      }
+    },
+    {
+      "ref": "role-flightcrew",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "46d1c0e3-9f72-48a5-b3e6-8a07d5c2f149",
+        "Id": "902b7e39-0000-4000-8000-000000001015",
+        "Name": "FlightCrew",
+        "NormalizedName": "FLIGHTCREW",
+        "Version": 9
+      }
+    },
+    {
+      "ref": "role-pilot",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "c8e63f14-5b09-4d7a-8c32-f1a94e0b6d27",
+        "Id": "902b7e39-0000-4000-8000-000000001016",
+        "Name": "Pilot",
+        "NormalizedName": "PILOT",
+        "Version": 10
+      }
+    },
+    {
+      "ref": "role-dispatcher",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "09b7a5d2-c4e1-4f38-a95b-3e6d2c80f7a1",
+        "Id": "902b7e39-0000-4000-8000-000000001017",
+        "Name": "Dispatcher",
+        "NormalizedName": "DISPATCHER",
+        "Version": 11
+      }
+    },
+    {
+      "ref": "role-revenuemanager",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "e2f48a60-17d3-4b9c-86e5-b05c9a3d1e48",
+        "Id": "902b7e39-0000-4000-8000-000000001018",
+        "Name": "RevenueManager",
+        "NormalizedName": "REVENUEMANAGER",
+        "Version": 12
+      }
+    },
+    {
+      "ref": "role-fleetplanner",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "8a1d9c37-6e42-4057-bd18-4c7f0e25a936",
+        "Id": "902b7e39-0000-4000-8000-000000001019",
+        "Name": "FleetPlanner",
+        "NormalizedName": "FLEETPLANNER",
+        "Version": 13
+      }
+    },
+    {
+      "ref": "role-groupbookingagent",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "3b5e7f02-a8c9-4d61-92f4-d6180b7c3e5a",
+        "Id": "902b7e39-0000-4000-8000-000000001020",
+        "Name": "GroupBookingAgent",
+        "NormalizedName": "GROUPBOOKINGAGENT",
+        "Version": 14
+      }
+    },
+    {
+      "ref": "role-securityofficer",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "97c0d4e8-2f1a-4b73-a5d9-6e83c1f2b074",
+        "Id": "902b7e39-0000-4000-8000-000000001021",
+        "Name": "SecurityOfficer",
+        "NormalizedName": "SECURITYOFFICER",
+        "Version": 15
+      }
+    },
+    {
+      "ref": "role-auditor",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "d4a63b91-e75c-4208-9f0b-a21e8d5c7936",
+        "Id": "902b7e39-0000-4000-8000-000000001022",
+        "Name": "Auditor",
+        "NormalizedName": "AUDITOR",
+        "Version": 16
+      }
+    }
+  ]
+}

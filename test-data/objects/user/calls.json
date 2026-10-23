@@ -1,0 +1,229 @@
+{
+  "object": "User",
+  "calls": [
+    {
+      "operation": "POST api/v1/identity/register-user",
+      "kind": "http",
+      "file": "src/Identity/Identity/Features/RegisteringNewUser/V1/RegisterNewUser.cs:41",
+      "request": "RegisterNewUserRequestDto",
+      "response": "RegisterNewUserResponseDto",
+      "valid": [
+        {
+          "ref": "registernewuserrequestdto-1",
+          "body": {
+            "confirmPassword": "Str0ng!Pass000",
+            "email": "amara.okafor@example.com",
+            "firstName": "Amara",
+            "lastName": "Okafor",
+            "passportNumber": "X00001025",
+            "password": "Str0ng!Pass000",
+            "username": "amara.okafor"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-2",
+          "body": {
+            "confirmPassword": "Str0ng!Pass001",
+            "email": "liam.brennan@example.com",
+            "firstName": "Liam",
+            "lastName": "Brennan",
+            "passportNumber": "X00001026",
+            "password": "Str0ng!Pass001",
+            "username": "liam.brennan"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-3",
+          "body": {
+            "confirmPassword": "Str0ng!Pass002",
+            "email": "sofia.marchetti@example.com",
+            "firstName": "Sofia",
+            "lastName": "Marchetti",
+            "passportNumber": "X00001027",
+            "password": "Str0ng!Pass002",
+            "username": "sofia.marchetti"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-4",
+          "body": {
+            "confirmPassword": "Str0ng!Pass003",
+            "email": "hiroshi.tanaka@example.com",
+            "firstName": "Hiroshi",
+            "lastName": "Tanaka",
+            "passportNumber": "X00001028",
+            "password": "Str0ng!Pass003",
+            "username": "hiroshi.tanaka"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-5",
+          "body": {
+            "confirmPassword": "Str0ng!Pass004",
+            "email": "priya.raghavan@example.com",
+            "firstName": "Priya",
+            "lastName": "Raghavan",
+            "passportNumber": "X00001029",
+            "password": "Str0ng!Pass004",
+            "username": "priya.raghavan"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-6",
+          "body": {
+            "confirmPassword": "Str0ng!Pass005",
+            "email": "mateus.oliveira@example.com",
+            "firstName": "Mateus",
+            "lastName": "Oliveira",
+            "passportNumber": "X00001030",
+            "password": "Str0ng!Pass005",
+            "username": "mateus.oliveira"
+          }
+        }
+      ],
+      "rejections": [
+        {
+          "ref": "registernewuserrequestdto-rejection-1",
+          "body": {
+            "confirmPassword": "",
+            "email": "",
+            "firstName": null,
+            "lastName": "",
+            "passportNumber": "",
+            "password": "",
+            "username": ""
+          },
+          "violates": {
+            "field": "FirstName",
+            "rule": "`FirstName` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "the validator in this file has a rule on FirstName"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-rejection-2",
+          "body": {
+            "confirmPassword": "",
+            "email": "",
+            "firstName": "",
+            "lastName": null,
+            "passportNumber": "",
+            "password": "",
+            "username": ""
+          },
+          "violates": {
+            "field": "LastName",
+            "rule": "`LastName` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "the validator in this file has a rule on LastName"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-rejection-3",
+          "body": {
+            "confirmPassword": "",
+            "email": "",
+            "firstName": "",
+            "lastName": "",
+            "passportNumber": "",
+            "password": "",
+            "username": null
+          },
+          "violates": {
+            "field": "Username",
+            "rule": "`Username` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "the validator in this file has a rule on Username"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-rejection-4",
+          "body": {
+            "confirmPassword": "",
+            "email": null,
+            "firstName": "",
+            "lastName": "",
+            "passportNumber": "",
+            "password": "",
+            "username": ""
+          },
+          "violates": {
+            "field": "Email",
+            "rule": "`Email` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "the validator in this file has a rule on Email"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-rejection-5",
+          "body": {
+            "confirmPassword": "",
+            "email": "",
+            "firstName": "",
+            "lastName": "",
+            "passportNumber": "",
+            "password": null,
+            "username": ""
+          },
+          "violates": {
+            "field": "Password",
+            "rule": "`Password` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "the validator in this file has a rule on Password"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-rejection-6",
+          "body": {
+            "confirmPassword": null,
+            "email": "",
+            "firstName": "",
+            "lastName": "",
+            "passportNumber": "",
+            "password": "",
+            "username": ""
+          },
+          "violates": {
+            "field": "ConfirmPassword",
+            "rule": "`ConfirmPassword` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "the validator in this file has a rule on ConfirmPassword"
+          }
+        },
+        {
+          "ref": "registernewuserrequestdto-rejection-7",
+          "body": {
+            "confirmPassword": "",
+            "email": "",
+            "firstName": "",
+            "lastName": "",
+            "passportNumber": null,
+            "password": "",
+            "username": ""
+          },
+          "violates": {
+            "field": "PassportNumber",
+            "rule": "`PassportNumber` is declared NOT NULL"
+          },
+          "expect": {
+            "status": 400,
+            "why": "rejected by model binding"
+          }
+        }
+      ],
+      "object": "User"
+    }
+  ]
+}

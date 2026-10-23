@@ -1,0 +1,170 @@
+{
+  "object": "UserClaim",
+  "table": "UserClaim",
+  "source": "src/Identity/Identity/Models/UserClaim.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ClaimType",
+    "ClaimValue",
+    "UserId"
+  ],
+  "cases": [
+    {
+      "ref": "userclaim-case-1",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "",
+        "Id": 1000,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "userclaim-case-2",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "text",
+        "Id": 1001,
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "userclaim-case-3",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "STR_0001",
+        "Id": 1002,
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "userclaim-case-4",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "text",
+        "Id": 1003,
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 100
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "userclaim-case-5",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "",
+        "Id": 1004,
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "userclaim-case-6",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "",
+        "Id": 1005,
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "userclaim-case-7",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "STR_0001",
+        "Id": 1006,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "userclaim-case-8",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "STR_0001",
+        "Id": 1007,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "userclaim-case-9",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "text",
+        "Id": 1008,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "userclaim-case-10",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "text",
+        "Id": 1009,
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "userclaim-case-11",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "STR_0001",
+        "Id": 1010,
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "userclaim-case-12",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "",
+        "Id": 1011,
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "userclaim-case-13",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "STR_0001",
+        "Id": 1012,
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0013"
+    }
+  ]
+}

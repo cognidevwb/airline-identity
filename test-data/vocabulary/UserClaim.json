@@ -1,0 +1,105 @@
+{
+  "digest": "926a2c9d790cc038",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "UserClaim",
+  "personal": {},
+  "records": [
+    {
+      "ClaimType": "passport_number",
+      "ClaimValue": "NG4829163",
+      "UserId": 0,
+      "Version": 0
+    },
+    {
+      "ClaimType": "phone_number",
+      "ClaimValue": "+44 7700 900123",
+      "UserId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "role",
+      "ClaimValue": "Passenger",
+      "UserId": 2,
+      "Version": 0
+    },
+    {
+      "ClaimType": "passport_number",
+      "ClaimValue": "TH5521908",
+      "UserId": 3,
+      "Version": 2
+    },
+    {
+      "ClaimType": "phone_number",
+      "ClaimValue": "+91 98765 43210",
+      "UserId": 4,
+      "Version": 0
+    },
+    {
+      "ClaimType": "role",
+      "ClaimValue": "Agent",
+      "UserId": 5,
+      "Version": 5
+    },
+    {
+      "ClaimType": "nationality",
+      "ClaimValue": "United Arab Emirates",
+      "UserId": 6,
+      "Version": 0
+    },
+    {
+      "ClaimType": "role",
+      "ClaimValue": "CheckInStaff",
+      "UserId": 7,
+      "Version": 3
+    },
+    {
+      "ClaimType": "passport_number",
+      "ClaimValue": "19AB34567",
+      "UserId": 8,
+      "Version": 0
+    },
+    {
+      "ClaimType": "phone_number",
+      "ClaimValue": "+254 712 345678",
+      "UserId": 9,
+      "Version": 1
+    },
+    {
+      "ClaimType": "loyalty_tier",
+      "ClaimValue": "Gold",
+      "UserId": 10,
+      "Version": 4
+    },
+    {
+      "ClaimType": "passport_number",
+      "ClaimValue": "XDA482916",
+      "UserId": 11,
+      "Version": 0
+    },
+    {
+      "ClaimType": "role",
+      "ClaimValue": "Admin",
+      "UserId": 12,
+      "Version": 5
+    },
+    {
+      "ClaimType": "phone_number",
+      "ClaimValue": "+48 512 345 678",
+      "UserId": 13,
+      "Version": 2
+    },
+    {
+      "ClaimType": "meal_preference",
+      "ClaimValue": "Vegetarian",
+      "UserId": 14,
+      "Version": 0
+    },
+    {
+      "ClaimType": "seat_preference",
+      "ClaimValue": "Aisle",
+      "UserId": 15,
+      "Version": 1
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

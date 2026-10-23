@@ -1,0 +1,15 @@
+{
+  "shape": "GET /",
+  "role": "shape",
+  "source": "src/Identity/Extensions/Infrastructure/InfrastructureExtensions.cs:86",
+  "columns": [],
+  "records": [
+    {
+      "ref": "other-1-2",
+      "kind": "record",
+      "data": {}
+    }
+  ],
+  "cases": [],
+  "rejections": []
+}

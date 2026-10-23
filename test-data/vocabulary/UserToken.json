@@ -1,0 +1,121 @@
+{
+  "digest": "fe5c7a72b697757c",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "UserToken",
+  "personal": {},
+  "records": [
+    {
+      "LoginProvider": "Google",
+      "Name": "access_token",
+      "UserId": 0,
+      "Value": "ya29.a0AfH6SMBq3xT7vKd2Lw9mRz4pYe1NcJ8uXh5oGf0sVb6",
+      "Version": 1
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "Name": "refresh_token",
+      "UserId": 1,
+      "Value": "M.R3_BAY.CfDk8sQw2LpX7nVe4ZtJ0uYhB9mGa1oRc5Td",
+      "Version": 2
+    },
+    {
+      "LoginProvider": "Facebook",
+      "Name": "long_lived_token",
+      "UserId": 2,
+      "Value": "EAAGm0PX4ZCpsBO7kQvT3LwZB9nYdRe2UcJfHx8aSgM1",
+      "Version": 3
+    },
+    {
+      "LoginProvider": "[AspNetUserStore]",
+      "Name": "AuthenticatorKey",
+      "UserId": 3,
+      "Value": "JBSWY3DPEHPK3PXPQ7ZLN2VFA6TMRKXC",
+      "Version": 1
+    },
+    {
+      "LoginProvider": "Google",
+      "Name": "refresh_token",
+      "UserId": 4,
+      "Value": "1//0gZt8Lw3QnX5yCgYIARAAGBASNwF-L9IrKd7vPe2UmHq4",
+      "Version": 4
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "Name": "id_token",
+      "UserId": 5,
+      "Value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJtYXRldXMifQ.Qx7Lk2Vd",
+      "Version": 2
+    },
+    {
+      "LoginProvider": "[AspNetUserStore]",
+      "Name": "RecoveryCodes",
+      "UserId": 6,
+      "Value": "7KQ2M-X9D4F;B3NV8-T6RZ1;H5JC0-W2YPE;L8UA4-G7SMD",
+      "Version": 5
+    },
+    {
+      "LoginProvider": "Facebook",
+      "Name": "access_token",
+      "UserId": 7,
+      "Value": "EAAJf8Nz1KqUBOZCrW5xLd3TvYm9HsPaGe2cQiXo7nRk",
+      "Version": 1
+    },
+    {
+      "LoginProvider": "Google",
+      "Name": "id_token",
+      "UserId": 8,
+      "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFlOWdkazcifQ.eyJzdWIiOiIxMTA1NDIifQ.Hn4Rv9Tz",
+      "Version": 3
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "Name": "access_token",
+      "UserId": 9,
+      "Value": "EwBwA8l6BAAUbDba3x2OMQ+Tz7vFkn9Xs4YhPqe0AAmRc1Jd",
+      "Version": 2
+    },
+    {
+      "LoginProvider": "Google",
+      "Name": "expires_at",
+      "UserId": 10,
+      "Value": "2026-11-04T09:42:17.0000000+00:00",
+      "Version": 6
+    },
+    {
+      "LoginProvider": "Facebook",
+      "Name": "refresh_token",
+      "UserId": 11,
+      "Value": "AQDk3Pz8vNw2Ls5XqTy7HbR1mUe9CgJo4dFaZi0WtYnK",
+      "Version": 1
+    },
+    {
+      "LoginProvider": "Microsoft",
+      "Name": "scope",
+      "UserId": 12,
+      "Value": "openid profile email offline_access User.Read",
+      "Version": 4
+    },
+    {
+      "LoginProvider": "[AspNetUserStore]",
+      "Name": "SessionToken",
+      "UserId": 13,
+      "Value": "c9e4a1f7-3b82-4d60-95ac-e7f10d2b6384",
+      "Version": 2
+    },
+    {
+      "LoginProvider": "Google",
+      "Name": "token_type",
+      "UserId": 14,
+      "Value": "Bearer",
+      "Version": 3
+    },
+    {
+      "LoginProvider": "Facebook",
+      "Name": "id_token",
+      "UserId": 15,
+      "Value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6ImZiMDEifQ.eyJzdWIiOiI5MjEzIn0.Zp3Wm8Ak",
+      "Version": 5
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

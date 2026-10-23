@@ -1,0 +1,206 @@
+{
+  "object": "UserToken",
+  "table": "UserToken",
+  "source": "src/Identity/Identity/Models/UserToken.cs:7",
+  "columns": [
+    "Version",
+    "UserId",
+    "LoginProvider",
+    "Name",
+    "Value"
+  ],
+  "cases": [
+    {
+      "ref": "usertoken-case-1",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "usertoken-case-2",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "usertoken-case-3",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "usertoken-case-4",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "usertoken-case-5",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "usertoken-case-6",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "text",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "usertoken-case-7",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "usertoken-case-8",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Value": "",
+        "Version": 100
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "usertoken-case-9",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "usertoken-case-10",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "",
+        "Version": 1
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "usertoken-case-11",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "STR_0001",
+        "Version": 100
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "usertoken-case-12",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "usertoken-case-13",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "case": "covering-0013"
+    },
+    {
+      "ref": "usertoken-case-14",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0014"
+    },
+    {
+      "ref": "usertoken-case-15",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0015"
+    },
+    {
+      "ref": "usertoken-case-16",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0016"
+    }
+  ]
+}

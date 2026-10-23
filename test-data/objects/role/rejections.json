@@ -1,0 +1,59 @@
+{
+  "object": "Role",
+  "table": "Role",
+  "source": "src/Identity/Identity/Models/Role.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ConcurrencyStamp",
+    "Name",
+    "NormalizedName"
+  ],
+  "rejections": [
+    {
+      "ref": "role-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001023",
+        "Name": "",
+        "NormalizedName": "",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "role-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001024",
+        "Name": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "NormalizedName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "Name",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    },
+    {
+      "ref": "role-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001025",
+        "Name": "",
+        "NormalizedName": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "Version": 1
+      },
+      "violates": {
+        "field": "NormalizedName",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    }
+  ]
+}

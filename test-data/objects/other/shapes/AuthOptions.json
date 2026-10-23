@@ -1,0 +1,45 @@
+{
+  "shape": "AuthOptions",
+  "role": "shape",
+  "source": "src/Identity/Configurations/AuthOptions.cs:3",
+  "columns": [
+    "IssuerUri"
+  ],
+  "records": [
+    {
+      "ref": "other-1",
+      "kind": "record",
+      "data": {
+        "IssuerUri": ""
+      }
+    },
+    {
+      "ref": "other-text",
+      "kind": "record",
+      "data": {
+        "IssuerUri": "text"
+      }
+    },
+    {
+      "ref": "other-https-example-invalid-resource-1",
+      "kind": "record",
+      "data": {
+        "IssuerUri": "https://example.invalid/resource/1"
+      }
+    }
+  ],
+  "cases": [],
+  "rejections": [
+    {
+      "ref": "authoptions-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "IssuerUri": null
+      },
+      "violates": {
+        "field": "IssuerUri",
+        "rule": "`IssuerUri` is declared NOT NULL"
+      }
+    }
+  ]
+}

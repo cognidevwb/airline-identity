@@ -1,0 +1,434 @@
+{
+  "object": "User",
+  "table": "User",
+  "source": "src/Identity/Identity/Models/User.cs:8",
+  "columns": [
+    "Id",
+    "FirstName",
+    "LastName",
+    "PassPortNumber",
+    "Version",
+    "AccessFailedCount",
+    "ConcurrencyStamp",
+    "Email",
+    "EmailConfirmed",
+    "LockoutEnabled",
+    "LockoutEnd",
+    "NormalizedEmail",
+    "NormalizedUserName",
+    "PasswordHash",
+    "PhoneNumber",
+    "PhoneNumberConfirmed",
+    "SecurityStamp",
+    "TwoFactorEnabled",
+    "UserName"
+  ],
+  "rejections": [
+    {
+      "ref": "user-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": null,
+        "Id": "e0a63e12-0000-4000-8000-000000001034",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "FirstName",
+        "rule": "`FirstName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001035",
+        "LastName": null,
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "LastName",
+        "rule": "`LastName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001036",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": null,
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "PassPortNumber",
+        "rule": "`PassPortNumber` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-4",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001037",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-5",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": null,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001038",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "AccessFailedCount",
+        "rule": "`AccessFailedCount` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-6",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001039",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "Email",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    },
+    {
+      "ref": "user-rejection-7",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": null,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001040",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "EmailConfirmed",
+        "rule": "`EmailConfirmed` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-8",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001041",
+        "LastName": "",
+        "LockoutEnabled": null,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "LockoutEnabled",
+        "rule": "`LockoutEnabled` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-9",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001042",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "not-a-date",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "LockoutEnd",
+        "rule": "not a value `DateTimeOffset?` accepts"
+      }
+    },
+    {
+      "ref": "user-rejection-10",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001043",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "NormalizedEmail",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    },
+    {
+      "ref": "user-rejection-11",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001044",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "NormalizedUserName",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    },
+    {
+      "ref": "user-rejection-12",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001045",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": null,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "PhoneNumberConfirmed",
+        "rule": "`PhoneNumberConfirmed` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-13",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001046",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": null,
+        "UserName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "TwoFactorEnabled",
+        "rule": "`TwoFactorEnabled` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "user-rejection-14",
+      "kind": "rejection",
+      "data": {
+        "AccessFailedCount": 1,
+        "ConcurrencyStamp": "",
+        "Email": "",
+        "EmailConfirmed": true,
+        "FirstName": "",
+        "Id": "e0a63e12-0000-4000-8000-000000001047",
+        "LastName": "",
+        "LockoutEnabled": true,
+        "LockoutEnd": "2026-03-01T06:00:00Z",
+        "NormalizedEmail": "",
+        "NormalizedUserName": "",
+        "PassPortNumber": "",
+        "PasswordHash": "",
+        "PhoneNumber": "",
+        "PhoneNumberConfirmed": true,
+        "SecurityStamp": "",
+        "TwoFactorEnabled": true,
+        "UserName": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "Version": 1
+      },
+      "violates": {
+        "field": "UserName",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    }
+  ]
+}

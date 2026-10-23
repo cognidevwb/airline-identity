@@ -1,0 +1,25 @@
+{
+  "object": "UserRole",
+  "table": "UserRole",
+  "source": "src/Identity/Identity/Models/UserRole.cs:7",
+  "columns": [
+    "Version",
+    "UserId",
+    "RoleId"
+  ],
+  "rejections": [
+    {
+      "ref": "userrole-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    }
+  ]
+}

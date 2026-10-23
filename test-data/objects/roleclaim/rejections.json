@@ -1,0 +1,29 @@
+{
+  "object": "RoleClaim",
+  "table": "RoleClaim",
+  "source": "src/Identity/Identity/Models/RoleClaim.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ClaimType",
+    "ClaimValue",
+    "RoleId"
+  ],
+  "rejections": [
+    {
+      "ref": "roleclaim-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "",
+        "Id": 1029,
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    }
+  ]
+}

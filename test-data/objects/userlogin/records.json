@@ -1,0 +1,238 @@
+{
+  "object": "UserLogin",
+  "table": "UserLogin",
+  "source": "src/Identity/Identity/Models/UserLogin.cs:7",
+  "columns": [
+    "Version",
+    "LoginProvider",
+    "ProviderKey",
+    "ProviderDisplayName",
+    "UserId"
+  ],
+  "records": [
+    {
+      "ref": "userlogin-google",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Amara Okafor",
+        "ProviderKey": "108234957126340581927",
+        "UserId": "e0a63e12-0000-4000-8000-000000001018",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-amara-okafor-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Liam Brennan",
+        "ProviderKey": "a3c7e1d2-5f84-4b09-9e61-2d8b0c4f7a15",
+        "UserId": "e0a63e12-0000-4000-8000-000000001019",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-liam-brennan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Sofia Marchetti",
+        "ProviderKey": "112906473815209346718",
+        "UserId": "e0a63e12-0000-4000-8000-000000001020",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-sofia-marchetti-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Chinedu Eze",
+        "ProviderKey": "10161894327055418",
+        "UserId": "e0a63e12-0000-4000-8000-000000001021",
+        "Version": 5
+      },
+      "links": {
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Emily Tremblay",
+        "ProviderKey": "104517832069471530284",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-priya-raghavan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Lukas Hoffmann",
+        "ProviderKey": "6e1f9b43-c2a8-4d70-b835-f09a17d5c2e6",
+        "UserId": "e0a63e12-0000-4000-8000-000000001023",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-mateus-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Camille Dubois",
+        "ProviderKey": "117380245619782034561",
+        "UserId": "e0a63e12-0000-4000-8000-000000001024",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Arjun Venkataraman",
+        "ProviderKey": "101649738205516479023",
+        "UserId": "e0a63e12-0000-4000-8000-000000001025",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-erik-johansson-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Olivia Mitchell",
+        "ProviderKey": "7492018356214087",
+        "UserId": "e0a63e12-0000-4000-8000-000000001026",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-chloe-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Haruto Nakamura",
+        "ProviderKey": "115028964731850296437",
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-daniel-mwangi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Beatriz Carvalho",
+        "ProviderKey": "d84a2c97-1b30-4e5f-a6d9-73c0e8b1f452",
+        "UserId": "e0a63e12-0000-4000-8000-000000001028",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Thabo Nkosi",
+        "ProviderKey": "109873125406928715340",
+        "UserId": "e0a63e12-0000-4000-8000-000000001029",
+        "Version": 5
+      },
+      "links": {
+        "UserId": "user-carlos-ramirez-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Elena Garcia",
+        "ProviderKey": "113562087194325608719",
+        "UserId": "e0a63e12-0000-4000-8000-000000001030",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Daan Visser",
+        "ProviderKey": "3058217496320815",
+        "UserId": "e0a63e12-0000-4000-8000-000000001031",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Wanjiru Kamau",
+        "ProviderKey": "106241853970318452697",
+        "UserId": "e0a63e12-0000-4000-8000-000000001032",
+        "Version": 4
+      },
+      "links": {
+        "UserId": "user-grace-nguyen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Astrid Lindqvist",
+        "ProviderKey": "2b97f6a0-8d13-4c5e-b402-e5a9c1d73f68",
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Version": 0
+      },
+      "links": {
+        "UserId": "user-noah-fischer-example-com"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "digest": "73aab5e7a59cdd5c",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "Role",
+  "personal": {},
+  "records": [
+    {
+      "ConcurrencyStamp": "3f6a1c92-7b4e-4d58-9a21-c0e5b8d17a34",
+      "Name": "Passenger",
+      "NormalizedName": "PASSENGER",
+      "Version": 1
+    },
+    {
+      "ConcurrencyStamp": "a81d5e07-2c93-4f6b-8e14-5d7a0b93c2f1",
+      "Name": "Agent",
+      "NormalizedName": "AGENT",
+      "Version": 2
+    },
+    {
+      "ConcurrencyStamp": "5c2e9b4a-e610-47d3-b7a8-1f4d62e8a095",
+      "Name": "Admin",
+      "NormalizedName": "ADMIN",
+      "Version": 3
+    },
+    {
+      "ConcurrencyStamp": "d7094f31-86ab-4c25-91e3-a3b6f7c0d58e",
+      "Name": "CheckInStaff",
+      "NormalizedName": "CHECKINSTAFF",
+      "Version": 4
+    },
+    {
+      "ConcurrencyStamp": "1e8b73c6-4d0f-4a92-bc57-9e2a6d481f03",
+      "Name": "GateAgent",
+      "NormalizedName": "GATEAGENT",
+      "Version": 5
+    },
+    {
+      "ConcurrencyStamp": "b39f0a58-d1c7-4e66-8a02-7c5e13b9d4a6",
+      "Name": "LoyaltyMember",
+      "NormalizedName": "LOYALTYMEMBER",
+      "Version": 6
+    },
+    {
+      "ConcurrencyStamp": "72c4e8d1-0a5b-43f9-a6d8-e91b0c3f5782",
+      "Name": "CustomerSupport",
+      "NormalizedName": "CUSTOMERSUPPORT",
+      "Version": 7
+    },
+    {
+      "ConcurrencyStamp": "f05a2b79-3e86-4c1d-9b47-2d8c6a1e90b5",
+      "Name": "BaggageHandler",
+      "NormalizedName": "BAGGAGEHANDLER",
+      "Version": 8
+    },
+    {
+      "ConcurrencyStamp": "46d1c0e3-9f72-48a5-b3e6-8a07d5c2f149",
+      "Name": "FlightCrew",
+      "NormalizedName": "FLIGHTCREW",
+      "Version": 9
+    },
+    {
+      "ConcurrencyStamp": "c8e63f14-5b09-4d7a-8c32-f1a94e0b6d27",
+      "Name": "Pilot",
+      "NormalizedName": "PILOT",
+      "Version": 10
+    },
+    {
+      "ConcurrencyStamp": "09b7a5d2-c4e1-4f38-a95b-3e6d2c80f7a1",
+      "Name": "Dispatcher",
+      "NormalizedName": "DISPATCHER",
+      "Version": 11
+    },
+    {
+      "ConcurrencyStamp": "e2f48a60-17d3-4b9c-86e5-b05c9a3d1e48",
+      "Name": "RevenueManager",
+      "NormalizedName": "REVENUEMANAGER",
+      "Version": 12
+    },
+    {
+      "ConcurrencyStamp": "8a1d9c37-6e42-4057-bd18-4c7f0e25a936",
+      "Name": "FleetPlanner",
+      "NormalizedName": "FLEETPLANNER",
+      "Version": 13
+    },
+    {
+      "ConcurrencyStamp": "3b5e7f02-a8c9-4d61-92f4-d6180b7c3e5a",
+      "Name": "GroupBookingAgent",
+      "NormalizedName": "GROUPBOOKINGAGENT",
+      "Version": 14
+    },
+    {
+      "ConcurrencyStamp": "97c0d4e8-2f1a-4b73-a5d9-6e83c1f2b074",
+      "Name": "SecurityOfficer",
+      "NormalizedName": "SECURITYOFFICER",
+      "Version": 15
+    },
+    {
+      "ConcurrencyStamp": "d4a63b91-e75c-4208-9f0b-a21e8d5c7936",
+      "Name": "Auditor",
+      "NormalizedName": "AUDITOR",
+      "Version": 16
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

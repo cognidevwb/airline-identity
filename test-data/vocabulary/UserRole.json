@@ -1,0 +1,89 @@
+{
+  "digest": "52a416b6aecf0ea2",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "UserRole",
+  "personal": {},
+  "records": [
+    {
+      "RoleId": 0,
+      "UserId": 0,
+      "Version": 1
+    },
+    {
+      "RoleId": 1,
+      "UserId": 1,
+      "Version": 2
+    },
+    {
+      "RoleId": 5,
+      "UserId": 2,
+      "Version": 3
+    },
+    {
+      "RoleId": 2,
+      "UserId": 3,
+      "Version": 4
+    },
+    {
+      "RoleId": 6,
+      "UserId": 4,
+      "Version": 5
+    },
+    {
+      "RoleId": 3,
+      "UserId": 5,
+      "Version": 6
+    },
+    {
+      "RoleId": 13,
+      "UserId": 6,
+      "Version": 7
+    },
+    {
+      "RoleId": 4,
+      "UserId": 7,
+      "Version": 8
+    },
+    {
+      "RoleId": 15,
+      "UserId": 8,
+      "Version": 9
+    },
+    {
+      "RoleId": 7,
+      "UserId": 9,
+      "Version": 10
+    },
+    {
+      "RoleId": 9,
+      "UserId": 10,
+      "Version": 11
+    },
+    {
+      "RoleId": 10,
+      "UserId": 11,
+      "Version": 12
+    },
+    {
+      "RoleId": 8,
+      "UserId": 12,
+      "Version": 13
+    },
+    {
+      "RoleId": 12,
+      "UserId": 13,
+      "Version": 14
+    },
+    {
+      "RoleId": 11,
+      "UserId": 14,
+      "Version": 15
+    },
+    {
+      "RoleId": 14,
+      "UserId": 15,
+      "Version": 16
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

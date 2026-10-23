@@ -1,0 +1,464 @@
+{
+  "shape": "RegisterNewUserResult",
+  "role": "response",
+  "source": "src/Identity/Identity/Features/RegisteringNewUser/V1/RegisterNewUser.cs:29",
+  "columns": [
+    "Id",
+    "FirstName",
+    "LastName",
+    "Username",
+    "PassportNumber"
+  ],
+  "records": [
+    {
+      "ref": "user-x00001021-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Amara",
+        "Id": null,
+        "LastName": "Okafor",
+        "PassportNumber": "X00001021",
+        "Username": "amara.okafor"
+      }
+    },
+    {
+      "ref": "user-x00001022-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Liam",
+        "Id": null,
+        "LastName": "Brennan",
+        "PassportNumber": "X00001022",
+        "Username": "liam.brennan"
+      }
+    },
+    {
+      "ref": "user-x00001023-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": null,
+        "LastName": "Marchetti",
+        "PassportNumber": "X00001023",
+        "Username": "sofia.marchetti"
+      }
+    },
+    {
+      "ref": "user-x00001024-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hiroshi",
+        "Id": null,
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001024",
+        "Username": "hiroshi.tanaka"
+      }
+    },
+    {
+      "ref": "user-x00001025-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": null,
+        "LastName": "Raghavan",
+        "PassportNumber": "X00001025",
+        "Username": "priya.raghavan"
+      }
+    },
+    {
+      "ref": "user-x00001026-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateus",
+        "Id": null,
+        "LastName": "Oliveira",
+        "PassportNumber": "X00001026",
+        "Username": "mateus.oliveira"
+      }
+    },
+    {
+      "ref": "user-x00001027-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": null,
+        "LastName": "Al-Mansoori",
+        "PassportNumber": "X00001027",
+        "Username": "fatima.almansoori"
+      }
+    },
+    {
+      "ref": "user-x00001028-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Erik",
+        "Id": null,
+        "LastName": "Johansson",
+        "PassportNumber": "X00001028",
+        "Username": "erik.johansson"
+      }
+    },
+    {
+      "ref": "user-x00001029-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": null,
+        "LastName": "Dubois",
+        "PassportNumber": "X00001029",
+        "Username": "chloe.dubois"
+      }
+    },
+    {
+      "ref": "user-x00001030-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Daniel",
+        "Id": null,
+        "LastName": "Mwangi",
+        "PassportNumber": "X00001030",
+        "Username": "daniel.mwangi"
+      }
+    },
+    {
+      "ref": "user-x00001031-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Elena",
+        "Id": null,
+        "LastName": "Petrova",
+        "PassportNumber": "X00001031",
+        "Username": "elena.petrova"
+      }
+    },
+    {
+      "ref": "user-x00001032-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Carlos",
+        "Id": null,
+        "LastName": "Ramirez",
+        "PassportNumber": "X00001032",
+        "Username": "carlos.ramirez"
+      }
+    },
+    {
+      "ref": "user-x00001033-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": null,
+        "LastName": "Khan",
+        "PassportNumber": "X00001033",
+        "Username": "aisha.khan"
+      }
+    },
+    {
+      "ref": "user-x00001034-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": null,
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001034",
+        "Username": "tomasz.kowalski"
+      }
+    },
+    {
+      "ref": "user-x00001035-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Grace",
+        "Id": null,
+        "LastName": "Nguyen",
+        "PassportNumber": "X00001035",
+        "Username": "grace.nguyen"
+      }
+    },
+    {
+      "ref": "user-x00001036-2",
+      "kind": "record",
+      "data": {
+        "FirstName": "Noah",
+        "Id": null,
+        "LastName": "Fischer",
+        "PassportNumber": "X00001036",
+        "Username": "noah.fischer"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "ref": "registernewuserresult-case-1",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "registernewuserresult-case-2",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "text",
+        "PassportNumber": "X00001001",
+        "Username": "text"
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "registernewuserresult-case-3",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "X00001002",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "registernewuserresult-case-4",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "registernewuserresult-case-5",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "",
+        "Username": "text"
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "registernewuserresult-case-6",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001005",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "registernewuserresult-case-7",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "X00001006",
+        "Username": ""
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "registernewuserresult-case-8",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001007",
+        "Username": "text"
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "registernewuserresult-case-9",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "text",
+        "PassportNumber": "X00001008",
+        "Username": ""
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "registernewuserresult-case-10",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001009",
+        "Username": ""
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "registernewuserresult-case-11",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001010",
+        "Username": ""
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "registernewuserresult-case-12",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "902b7e39-0000-4000-8000-000000001004",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "registernewuserresult-case-13",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001012",
+        "Username": ""
+      },
+      "case": "covering-0013"
+    },
+    {
+      "ref": "registernewuserresult-case-14",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "902b7e39-0000-4000-8000-000000001001",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "case": "covering-0014"
+    },
+    {
+      "ref": "registernewuserresult-case-15",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001014",
+        "Username": ""
+      },
+      "case": "covering-0015"
+    }
+  ],
+  "rejections": [
+    {
+      "ref": "registernewuserresult-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": null,
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "Id",
+        "rule": "`Id` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresult-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "not-a-uuid",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "Id",
+        "rule": "violates a declared constraint on `Id`"
+      }
+    },
+    {
+      "ref": "registernewuserresult-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "FirstName": null,
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "FirstName",
+        "rule": "`FirstName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresult-rejection-4",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": null,
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "LastName",
+        "rule": "`LastName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresult-rejection-5",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": null
+      },
+      "violates": {
+        "field": "Username",
+        "rule": "`Username` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresult-rejection-6",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": null,
+        "Username": ""
+      },
+      "violates": {
+        "field": "PassportNumber",
+        "rule": "`PassportNumber` is declared NOT NULL"
+      }
+    }
+  ]
+}
