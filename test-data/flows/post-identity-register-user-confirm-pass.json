@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-confirm-pass",
+  "title": "Confirm password must match",
+  "source": "staged scenario",
+  "why": "Verifies that a typo in the confirmation field blocks registration.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with Password 'Str0ng!Pass1' and ConfirmPassword 'Str0ng!Pass2'. All other fields are valid."
+    }
+  ],
+  "expect": [
+    "Rejected with a validation error saying ConfirmPassword does not match Password. No User row is created."
+  ]
+}

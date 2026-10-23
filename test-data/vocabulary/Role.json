@@ -1,0 +1,57 @@
+{
+  "digest": "9f78bdb28a9a3e93",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "Role",
+  "personal": {},
+  "records": [
+    {
+      "ConcurrencyStamp": "3f9c2a71-5b4e-4d86-9a1c-7e2d0b8f6a41",
+      "Name": "Admin",
+      "NormalizedName": "ADMIN",
+      "Version": 1
+    },
+    {
+      "ConcurrencyStamp": "b81e5d03-c7a9-4f12-8d6b-2a94e1c05f37",
+      "Name": "Customer",
+      "NormalizedName": "CUSTOMER",
+      "Version": 2
+    },
+    {
+      "ConcurrencyStamp": "d4a07c92-1e68-4b35-b3f0-9c5a7e82d614",
+      "Name": "CheckInAgent",
+      "NormalizedName": "CHECKINAGENT",
+      "Version": 3
+    },
+    {
+      "ConcurrencyStamp": "6e2b9f48-a053-4c7d-91e4-f08d3b6a2c75",
+      "Name": "ReservationsAgent",
+      "NormalizedName": "RESERVATIONSAGENT",
+      "Version": 4
+    },
+    {
+      "ConcurrencyStamp": "91c8d3e5-7f2a-4086-a4b9-1d6e5c03f8a2",
+      "Name": "GateAgent",
+      "NormalizedName": "GATEAGENT",
+      "Version": 5
+    },
+    {
+      "ConcurrencyStamp": "2a5f7b16-e9d4-43c8-85a2-b70c4e91d6f3",
+      "Name": "FlightOperations",
+      "NormalizedName": "FLIGHTOPERATIONS",
+      "Version": 6
+    },
+    {
+      "ConcurrencyStamp": "c07e4a89-35b1-4d92-be6f-84a1d2f7390c",
+      "Name": "CustomerSupport",
+      "NormalizedName": "CUSTOMERSUPPORT",
+      "Version": 7
+    },
+    {
+      "ConcurrencyStamp": "58d1a6f3-0c9e-47b5-9e38-6f2b8a4c1d07",
+      "Name": "Auditor",
+      "NormalizedName": "AUDITOR",
+      "Version": 8
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

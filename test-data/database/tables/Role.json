@@ -1,0 +1,237 @@
+{
+  "name": "Role",
+  "kind": "table",
+  "layer": "database",
+  "source": "src/Identity/Identity/Models/Role.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ConcurrencyStamp",
+    "Name",
+    "NormalizedName"
+  ],
+  "valid": [
+    {
+      "ref": "role-admin",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "3f9c2a71-5b4e-4d86-9a1c-7e2d0b8f6a41",
+        "Id": "902b7e39-0000-4000-8000-000000001007",
+        "Name": "Admin",
+        "NormalizedName": "ADMIN",
+        "Version": 1
+      }
+    },
+    {
+      "ref": "role-customer",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "b81e5d03-c7a9-4f12-8d6b-2a94e1c05f37",
+        "Id": "902b7e39-0000-4000-8000-000000001008",
+        "Name": "Customer",
+        "NormalizedName": "CUSTOMER",
+        "Version": 2
+      }
+    },
+    {
+      "ref": "role-checkinagent",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "d4a07c92-1e68-4b35-b3f0-9c5a7e82d614",
+        "Id": "902b7e39-0000-4000-8000-000000001009",
+        "Name": "CheckInAgent",
+        "NormalizedName": "CHECKINAGENT",
+        "Version": 3
+      }
+    },
+    {
+      "ref": "role-reservationsagent",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "6e2b9f48-a053-4c7d-91e4-f08d3b6a2c75",
+        "Id": "902b7e39-0000-4000-8000-000000001010",
+        "Name": "ReservationsAgent",
+        "NormalizedName": "RESERVATIONSAGENT",
+        "Version": 4
+      }
+    },
+    {
+      "ref": "role-gateagent",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "91c8d3e5-7f2a-4086-a4b9-1d6e5c03f8a2",
+        "Id": "902b7e39-0000-4000-8000-000000001011",
+        "Name": "GateAgent",
+        "NormalizedName": "GATEAGENT",
+        "Version": 5
+      }
+    },
+    {
+      "ref": "role-flightoperations",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "2a5f7b16-e9d4-43c8-85a2-b70c4e91d6f3",
+        "Id": "902b7e39-0000-4000-8000-000000001012",
+        "Name": "FlightOperations",
+        "NormalizedName": "FLIGHTOPERATIONS",
+        "Version": 6
+      }
+    },
+    {
+      "ref": "role-customersupport",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "c07e4a89-35b1-4d92-be6f-84a1d2f7390c",
+        "Id": "902b7e39-0000-4000-8000-000000001013",
+        "Name": "CustomerSupport",
+        "NormalizedName": "CUSTOMERSUPPORT",
+        "Version": 7
+      }
+    },
+    {
+      "ref": "role-auditor",
+      "kind": "record",
+      "data": {
+        "ConcurrencyStamp": "58d1a6f3-0c9e-47b5-9e38-6f2b8a4c1d07",
+        "Id": "902b7e39-0000-4000-8000-000000001014",
+        "Name": "Auditor",
+        "NormalizedName": "AUDITOR",
+        "Version": 8
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "role-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001015",
+        "Name": "",
+        "NormalizedName": "",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "role-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001016",
+        "Name": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "NormalizedName": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "Name",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    },
+    {
+      "ref": "role-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001017",
+        "Name": "",
+        "NormalizedName": "alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ilex-juniper-laurel-maple-alder-birch-cedar-dogwood-elm-fir-gum-hazel-ile",
+        "Version": 1
+      },
+      "violates": {
+        "field": "NormalizedName",
+        "rule": "257 characters, and `string` declares 256"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "role-case-1",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001000",
+        "Name": "",
+        "NormalizedName": "",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "role-case-2",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "text",
+        "Id": "902b7e39-0000-4000-8000-000000001001",
+        "Name": "Alice Whitfield",
+        "NormalizedName": "Alice Whitfield",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "role-case-3",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "GBP",
+        "Id": "902b7e39-0000-4000-8000-000000001002",
+        "Name": "",
+        "NormalizedName": "Alice Whitfield",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "role-case-4",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001003",
+        "Name": "Alice Whitfield",
+        "NormalizedName": "",
+        "Version": 100
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "role-case-5",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "text",
+        "Id": "902b7e39-0000-4000-8000-000000001004",
+        "Name": "",
+        "NormalizedName": "",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "role-case-6",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "GBP",
+        "Id": "902b7e39-0000-4000-8000-000000001005",
+        "Name": "Alice Whitfield",
+        "NormalizedName": "",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "role-case-7",
+      "kind": "case",
+      "data": {
+        "ConcurrencyStamp": "",
+        "Id": "902b7e39-0000-4000-8000-000000001006",
+        "Name": "",
+        "NormalizedName": "Alice Whitfield",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    }
+  ],
+  "load": "exports/sql/ holds the same rows as INSERT scripts in load order"
+}

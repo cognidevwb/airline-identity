@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-email-must-b",
+  "title": "Email must be well formed",
+  "source": "staged scenario",
+  "why": "Checks that malformed addresses are rejected rather than stored.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user twice, once with Email 'anna.meyer@' and once with Email 'anna.example.com'. All other fields are valid."
+    }
+  ],
+  "expect": [
+    "Both requests are rejected with a validation error saying Email is not a valid address. No User row is created."
+  ]
+}

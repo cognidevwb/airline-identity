@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-username-at-",
+  "title": "Username at 256 characters and 1 character",
+  "source": "staged scenario",
+  "why": "Tests both ends of the username length range.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user twice with otherwise valid, distinct passengers: first with a UserName of 256 'u' characters (Email long.user@example.com), then with UserName 'a' (Email short.user@example.com)."
+    }
+  ],
+  "expect": [
+    "Both registrations succeed. The first saved UserName is 256 characters long and the second is the single character 'a'. Two User rows are created."
+  ]
+}

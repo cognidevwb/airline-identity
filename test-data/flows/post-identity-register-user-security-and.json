@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-security-and",
+  "title": "Security and concurrency stamps issued",
+  "source": "staged scenario",
+  "why": "Shows that the identity store generates the identifiers and stamps the app depends on for sessions and optimistic concurrency.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with a valid passenger (Email mei.tanaka@example.com, UserName mei.tanaka, PassPortNumber JP7788990, Password Str0ng!Pass1, matching ConfirmPassword), then read the saved User."
+    }
+  ],
+  "expect": [
+    "Registration succeeds. The saved User has a new non-empty Id (uuid), a non-empty SecurityStamp, and a non-empty ConcurrencyStamp. The two stamps are different values."
+  ]
+}

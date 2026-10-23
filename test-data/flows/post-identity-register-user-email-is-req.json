@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-email-is-req",
+  "title": "Email is required",
+  "source": "staged scenario",
+  "why": "Confirms that a missing email is caught by validation before anything is saved.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with Email empty (and a second attempt with Email omitted). All other fields are valid: FirstName Anna, LastName Meyer, UserName anna.meyer, PassPortNumber DE9876543, Password Str0ng!Pass1, matching ConfirmPassword."
+    }
+  ],
+  "expect": [
+    "Both requests are rejected with a validation error naming Email as required. No User row is created."
+  ]
+}

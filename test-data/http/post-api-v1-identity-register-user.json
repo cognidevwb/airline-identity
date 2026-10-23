@@ -1,0 +1,2551 @@
+{
+  "operation": "POST api/v1/identity/register-user",
+  "kind": "http",
+  "handler": "src/Identity/Identity/Features/RegisteringNewUser/V1/RegisterNewUser.cs:41",
+  "request": "RegisterNewUserRequestDto",
+  "response": "RegisterNewUserResponseDto",
+  "valid": [
+    {
+      "ref": "registernewuserrequestdto-1",
+      "body": {
+        "confirmPassword": "Str0ng!Pass000",
+        "email": "amara.okafor@example.com",
+        "firstName": "Amara",
+        "lastName": "Okafor",
+        "passportNumber": "X00001025",
+        "password": "Str0ng!Pass000",
+        "username": "amara.okafor@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-2",
+      "body": {
+        "confirmPassword": "Str0ng!Pass001",
+        "email": "liam.brennan@example.com",
+        "firstName": "Liam",
+        "lastName": "Brennan",
+        "passportNumber": "X00001026",
+        "password": "Str0ng!Pass001",
+        "username": "liam.brennan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-3",
+      "body": {
+        "confirmPassword": "Str0ng!Pass002",
+        "email": "sofia.marchetti@example.com",
+        "firstName": "Sofia",
+        "lastName": "Marchetti",
+        "passportNumber": "X00001027",
+        "password": "Str0ng!Pass002",
+        "username": "sofia.marchetti@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-4",
+      "body": {
+        "confirmPassword": "Str0ng!Pass003",
+        "email": "kenji.watanabe@example.com",
+        "firstName": "Kenji",
+        "lastName": "Watanabe",
+        "passportNumber": "X00001028",
+        "password": "Str0ng!Pass003",
+        "username": "kenji.watanabe@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-5",
+      "body": {
+        "confirmPassword": "Str0ng!Pass004",
+        "email": "priya.raghunathan@example.com",
+        "firstName": "Priya",
+        "lastName": "Raghunathan",
+        "passportNumber": "X00001029",
+        "password": "Str0ng!Pass004",
+        "username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-6",
+      "body": {
+        "confirmPassword": "Str0ng!Pass005",
+        "email": "mateo.fernandez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Fernandez",
+        "passportNumber": "X00001030",
+        "password": "Str0ng!Pass005",
+        "username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-7",
+      "body": {
+        "confirmPassword": "Str0ng!Pass006",
+        "email": "chloe.dubois@example.com",
+        "firstName": "Chloe",
+        "lastName": "Dubois",
+        "passportNumber": "X00001031",
+        "password": "Str0ng!Pass006",
+        "username": "chloe.dubois@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-8",
+      "body": {
+        "confirmPassword": "Str0ng!Pass007",
+        "email": "oluwaseun.adeyemi@example.com",
+        "firstName": "Oluwaseun",
+        "lastName": "Adeyemi",
+        "passportNumber": "X00001032",
+        "password": "Str0ng!Pass007",
+        "username": "oluwaseun.adeyemi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-9",
+      "body": {
+        "confirmPassword": "Str0ng!Pass008",
+        "email": "hannah.lindqvist@example.com",
+        "firstName": "Hannah",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001033",
+        "password": "Str0ng!Pass008",
+        "username": "hannah.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-10",
+      "body": {
+        "confirmPassword": "Str0ng!Pass009",
+        "email": "rohan.mehta@example.com",
+        "firstName": "Rohan",
+        "lastName": "Mehta",
+        "passportNumber": "X00001034",
+        "password": "Str0ng!Pass009",
+        "username": "rohan.mehta@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-11",
+      "body": {
+        "confirmPassword": "Str0ng!Pass010",
+        "email": "isabella.rossi@example.com",
+        "firstName": "Isabella",
+        "lastName": "Rossi",
+        "passportNumber": "X00001035",
+        "password": "Str0ng!Pass010",
+        "username": "isabella.rossi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-12",
+      "body": {
+        "confirmPassword": "Str0ng!Pass011",
+        "email": "tariq.hussain@example.com",
+        "firstName": "Tariq",
+        "lastName": "Hussain",
+        "passportNumber": "X00001036",
+        "password": "Str0ng!Pass011",
+        "username": "tariq.hussain@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-13",
+      "body": {
+        "confirmPassword": "Str0ng!Pass012",
+        "email": "grace.mwangi@example.com",
+        "firstName": "Grace",
+        "lastName": "Mwangi",
+        "passportNumber": "X00001037",
+        "password": "Str0ng!Pass012",
+        "username": "grace.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-14",
+      "body": {
+        "confirmPassword": "Str0ng!Pass013",
+        "email": "lucas.schneider@example.com",
+        "firstName": "Lucas",
+        "lastName": "Schneider",
+        "passportNumber": "X00001038",
+        "password": "Str0ng!Pass013",
+        "username": "lucas.schneider@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-15",
+      "body": {
+        "confirmPassword": "Str0ng!Pass014",
+        "email": "meiling.chen@example.com",
+        "firstName": "Mei Ling",
+        "lastName": "Chen",
+        "passportNumber": "X00001039",
+        "password": "Str0ng!Pass014",
+        "username": "meiling.chen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-16",
+      "body": {
+        "confirmPassword": "Str0ng!Pass015",
+        "email": "daniel.kowalski@example.com",
+        "firstName": "Daniel",
+        "lastName": "Kowalski",
+        "passportNumber": "X00001040",
+        "password": "Str0ng!Pass015",
+        "username": "daniel.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-17",
+      "body": {
+        "confirmPassword": "Str0ng!Pass016",
+        "email": "fatima.alsayed@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Sayed",
+        "passportNumber": "X00001041",
+        "password": "Str0ng!Pass016",
+        "username": "fatima.alsayed@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-18",
+      "body": {
+        "confirmPassword": "Str0ng!Pass017",
+        "email": "noah.thompson@example.com",
+        "firstName": "Noah",
+        "lastName": "Thompson",
+        "passportNumber": "X00001042",
+        "password": "Str0ng!Pass017",
+        "username": "noah.thompson@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-19",
+      "body": {
+        "confirmPassword": "Str0ng!Pass018",
+        "email": "elena.petrova@example.com",
+        "firstName": "Elena",
+        "lastName": "Petrova",
+        "passportNumber": "X00001043",
+        "password": "Str0ng!Pass018",
+        "username": "elena.petrova@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-20",
+      "body": {
+        "confirmPassword": "Str0ng!Pass019",
+        "email": "carlos.mendoza@example.com",
+        "firstName": "Carlos",
+        "lastName": "Mendoza",
+        "passportNumber": "X00001044",
+        "password": "Str0ng!Pass019",
+        "username": "carlos.mendoza@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-21",
+      "body": {
+        "confirmPassword": "Str0ng!Pass020",
+        "email": "aoife.gallagher@example.com",
+        "firstName": "Aoife",
+        "lastName": "Gallagher",
+        "passportNumber": "X00001045",
+        "password": "Str0ng!Pass020",
+        "username": "aoife.gallagher@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-22",
+      "body": {
+        "confirmPassword": "Str0ng!Pass021",
+        "email": "yuki.tanaka@example.com",
+        "firstName": "Yuki",
+        "lastName": "Tanaka",
+        "passportNumber": "X00001046",
+        "password": "Str0ng!Pass021",
+        "username": "yuki.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-23",
+      "body": {
+        "confirmPassword": "Str0ng!Pass022",
+        "email": "samuel.osei@example.com",
+        "firstName": "Samuel",
+        "lastName": "Osei",
+        "passportNumber": "X00001047",
+        "password": "Str0ng!Pass022",
+        "username": "samuel.osei@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-24",
+      "body": {
+        "confirmPassword": "Str0ng!Pass023",
+        "email": "ingrid.halvorsen@example.com",
+        "firstName": "Ingrid",
+        "lastName": "Halvorsen",
+        "passportNumber": "X00001048",
+        "password": "Str0ng!Pass023",
+        "username": "ingrid.halvorsen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-25",
+      "body": {
+        "confirmPassword": "Str0ng!Pass024",
+        "email": "jamal.washington@example.com",
+        "firstName": "Jamal",
+        "lastName": "Washington",
+        "passportNumber": "X00001049",
+        "password": "Str0ng!Pass024",
+        "username": "jamal.washington@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-26",
+      "body": {
+        "confirmPassword": "Str0ng!Pass025",
+        "email": "sofia.marquez@example.com",
+        "firstName": "Sofia",
+        "lastName": "Marquez",
+        "passportNumber": "X00001050",
+        "password": "Str0ng!Pass025",
+        "username": "sofia.marquez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-27",
+      "body": {
+        "confirmPassword": "Str0ng!Pass026",
+        "email": "hiroshi.tanaka@example.com",
+        "firstName": "Hiroshi",
+        "lastName": "Tanaka",
+        "passportNumber": "X00001051",
+        "password": "Str0ng!Pass026",
+        "username": "hiroshi.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-28",
+      "body": {
+        "confirmPassword": "Str0ng!Pass027",
+        "email": "priya.venkataraman@example.com",
+        "firstName": "Priya",
+        "lastName": "Venkataraman",
+        "passportNumber": "X00001052",
+        "password": "Str0ng!Pass027",
+        "username": "priya.venkataraman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-29",
+      "body": {
+        "confirmPassword": "Str0ng!Pass028",
+        "email": "oliver.haugen@example.com",
+        "firstName": "Oliver",
+        "lastName": "Haugen",
+        "passportNumber": "X00001053",
+        "password": "Str0ng!Pass028",
+        "username": "oliver.haugen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-30",
+      "body": {
+        "confirmPassword": "Str0ng!Pass029",
+        "email": "fatima.almansouri@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Mansouri",
+        "passportNumber": "X00001054",
+        "password": "Str0ng!Pass029",
+        "username": "fatima.almansouri@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-31",
+      "body": {
+        "confirmPassword": "Str0ng!Pass030",
+        "email": "daniel.kowalski@example.com",
+        "firstName": "Daniel",
+        "lastName": "Kowalski",
+        "passportNumber": "X00001055",
+        "password": "Str0ng!Pass030",
+        "username": "daniel.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-32",
+      "body": {
+        "confirmPassword": "Str0ng!Pass031",
+        "email": "chloe.dubois@example.com",
+        "firstName": "Chloe",
+        "lastName": "Dubois",
+        "passportNumber": "X00001056",
+        "password": "Str0ng!Pass031",
+        "username": "chloe.dubois@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-33",
+      "body": {
+        "confirmPassword": "Str0ng!Pass032",
+        "email": "kwame.mensah@example.com",
+        "firstName": "Kwame",
+        "lastName": "Mensah",
+        "passportNumber": "X00001057",
+        "password": "Str0ng!Pass032",
+        "username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-34",
+      "body": {
+        "confirmPassword": "Str0ng!Pass033",
+        "email": "chiara.moretti@example.com",
+        "firstName": "Chiara",
+        "lastName": "Moretti",
+        "passportNumber": "X00001058",
+        "password": "Str0ng!Pass033",
+        "username": "chiara.moretti@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-35",
+      "body": {
+        "confirmPassword": "Str0ng!Pass034",
+        "email": "kwame.mensah@example.com",
+        "firstName": "Kwame",
+        "lastName": "Mensah",
+        "passportNumber": "X00001059",
+        "password": "Str0ng!Pass034",
+        "username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-36",
+      "body": {
+        "confirmPassword": "Str0ng!Pass035",
+        "email": "sofia.lindqvist@example.com",
+        "firstName": "Sofia",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001060",
+        "password": "Str0ng!Pass035",
+        "username": "sofia.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-37",
+      "body": {
+        "confirmPassword": "Str0ng!Pass036",
+        "email": "rohan.deshpande@example.com",
+        "firstName": "Rohan",
+        "lastName": "Deshpande",
+        "passportNumber": "X00001061",
+        "password": "Str0ng!Pass036",
+        "username": "rohan.deshpande@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-38",
+      "body": {
+        "confirmPassword": "Str0ng!Pass037",
+        "email": "emily.hargrove@example.com",
+        "firstName": "Emily",
+        "lastName": "Hargrove",
+        "passportNumber": "X00001062",
+        "password": "Str0ng!Pass037",
+        "username": "emily.hargrove@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-39",
+      "body": {
+        "confirmPassword": "Str0ng!Pass038",
+        "email": "tomasz.wisniewski@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Wiśniewski",
+        "passportNumber": "X00001063",
+        "password": "Str0ng!Pass038",
+        "username": "tomasz.wisniewski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-40",
+      "body": {
+        "confirmPassword": "Str0ng!Pass039",
+        "email": "yuki.tanabe@example.com",
+        "firstName": "Yuki",
+        "lastName": "Tanabe",
+        "passportNumber": "X00001064",
+        "password": "Str0ng!Pass039",
+        "username": "yuki.tanabe@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-41",
+      "body": {
+        "confirmPassword": "Str0ng!Pass040",
+        "email": "fatima.alrashid@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Rashid",
+        "passportNumber": "X00001065",
+        "password": "Str0ng!Pass040",
+        "username": "fatima.alrashid@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-42",
+      "body": {
+        "confirmPassword": "Str0ng!Pass041",
+        "email": "daniel.cruz@example.com",
+        "firstName": "Daniel",
+        "lastName": "Cruz",
+        "passportNumber": "X00001066",
+        "password": "Str0ng!Pass041",
+        "username": "daniel.cruz@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-43",
+      "body": {
+        "confirmPassword": "Str0ng!Pass042",
+        "email": "ingrid.solheim@example.com",
+        "firstName": "Ingrid",
+        "lastName": "Solheim",
+        "passportNumber": "X00001067",
+        "password": "Str0ng!Pass042",
+        "username": "ingrid.solheim@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-44",
+      "body": {
+        "confirmPassword": "Str0ng!Pass043",
+        "email": "mateo.fernandez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Fernández",
+        "passportNumber": "X00001068",
+        "password": "Str0ng!Pass043",
+        "username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-45",
+      "body": {
+        "confirmPassword": "Str0ng!Pass044",
+        "email": "priya.venkataraman@example.com",
+        "firstName": "Priya",
+        "lastName": "Venkataraman",
+        "passportNumber": "X00001069",
+        "password": "Str0ng!Pass044",
+        "username": "priya.venkataraman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-46",
+      "body": {
+        "confirmPassword": "Str0ng!Pass045",
+        "email": "oliver.whitcombe@example.com",
+        "firstName": "Oliver",
+        "lastName": "Whitcombe",
+        "passportNumber": "X00001070",
+        "password": "Str0ng!Pass045",
+        "username": "oliver.whitcombe@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-47",
+      "body": {
+        "confirmPassword": "Str0ng!Pass046",
+        "email": "aisha.bello@example.com",
+        "firstName": "Aisha",
+        "lastName": "Bello",
+        "passportNumber": "X00001071",
+        "password": "Str0ng!Pass046",
+        "username": "aisha.bello@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-48",
+      "body": {
+        "confirmPassword": "Str0ng!Pass047",
+        "email": "lucas.dubois@example.com",
+        "firstName": "Lucas",
+        "lastName": "Dubois",
+        "passportNumber": "X00001072",
+        "password": "Str0ng!Pass047",
+        "username": "lucas.dubois@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-49",
+      "body": {
+        "confirmPassword": "Str0ng!Pass048",
+        "email": "hannah.kowalczyk@example.com",
+        "firstName": "Hannah",
+        "lastName": "Kowalczyk",
+        "passportNumber": "X00001073",
+        "password": "Str0ng!Pass048",
+        "username": "hannah.kowalczyk@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-50",
+      "body": {
+        "confirmPassword": "Str0ng!Pass049",
+        "email": "santiago.ortega@example.com",
+        "firstName": "Santiago",
+        "lastName": "Ortega",
+        "passportNumber": "X00001074",
+        "password": "Str0ng!Pass049",
+        "username": "santiago.ortega@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-51",
+      "body": {
+        "confirmPassword": "Str0ng!Pass050",
+        "email": "nadia.petrova@example.com",
+        "firstName": "Nadia",
+        "lastName": "Petrova",
+        "passportNumber": "X00001075",
+        "password": "Str0ng!Pass050",
+        "username": "nadia.petrova@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-52",
+      "body": {
+        "confirmPassword": "Str0ng!Pass051",
+        "email": "jamal.washington@example.com",
+        "firstName": "Jamal",
+        "lastName": "Washington",
+        "passportNumber": "X00001076",
+        "password": "Str0ng!Pass051",
+        "username": "jamal.washington@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-53",
+      "body": {
+        "confirmPassword": "Str0ng!Pass052",
+        "email": "mei.zhang@example.com",
+        "firstName": "Mei",
+        "lastName": "Zhang",
+        "passportNumber": "X00001077",
+        "password": "Str0ng!Pass052",
+        "username": "mei.zhang@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-54",
+      "body": {
+        "confirmPassword": "Str0ng!Pass053",
+        "email": "gabriel.oliveira@example.com",
+        "firstName": "Gabriel",
+        "lastName": "Oliveira",
+        "passportNumber": "X00001078",
+        "password": "Str0ng!Pass053",
+        "username": "gabriel.oliveira@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-55",
+      "body": {
+        "confirmPassword": "Str0ng!Pass054",
+        "email": "eleanor.prescott@example.com",
+        "firstName": "Eleanor",
+        "lastName": "Prescott",
+        "passportNumber": "X00001079",
+        "password": "Str0ng!Pass054",
+        "username": "eleanor.prescott@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-56",
+      "body": {
+        "confirmPassword": "Str0ng!Pass055",
+        "email": "arjun.malhotra@example.com",
+        "firstName": "Arjun",
+        "lastName": "Malhotra",
+        "passportNumber": "X00001080",
+        "password": "Str0ng!Pass055",
+        "username": "arjun.malhotra@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-57",
+      "body": {
+        "confirmPassword": "Str0ng!Pass056",
+        "email": "freya.henriksen@example.com",
+        "firstName": "Freya",
+        "lastName": "Henriksen",
+        "passportNumber": "X00001081",
+        "password": "Str0ng!Pass056",
+        "username": "freya.henriksen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-58",
+      "body": {
+        "confirmPassword": "Str0ng!Pass057",
+        "email": "liam.brennan@example.com",
+        "firstName": "Liam",
+        "lastName": "Brennan",
+        "passportNumber": "X00001082",
+        "password": "Str0ng!Pass057",
+        "username": "liam.brennan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-59",
+      "body": {
+        "confirmPassword": "Str0ng!Pass058",
+        "email": "chidi.nwosu@example.com",
+        "firstName": "Chidi",
+        "lastName": "Nwosu",
+        "passportNumber": "X00001083",
+        "password": "Str0ng!Pass058",
+        "username": "chidi.nwosu@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-60",
+      "body": {
+        "confirmPassword": "Str0ng!Pass059",
+        "email": "elena.petrova@example.com",
+        "firstName": "Elena",
+        "lastName": "Petrova",
+        "passportNumber": "X00001084",
+        "password": "Str0ng!Pass059",
+        "username": "elena.petrova@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-61",
+      "body": {
+        "confirmPassword": "Str0ng!Pass060",
+        "email": "mateo.fernandez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Fernandez",
+        "passportNumber": "X00001085",
+        "password": "Str0ng!Pass060",
+        "username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-62",
+      "body": {
+        "confirmPassword": "Str0ng!Pass061",
+        "email": "priya.raman@example.com",
+        "firstName": "Priya",
+        "lastName": "Raman",
+        "passportNumber": "X00001086",
+        "password": "Str0ng!Pass061",
+        "username": "priya.raman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-63",
+      "body": {
+        "confirmPassword": "Str0ng!Pass062",
+        "email": "hannah.lindqvist@example.com",
+        "firstName": "Hannah",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001087",
+        "password": "Str0ng!Pass062",
+        "username": "hannah.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-64",
+      "body": {
+        "confirmPassword": "Str0ng!Pass063",
+        "email": "tomasz.kowalski@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Kowalski",
+        "passportNumber": "X00001088",
+        "password": "Str0ng!Pass063",
+        "username": "tomasz.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-65",
+      "body": {
+        "confirmPassword": "Str0ng!Pass064",
+        "email": "aiko.tanaka@example.com",
+        "firstName": "Aiko",
+        "lastName": "Tanaka",
+        "passportNumber": "X00001089",
+        "password": "Str0ng!Pass064",
+        "username": "aiko.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-66",
+      "body": {
+        "confirmPassword": "Str0ng!Pass065",
+        "email": "samuel.mensah@example.com",
+        "firstName": "Samuel",
+        "lastName": "Mensah",
+        "passportNumber": "X00001090",
+        "password": "Str0ng!Pass065",
+        "username": "samuel.mensah@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-67",
+      "body": {
+        "confirmPassword": "Str0ng!Pass066",
+        "email": "isabelle.moreau@example.com",
+        "firstName": "Isabelle",
+        "lastName": "Moreau",
+        "passportNumber": "X00001091",
+        "password": "Str0ng!Pass066",
+        "username": "isabelle.moreau@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-68",
+      "body": {
+        "confirmPassword": "Str0ng!Pass067",
+        "email": "rafael.santos@example.com",
+        "firstName": "Rafael",
+        "lastName": "Santos",
+        "passportNumber": "X00001092",
+        "password": "Str0ng!Pass067",
+        "username": "rafael.santos@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-69",
+      "body": {
+        "confirmPassword": "Str0ng!Pass068",
+        "email": "fatima.almansoori@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Mansoori",
+        "passportNumber": "X00001093",
+        "password": "Str0ng!Pass068",
+        "username": "fatima.almansoori@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-70",
+      "body": {
+        "confirmPassword": "Str0ng!Pass069",
+        "email": "declan.oreilly@example.com",
+        "firstName": "Declan",
+        "lastName": "O'Reilly",
+        "passportNumber": "X00001094",
+        "password": "Str0ng!Pass069",
+        "username": "declan.oreilly@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-71",
+      "body": {
+        "confirmPassword": "Str0ng!Pass070",
+        "email": "yuki.nakamura@example.com",
+        "firstName": "Yuki",
+        "lastName": "Nakamura",
+        "passportNumber": "X00001095",
+        "password": "Str0ng!Pass070",
+        "username": "yuki.nakamura@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-72",
+      "body": {
+        "confirmPassword": "Str0ng!Pass071",
+        "email": "olivia.hartman@example.com",
+        "firstName": "Olivia",
+        "lastName": "Hartman",
+        "passportNumber": "X00001096",
+        "password": "Str0ng!Pass071",
+        "username": "olivia.hartman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-73",
+      "body": {
+        "confirmPassword": "Str0ng!Pass072",
+        "email": "kwame.boateng@example.com",
+        "firstName": "Kwame",
+        "lastName": "Boateng",
+        "passportNumber": "X00001097",
+        "password": "Str0ng!Pass072",
+        "username": "kwame.boateng@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-74",
+      "body": {
+        "confirmPassword": "Str0ng!Pass073",
+        "email": "sofia.rossi@example.com",
+        "firstName": "Sofia",
+        "lastName": "Rossi",
+        "passportNumber": "X00001098",
+        "password": "Str0ng!Pass073",
+        "username": "sofia.rossi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-75",
+      "body": {
+        "confirmPassword": "Str0ng!Pass074",
+        "email": "dmitri.volkov@example.com",
+        "firstName": "Dmitri",
+        "lastName": "Volkov",
+        "passportNumber": "X00001099",
+        "password": "Str0ng!Pass074",
+        "username": "dmitri.volkov@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-76",
+      "body": {
+        "confirmPassword": "Str0ng!Pass075",
+        "email": "naledi.dlamini@example.com",
+        "firstName": "Naledi",
+        "lastName": "Dlamini",
+        "passportNumber": "X00001100",
+        "password": "Str0ng!Pass075",
+        "username": "naledi.dlamini@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-77",
+      "body": {
+        "confirmPassword": "Str0ng!Pass076",
+        "email": "jonas.becker@example.com",
+        "firstName": "Jonas",
+        "lastName": "Becker",
+        "passportNumber": "X00001101",
+        "password": "Str0ng!Pass076",
+        "username": "jonas.becker@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-78",
+      "body": {
+        "confirmPassword": "Str0ng!Pass077",
+        "email": "mei.chen@example.com",
+        "firstName": "Mei",
+        "lastName": "Chen",
+        "passportNumber": "X00001102",
+        "password": "Str0ng!Pass077",
+        "username": "mei.chen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-79",
+      "body": {
+        "confirmPassword": "Str0ng!Pass078",
+        "email": "lucas.oliveira@example.com",
+        "firstName": "Lucas",
+        "lastName": "Oliveira",
+        "passportNumber": "X00001103",
+        "password": "Str0ng!Pass078",
+        "username": "lucas.oliveira@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-80",
+      "body": {
+        "confirmPassword": "Str0ng!Pass079",
+        "email": "zainab.hussain@example.com",
+        "firstName": "Zainab",
+        "lastName": "Hussain",
+        "passportNumber": "X00001104",
+        "password": "Str0ng!Pass079",
+        "username": "zainab.hussain@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-81",
+      "body": {
+        "confirmPassword": "Str0ng!Pass080",
+        "email": "ethan.caldwell@example.com",
+        "firstName": "Ethan",
+        "lastName": "Caldwell",
+        "passportNumber": "X00001105",
+        "password": "Str0ng!Pass080",
+        "username": "ethan.caldwell@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-82",
+      "body": {
+        "confirmPassword": "Str0ng!Pass081",
+        "email": "anika.sharma@example.com",
+        "firstName": "Anika",
+        "lastName": "Sharma",
+        "passportNumber": "X00001106",
+        "password": "Str0ng!Pass081",
+        "username": "anika.sharma@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-83",
+      "body": {
+        "confirmPassword": "Str0ng!Pass082",
+        "email": "gabriel.torres@example.com",
+        "firstName": "Gabriel",
+        "lastName": "Torres",
+        "passportNumber": "X00001107",
+        "password": "Str0ng!Pass082",
+        "username": "gabriel.torres@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-84",
+      "body": {
+        "confirmPassword": "Str0ng!Pass083",
+        "email": "priya.raghunathan@example.com",
+        "firstName": "Priya",
+        "lastName": "Raghunathan",
+        "passportNumber": "X00001108",
+        "password": "Str0ng!Pass083",
+        "username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-85",
+      "body": {
+        "confirmPassword": "Str0ng!Pass084",
+        "email": "mateo.alvarez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Alvarez",
+        "passportNumber": "X00001109",
+        "password": "Str0ng!Pass084",
+        "username": "mateo.alvarez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-86",
+      "body": {
+        "confirmPassword": "Str0ng!Pass085",
+        "email": "ingrid.solberg@example.com",
+        "firstName": "Ingrid",
+        "lastName": "Solberg",
+        "passportNumber": "X00001110",
+        "password": "Str0ng!Pass085",
+        "username": "ingrid.solberg@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-87",
+      "body": {
+        "confirmPassword": "Str0ng!Pass086",
+        "email": "kwame.mensah@example.com",
+        "firstName": "Kwame",
+        "lastName": "Mensah",
+        "passportNumber": "X00001111",
+        "password": "Str0ng!Pass086",
+        "username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-88",
+      "body": {
+        "confirmPassword": "Str0ng!Pass087",
+        "email": "yuki.tanabe@example.com",
+        "firstName": "Yuki",
+        "lastName": "Tanabe",
+        "passportNumber": "X00001112",
+        "password": "Str0ng!Pass087",
+        "username": "yuki.tanabe@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-89",
+      "body": {
+        "confirmPassword": "Str0ng!Pass088",
+        "email": "fatima.alsayed@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Sayed",
+        "passportNumber": "X00001113",
+        "password": "Str0ng!Pass088",
+        "username": "fatima.alsayed@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-90",
+      "body": {
+        "confirmPassword": "Str0ng!Pass089",
+        "email": "declan.orourke@example.com",
+        "firstName": "Declan",
+        "lastName": "O'Rourke",
+        "passportNumber": "X00001114",
+        "password": "Str0ng!Pass089",
+        "username": "declan.orourke@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-91",
+      "body": {
+        "confirmPassword": "Str0ng!Pass090",
+        "email": "chiara.bellini@example.com",
+        "firstName": "Chiara",
+        "lastName": "Bellini",
+        "passportNumber": "X00001115",
+        "password": "Str0ng!Pass090",
+        "username": "chiara.bellini@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-92",
+      "body": {
+        "confirmPassword": "Str0ng!Pass091",
+        "email": "tomasz.wisniewski@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Wiśniewski",
+        "passportNumber": "X00001116",
+        "password": "Str0ng!Pass091",
+        "username": "tomasz.wisniewski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-93",
+      "body": {
+        "confirmPassword": "Str0ng!Pass092",
+        "email": "aisha.bello@example.com",
+        "firstName": "Aisha",
+        "lastName": "Bello",
+        "passportNumber": "X00001117",
+        "password": "Str0ng!Pass092",
+        "username": "aisha.bello@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-94",
+      "body": {
+        "confirmPassword": "Str0ng!Pass093",
+        "email": "hamish.fraser@example.com",
+        "firstName": "Hamish",
+        "lastName": "Fraser",
+        "passportNumber": "X00001118",
+        "password": "Str0ng!Pass093",
+        "username": "hamish.fraser@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-95",
+      "body": {
+        "confirmPassword": "Str0ng!Pass094",
+        "email": "sofia.petrova@example.com",
+        "firstName": "Sofia",
+        "lastName": "Petrova",
+        "passportNumber": "X00001119",
+        "password": "Str0ng!Pass094",
+        "username": "sofia.petrova@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-96",
+      "body": {
+        "confirmPassword": "Str0ng!Pass095",
+        "email": "rohan.mehta@example.com",
+        "firstName": "Rohan",
+        "lastName": "Mehta",
+        "passportNumber": "X00001120",
+        "password": "Str0ng!Pass095",
+        "username": "rohan.mehta@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-97",
+      "body": {
+        "confirmPassword": "Str0ng!Pass096",
+        "email": "camille.dubois@example.com",
+        "firstName": "Camille",
+        "lastName": "Dubois",
+        "passportNumber": "X00001121",
+        "password": "Str0ng!Pass096",
+        "username": "camille.dubois@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-98",
+      "body": {
+        "confirmPassword": "Str0ng!Pass097",
+        "email": "junho.park@example.com",
+        "firstName": "Jun-ho",
+        "lastName": "Park",
+        "passportNumber": "X00001122",
+        "password": "Str0ng!Pass097",
+        "username": "junho.park@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-99",
+      "body": {
+        "confirmPassword": "Str0ng!Pass098",
+        "email": "nadia.haddad@example.com",
+        "firstName": "Nadia",
+        "lastName": "Haddad",
+        "passportNumber": "X00001123",
+        "password": "Str0ng!Pass098",
+        "username": "nadia.haddad@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-100",
+      "body": {
+        "confirmPassword": "Str0ng!Pass099",
+        "email": "lucas.ferreira@example.com",
+        "firstName": "Lucas",
+        "lastName": "Ferreira",
+        "passportNumber": "X00001124",
+        "password": "Str0ng!Pass099",
+        "username": "lucas.ferreira@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-101",
+      "body": {
+        "confirmPassword": "Str0ng!Pass100",
+        "email": "emily.thornton@example.com",
+        "firstName": "Emily",
+        "lastName": "Thornton",
+        "passportNumber": "X00001125",
+        "password": "Str0ng!Pass100",
+        "username": "emily.thornton@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-102",
+      "body": {
+        "confirmPassword": "Str0ng!Pass101",
+        "email": "oluwaseun.adeyemi@example.com",
+        "firstName": "Oluwaseun",
+        "lastName": "Adeyemi",
+        "passportNumber": "X00001126",
+        "password": "Str0ng!Pass101",
+        "username": "oluwaseun.adeyemi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-103",
+      "body": {
+        "confirmPassword": "Str0ng!Pass102",
+        "email": "greta.lindqvist@example.com",
+        "firstName": "Greta",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001127",
+        "password": "Str0ng!Pass102",
+        "username": "greta.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-104",
+      "body": {
+        "confirmPassword": "Str0ng!Pass103",
+        "email": "mohammed.rahman@example.com",
+        "firstName": "Mohammed",
+        "lastName": "Rahman",
+        "passportNumber": "X00001128",
+        "password": "Str0ng!Pass103",
+        "username": "mohammed.rahman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-105",
+      "body": {
+        "confirmPassword": "Str0ng!Pass104",
+        "email": "valentina.cruz@example.com",
+        "firstName": "Valentina",
+        "lastName": "Cruz",
+        "passportNumber": "X00001129",
+        "password": "Str0ng!Pass104",
+        "username": "valentina.cruz@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-106",
+      "body": {
+        "confirmPassword": "Str0ng!Pass105",
+        "email": "pavel.novak@example.com",
+        "firstName": "Pavel",
+        "lastName": "Novak",
+        "passportNumber": "X00001130",
+        "password": "Str0ng!Pass105",
+        "username": "pavel.novak@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-107",
+      "body": {
+        "confirmPassword": "Str0ng!Pass106",
+        "email": "hannah.goldberg@example.com",
+        "firstName": "Hannah",
+        "lastName": "Goldberg",
+        "passportNumber": "X00001131",
+        "password": "Str0ng!Pass106",
+        "username": "hannah.goldberg@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-108",
+      "body": {
+        "confirmPassword": "Str0ng!Pass107",
+        "email": "thabo.nkosi@example.com",
+        "firstName": "Thabo",
+        "lastName": "Nkosi",
+        "passportNumber": "X00001132",
+        "password": "Str0ng!Pass107",
+        "username": "thabo.nkosi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-109",
+      "body": {
+        "confirmPassword": "Str0ng!Pass108",
+        "email": "priya.venkataraman@example.com",
+        "firstName": "Priya",
+        "lastName": "Venkataraman",
+        "passportNumber": "X00001133",
+        "password": "Str0ng!Pass108",
+        "username": "priya.venkataraman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-110",
+      "body": {
+        "confirmPassword": "Str0ng!Pass109",
+        "email": "mateo.alvarado@example.com",
+        "firstName": "Mateo",
+        "lastName": "Alvarado",
+        "passportNumber": "X00001134",
+        "password": "Str0ng!Pass109",
+        "username": "mateo.alvarado@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-111",
+      "body": {
+        "confirmPassword": "Str0ng!Pass110",
+        "email": "chloe.whitfield@example.com",
+        "firstName": "Chloe",
+        "lastName": "Whitfield",
+        "passportNumber": "X00001135",
+        "password": "Str0ng!Pass110",
+        "username": "chloe.whitfield@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-112",
+      "body": {
+        "confirmPassword": "Str0ng!Pass111",
+        "email": "kwame.asante@example.com",
+        "firstName": "Kwame",
+        "lastName": "Asante",
+        "passportNumber": "X00001136",
+        "password": "Str0ng!Pass111",
+        "username": "kwame.asante@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-113",
+      "body": {
+        "confirmPassword": "Str0ng!Pass112",
+        "email": "hannah.lindqvist@example.com",
+        "firstName": "Hannah",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001137",
+        "password": "Str0ng!Pass112",
+        "username": "hannah.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-114",
+      "body": {
+        "confirmPassword": "Str0ng!Pass113",
+        "email": "tomasz.kowalczyk@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Kowalczyk",
+        "passportNumber": "X00001138",
+        "password": "Str0ng!Pass113",
+        "username": "tomasz.kowalczyk@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-115",
+      "body": {
+        "confirmPassword": "Str0ng!Pass114",
+        "email": "aisha.rahman@example.com",
+        "firstName": "Aisha",
+        "lastName": "Rahman",
+        "passportNumber": "X00001139",
+        "password": "Str0ng!Pass114",
+        "username": "aisha.rahman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-116",
+      "body": {
+        "confirmPassword": "Str0ng!Pass115",
+        "email": "connor.gallagher@example.com",
+        "firstName": "Connor",
+        "lastName": "Gallagher",
+        "passportNumber": "X00001140",
+        "password": "Str0ng!Pass115",
+        "username": "connor.gallagher@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-117",
+      "body": {
+        "confirmPassword": "Str0ng!Pass116",
+        "email": "mei.tanaka@example.com",
+        "firstName": "Mei",
+        "lastName": "Tanaka",
+        "passportNumber": "X00001141",
+        "password": "Str0ng!Pass116",
+        "username": "mei.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-118",
+      "body": {
+        "confirmPassword": "Str0ng!Pass117",
+        "email": "diego.fernandes@example.com",
+        "firstName": "Diego",
+        "lastName": "Fernandes",
+        "passportNumber": "X00001142",
+        "password": "Str0ng!Pass117",
+        "username": "diego.fernandes@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-119",
+      "body": {
+        "confirmPassword": "Str0ng!Pass118",
+        "email": "sofia.marchetti@example.com",
+        "firstName": "Sofia",
+        "lastName": "Marchetti",
+        "passportNumber": "X00001143",
+        "password": "Str0ng!Pass118",
+        "username": "sofia.marchetti@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-120",
+      "body": {
+        "confirmPassword": "Str0ng!Pass119",
+        "email": "jamal.hendricks@example.com",
+        "firstName": "Jamal",
+        "lastName": "Hendricks",
+        "passportNumber": "X00001144",
+        "password": "Str0ng!Pass119",
+        "username": "jamal.hendricks@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-121",
+      "body": {
+        "confirmPassword": "Str0ng!Pass120",
+        "email": "ingrid.solberg@example.com",
+        "firstName": "Ingrid",
+        "lastName": "Solberg",
+        "passportNumber": "X00001145",
+        "password": "Str0ng!Pass120",
+        "username": "ingrid.solberg@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-122",
+      "body": {
+        "confirmPassword": "Str0ng!Pass121",
+        "email": "rafael.mendoza@example.com",
+        "firstName": "Rafael",
+        "lastName": "Mendoza",
+        "passportNumber": "X00001146",
+        "password": "Str0ng!Pass121",
+        "username": "rafael.mendoza@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-123",
+      "body": {
+        "confirmPassword": "Str0ng!Pass122",
+        "email": "fatima.alsayed@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Sayed",
+        "passportNumber": "X00001147",
+        "password": "Str0ng!Pass122",
+        "username": "fatima.alsayed@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-124",
+      "body": {
+        "confirmPassword": "Str0ng!Pass123",
+        "email": "oliver.hartley@example.com",
+        "firstName": "Oliver",
+        "lastName": "Hartley",
+        "passportNumber": "X00001148",
+        "password": "Str0ng!Pass123",
+        "username": "oliver.hartley@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-125",
+      "body": {
+        "confirmPassword": "Str0ng!Pass124",
+        "email": "lucia.ferrer@example.com",
+        "firstName": "Lucia",
+        "lastName": "Ferrer",
+        "passportNumber": "X00001149",
+        "password": "Str0ng!Pass124",
+        "username": "lucia.ferrer@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-126",
+      "body": {
+        "confirmPassword": "Str0ng!Pass125",
+        "email": "dmitri.volkov@example.com",
+        "firstName": "Dmitri",
+        "lastName": "Volkov",
+        "passportNumber": "X00001150",
+        "password": "Str0ng!Pass125",
+        "username": "dmitri.volkov@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-127",
+      "body": {
+        "confirmPassword": "Str0ng!Pass126",
+        "email": "grace.mutua@example.com",
+        "firstName": "Grace",
+        "lastName": "Mutua",
+        "passportNumber": "X00001151",
+        "password": "Str0ng!Pass126",
+        "username": "grace.mutua@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-128",
+      "body": {
+        "confirmPassword": "Str0ng!Pass127",
+        "email": "henrik.nielsen@example.com",
+        "firstName": "Henrik",
+        "lastName": "Nielsen",
+        "passportNumber": "X00001152",
+        "password": "Str0ng!Pass127",
+        "username": "henrik.nielsen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-129",
+      "body": {
+        "confirmPassword": "Str0ng!Pass128",
+        "email": "yara.haddad@example.com",
+        "firstName": "Yara",
+        "lastName": "Haddad",
+        "passportNumber": "X00001153",
+        "password": "Str0ng!Pass128",
+        "username": "yara.haddad@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-130",
+      "body": {
+        "confirmPassword": "Str0ng!Pass129",
+        "email": "nathan.cho@example.com",
+        "firstName": "Nathan",
+        "lastName": "Cho",
+        "passportNumber": "X00001154",
+        "password": "Str0ng!Pass129",
+        "username": "nathan.cho@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-131",
+      "body": {
+        "confirmPassword": "Str0ng!Pass130",
+        "email": "camille.dubois@example.com",
+        "firstName": "Camille",
+        "lastName": "Dubois",
+        "passportNumber": "X00001155",
+        "password": "Str0ng!Pass130",
+        "username": "camille.dubois@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-132",
+      "body": {
+        "confirmPassword": "Str0ng!Pass131",
+        "email": "thabo.nkosi@example.com",
+        "firstName": "Thabo",
+        "lastName": "Nkosi",
+        "passportNumber": "X00001156",
+        "password": "Str0ng!Pass131",
+        "username": "thabo.nkosi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-133",
+      "body": {
+        "confirmPassword": "Str0ng!Pass132",
+        "email": "priya.raghunathan@example.com",
+        "firstName": "Priya",
+        "lastName": "Raghunathan",
+        "passportNumber": "X00001157",
+        "password": "Str0ng!Pass132",
+        "username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-134",
+      "body": {
+        "confirmPassword": "Str0ng!Pass133",
+        "email": "mateo.fernandez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Fernández",
+        "passportNumber": "X00001158",
+        "password": "Str0ng!Pass133",
+        "username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-135",
+      "body": {
+        "confirmPassword": "Str0ng!Pass134",
+        "email": "hannah.whitfield@example.com",
+        "firstName": "Hannah",
+        "lastName": "Whitfield",
+        "passportNumber": "X00001159",
+        "password": "Str0ng!Pass134",
+        "username": "hannah.whitfield@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-136",
+      "body": {
+        "confirmPassword": "Str0ng!Pass135",
+        "email": "kenji.matsuda@example.com",
+        "firstName": "Kenji",
+        "lastName": "Matsuda",
+        "passportNumber": "X00001160",
+        "password": "Str0ng!Pass135",
+        "username": "kenji.matsuda@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-137",
+      "body": {
+        "confirmPassword": "Str0ng!Pass136",
+        "email": "fatima.alhashimi@example.com",
+        "firstName": "Fatima",
+        "lastName": "Al-Hashimi",
+        "passportNumber": "X00001161",
+        "password": "Str0ng!Pass136",
+        "username": "fatima.alhashimi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-138",
+      "body": {
+        "confirmPassword": "Str0ng!Pass137",
+        "email": "oliver.hartley@example.com",
+        "firstName": "Oliver",
+        "lastName": "Hartley",
+        "passportNumber": "X00001162",
+        "password": "Str0ng!Pass137",
+        "username": "oliver.hartley@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-139",
+      "body": {
+        "confirmPassword": "Str0ng!Pass138",
+        "email": "camila.restrepo@example.com",
+        "firstName": "Camila",
+        "lastName": "Restrepo",
+        "passportNumber": "X00001163",
+        "password": "Str0ng!Pass138",
+        "username": "camila.restrepo@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-140",
+      "body": {
+        "confirmPassword": "Str0ng!Pass139",
+        "email": "sven.lindqvist@example.com",
+        "firstName": "Sven",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001164",
+        "password": "Str0ng!Pass139",
+        "username": "sven.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-141",
+      "body": {
+        "confirmPassword": "Str0ng!Pass140",
+        "email": "adaeze.nwosu@example.com",
+        "firstName": "Adaeze",
+        "lastName": "Nwosu",
+        "passportNumber": "X00001165",
+        "password": "Str0ng!Pass140",
+        "username": "adaeze.nwosu@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-142",
+      "body": {
+        "confirmPassword": "Str0ng!Pass141",
+        "email": "jonas.becker@example.com",
+        "firstName": "Jonas",
+        "lastName": "Becker",
+        "passportNumber": "X00001166",
+        "password": "Str0ng!Pass141",
+        "username": "jonas.becker@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-143",
+      "body": {
+        "confirmPassword": "Str0ng!Pass142",
+        "email": "mei.zhang@example.com",
+        "firstName": "Mei",
+        "lastName": "Zhang",
+        "passportNumber": "X00001167",
+        "password": "Str0ng!Pass142",
+        "username": "mei.zhang@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-144",
+      "body": {
+        "confirmPassword": "Str0ng!Pass143",
+        "email": "declan.osullivan@example.com",
+        "firstName": "Declan",
+        "lastName": "O'Sullivan",
+        "passportNumber": "X00001168",
+        "password": "Str0ng!Pass143",
+        "username": "declan.osullivan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-145",
+      "body": {
+        "confirmPassword": "Str0ng!Pass144",
+        "email": "isabela.monteiro@example.com",
+        "firstName": "Isabela",
+        "lastName": "Monteiro",
+        "passportNumber": "X00001169",
+        "password": "Str0ng!Pass144",
+        "username": "isabela.monteiro@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-146",
+      "body": {
+        "confirmPassword": "Str0ng!Pass145",
+        "email": "tomasz.kowalczyk@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Kowalczyk",
+        "passportNumber": "X00001170",
+        "password": "Str0ng!Pass145",
+        "username": "tomasz.kowalczyk@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-147",
+      "body": {
+        "confirmPassword": "Str0ng!Pass146",
+        "email": "aisha.rahman@example.com",
+        "firstName": "Aisha",
+        "lastName": "Rahman",
+        "passportNumber": "X00001171",
+        "password": "Str0ng!Pass146",
+        "username": "aisha.rahman@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-148",
+      "body": {
+        "confirmPassword": "Str0ng!Pass147",
+        "email": "gabriel.tremblay@example.com",
+        "firstName": "Gabriel",
+        "lastName": "Tremblay",
+        "passportNumber": "X00001172",
+        "password": "Str0ng!Pass147",
+        "username": "gabriel.tremblay@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-149",
+      "body": {
+        "confirmPassword": "Str0ng!Pass148",
+        "email": "noor.khalid@example.com",
+        "firstName": "Noor",
+        "lastName": "Khalid",
+        "passportNumber": "X00001173",
+        "password": "Str0ng!Pass148",
+        "username": "noor.khalid@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-150",
+      "body": {
+        "confirmPassword": "Str0ng!Pass149",
+        "email": "lucas.moreau@example.com",
+        "firstName": "Lucas",
+        "lastName": "Moreau",
+        "passportNumber": "X00001174",
+        "password": "Str0ng!Pass149",
+        "username": "lucas.moreau@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-151",
+      "body": {
+        "confirmPassword": "Str0ng!Pass150",
+        "email": "zainab.mwangi@example.com",
+        "firstName": "Zainab",
+        "lastName": "Mwangi",
+        "passportNumber": "X00001175",
+        "password": "Str0ng!Pass150",
+        "username": "zainab.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-152",
+      "body": {
+        "confirmPassword": "Str0ng!Pass151",
+        "email": "ethan.caldwell@example.com",
+        "firstName": "Ethan",
+        "lastName": "Caldwell",
+        "passportNumber": "X00001176",
+        "password": "Str0ng!Pass151",
+        "username": "ethan.caldwell@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-153",
+      "body": {
+        "confirmPassword": "Str0ng!Pass152",
+        "email": "sofia.papadopoulos@example.com",
+        "firstName": "Sofia",
+        "lastName": "Papadopoulos",
+        "passportNumber": "X00001177",
+        "password": "Str0ng!Pass152",
+        "username": "sofia.papadopoulos@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-154",
+      "body": {
+        "confirmPassword": "Str0ng!Pass153",
+        "email": "rohan.mehta@example.com",
+        "firstName": "Rohan",
+        "lastName": "Mehta",
+        "passportNumber": "X00001178",
+        "password": "Str0ng!Pass153",
+        "username": "rohan.mehta@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-155",
+      "body": {
+        "confirmPassword": "Str0ng!Pass154",
+        "email": "chloe.anderson@example.com",
+        "firstName": "Chloe",
+        "lastName": "Anderson",
+        "passportNumber": "X00001179",
+        "password": "Str0ng!Pass154",
+        "username": "chloe.anderson@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-156",
+      "body": {
+        "confirmPassword": "Str0ng!Pass155",
+        "email": "dmitri.volkov@example.com",
+        "firstName": "Dmitri",
+        "lastName": "Volkov",
+        "passportNumber": "X00001180",
+        "password": "Str0ng!Pass155",
+        "username": "dmitri.volkov@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-157",
+      "body": {
+        "confirmPassword": "Str0ng!Pass156",
+        "email": "ngozi.adeyemi@example.com",
+        "firstName": "Ngozi",
+        "lastName": "Adeyemi",
+        "passportNumber": "X00001181",
+        "password": "Str0ng!Pass156",
+        "username": "ngozi.adeyemi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-158",
+      "body": {
+        "confirmPassword": "Str0ng!Pass157",
+        "email": "mateo.fernandez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Fernandez",
+        "passportNumber": "X00001182",
+        "password": "Str0ng!Pass157",
+        "username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-159",
+      "body": {
+        "confirmPassword": "Str0ng!Pass158",
+        "email": "hana.takahashi@example.com",
+        "firstName": "Hana",
+        "lastName": "Takahashi",
+        "passportNumber": "X00001183",
+        "password": "Str0ng!Pass158",
+        "username": "hana.takahashi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-160",
+      "body": {
+        "confirmPassword": "Str0ng!Pass159",
+        "email": "oliver.whitaker@example.com",
+        "firstName": "Oliver",
+        "lastName": "Whitaker",
+        "passportNumber": "X00001184",
+        "password": "Str0ng!Pass159",
+        "username": "oliver.whitaker@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-161",
+      "body": {
+        "confirmPassword": "Str0ng!Pass160",
+        "email": "priya.raghunathan@example.com",
+        "firstName": "Priya",
+        "lastName": "Raghunathan",
+        "passportNumber": "X00001185",
+        "password": "Str0ng!Pass160",
+        "username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-162",
+      "body": {
+        "confirmPassword": "Str0ng!Pass161",
+        "email": "lucas.moreau@example.com",
+        "firstName": "Lucas",
+        "lastName": "Moreau",
+        "passportNumber": "X00001186",
+        "password": "Str0ng!Pass161",
+        "username": "lucas.moreau@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-163",
+      "body": {
+        "confirmPassword": "Str0ng!Pass162",
+        "email": "sofia.rossi@example.com",
+        "firstName": "Sofia",
+        "lastName": "Rossi",
+        "passportNumber": "X00001187",
+        "password": "Str0ng!Pass162",
+        "username": "sofia.rossi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-164",
+      "body": {
+        "confirmPassword": "Str0ng!Pass163",
+        "email": "jamal.carter@example.com",
+        "firstName": "Jamal",
+        "lastName": "Carter",
+        "passportNumber": "X00001188",
+        "password": "Str0ng!Pass163",
+        "username": "jamal.carter@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-165",
+      "body": {
+        "confirmPassword": "Str0ng!Pass164",
+        "email": "elena.petrova@example.com",
+        "firstName": "Elena",
+        "lastName": "Petrova",
+        "passportNumber": "X00001189",
+        "password": "Str0ng!Pass164",
+        "username": "elena.petrova@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-166",
+      "body": {
+        "confirmPassword": "Str0ng!Pass165",
+        "email": "tomasz.kowalski@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Kowalski",
+        "passportNumber": "X00001190",
+        "password": "Str0ng!Pass165",
+        "username": "tomasz.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-167",
+      "body": {
+        "confirmPassword": "Str0ng!Pass166",
+        "email": "aisha.khan@example.com",
+        "firstName": "Aisha",
+        "lastName": "Khan",
+        "passportNumber": "X00001191",
+        "password": "Str0ng!Pass166",
+        "username": "aisha.khan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-168",
+      "body": {
+        "confirmPassword": "Str0ng!Pass167",
+        "email": "daniel.schmidt@example.com",
+        "firstName": "Daniel",
+        "lastName": "Schmidt",
+        "passportNumber": "X00001192",
+        "password": "Str0ng!Pass167",
+        "username": "daniel.schmidt@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-169",
+      "body": {
+        "confirmPassword": "Str0ng!Pass168",
+        "email": "chloe.nguyen@example.com",
+        "firstName": "Chloe",
+        "lastName": "Nguyen",
+        "passportNumber": "X00001193",
+        "password": "Str0ng!Pass168",
+        "username": "chloe.nguyen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-170",
+      "body": {
+        "confirmPassword": "Str0ng!Pass169",
+        "email": "mohammed.alfarsi@example.com",
+        "firstName": "Mohammed",
+        "lastName": "Al-Farsi",
+        "passportNumber": "X00001194",
+        "password": "Str0ng!Pass169",
+        "username": "mohammed.alfarsi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-171",
+      "body": {
+        "confirmPassword": "Str0ng!Pass170",
+        "email": "isabella.santos@example.com",
+        "firstName": "Isabella",
+        "lastName": "Santos",
+        "passportNumber": "X00001195",
+        "password": "Str0ng!Pass170",
+        "username": "isabella.santos@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-172",
+      "body": {
+        "confirmPassword": "Str0ng!Pass171",
+        "email": "henrik.larsen@example.com",
+        "firstName": "Henrik",
+        "lastName": "Larsen",
+        "passportNumber": "X00001196",
+        "password": "Str0ng!Pass171",
+        "username": "henrik.larsen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-173",
+      "body": {
+        "confirmPassword": "Str0ng!Pass172",
+        "email": "grace.mwangi@example.com",
+        "firstName": "Grace",
+        "lastName": "Mwangi",
+        "passportNumber": "X00001197",
+        "password": "Str0ng!Pass172",
+        "username": "grace.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-174",
+      "body": {
+        "confirmPassword": "Str0ng!Pass173",
+        "email": "ethan.brooks@example.com",
+        "firstName": "Ethan",
+        "lastName": "Brooks",
+        "passportNumber": "X00001198",
+        "password": "Str0ng!Pass173",
+        "username": "ethan.brooks@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-175",
+      "body": {
+        "confirmPassword": "Str0ng!Pass174",
+        "email": "yuki.tanaka@example.com",
+        "firstName": "Yuki",
+        "lastName": "Tanaka",
+        "passportNumber": "X00001199",
+        "password": "Str0ng!Pass174",
+        "username": "yuki.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-176",
+      "body": {
+        "confirmPassword": "Str0ng!Pass175",
+        "email": "fatima.benali@example.com",
+        "firstName": "Fatima",
+        "lastName": "Benali",
+        "passportNumber": "X00001200",
+        "password": "Str0ng!Pass175",
+        "username": "fatima.benali@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-177",
+      "body": {
+        "confirmPassword": "Str0ng!Pass176",
+        "email": "connor.oneill@example.com",
+        "firstName": "Connor",
+        "lastName": "O'Neill",
+        "passportNumber": "X00001201",
+        "password": "Str0ng!Pass176",
+        "username": "connor.oneill@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-178",
+      "body": {
+        "confirmPassword": "Str0ng!Pass177",
+        "email": "mei.chen@example.com",
+        "firstName": "Mei Lin",
+        "lastName": "Chen",
+        "passportNumber": "X00001202",
+        "password": "Str0ng!Pass177",
+        "username": "mei.chen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-179",
+      "body": {
+        "confirmPassword": "Str0ng!Pass178",
+        "email": "andres.gutierrez@example.com",
+        "firstName": "Andres",
+        "lastName": "Gutierrez",
+        "passportNumber": "X00001203",
+        "password": "Str0ng!Pass178",
+        "username": "andres.gutierrez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-180",
+      "body": {
+        "confirmPassword": "Str0ng!Pass179",
+        "email": "zainab.yusuf@example.com",
+        "firstName": "Zainab",
+        "lastName": "Yusuf",
+        "passportNumber": "X00001204",
+        "password": "Str0ng!Pass179",
+        "username": "zainab.yusuf@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-181",
+      "body": {
+        "confirmPassword": "Str0ng!Pass180",
+        "email": "lars.johansson@example.com",
+        "firstName": "Lars",
+        "lastName": "Johansson",
+        "passportNumber": "X00001205",
+        "password": "Str0ng!Pass180",
+        "username": "lars.johansson@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-182",
+      "body": {
+        "confirmPassword": "Str0ng!Pass181",
+        "email": "priya.raghunathan@example.com",
+        "firstName": "Priya",
+        "lastName": "Raghunathan",
+        "passportNumber": "X00001206",
+        "password": "Str0ng!Pass181",
+        "username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-183",
+      "body": {
+        "confirmPassword": "Str0ng!Pass182",
+        "email": "mateo.fernandez@example.com",
+        "firstName": "Mateo",
+        "lastName": "Fernández",
+        "passportNumber": "X00001207",
+        "password": "Str0ng!Pass182",
+        "username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-184",
+      "body": {
+        "confirmPassword": "Str0ng!Pass183",
+        "email": "hannah.whitcombe@example.com",
+        "firstName": "Hannah",
+        "lastName": "Whitcombe",
+        "passportNumber": "X00001208",
+        "password": "Str0ng!Pass183",
+        "username": "hannah.whitcombe@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-185",
+      "body": {
+        "confirmPassword": "Str0ng!Pass184",
+        "email": "kwame.mensah@example.com",
+        "firstName": "Kwame",
+        "lastName": "Mensah",
+        "passportNumber": "X00001209",
+        "password": "Str0ng!Pass184",
+        "username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-186",
+      "body": {
+        "confirmPassword": "Str0ng!Pass185",
+        "email": "sofia.lindqvist@example.com",
+        "firstName": "Sofia",
+        "lastName": "Lindqvist",
+        "passportNumber": "X00001210",
+        "password": "Str0ng!Pass185",
+        "username": "sofia.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-187",
+      "body": {
+        "confirmPassword": "Str0ng!Pass186",
+        "email": "daniel.moreau@example.com",
+        "firstName": "Daniel",
+        "lastName": "Moreau",
+        "passportNumber": "X00001211",
+        "password": "Str0ng!Pass186",
+        "username": "daniel.moreau@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-188",
+      "body": {
+        "confirmPassword": "Str0ng!Pass187",
+        "email": "yuki.tanabe@example.com",
+        "firstName": "Yuki",
+        "lastName": "Tanabe",
+        "passportNumber": "X00001212",
+        "password": "Str0ng!Pass187",
+        "username": "yuki.tanabe@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-189",
+      "body": {
+        "confirmPassword": "Str0ng!Pass188",
+        "email": "isabella.rossi@example.com",
+        "firstName": "Isabella",
+        "lastName": "Rossi",
+        "passportNumber": "X00001213",
+        "password": "Str0ng!Pass188",
+        "username": "isabella.rossi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-190",
+      "body": {
+        "confirmPassword": "Str0ng!Pass189",
+        "email": "omar.haddad@example.com",
+        "firstName": "Omar",
+        "lastName": "Haddad",
+        "passportNumber": "X00001214",
+        "password": "Str0ng!Pass189",
+        "username": "omar.haddad@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-191",
+      "body": {
+        "confirmPassword": "Str0ng!Pass190",
+        "email": "chloe.nguyen@example.com",
+        "firstName": "Chloe",
+        "lastName": "Nguyen",
+        "passportNumber": "X00001215",
+        "password": "Str0ng!Pass190",
+        "username": "chloe.nguyen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-192",
+      "body": {
+        "confirmPassword": "Str0ng!Pass191",
+        "email": "rafael.santos@example.com",
+        "firstName": "Rafael",
+        "lastName": "Santos",
+        "passportNumber": "X00001216",
+        "password": "Str0ng!Pass191",
+        "username": "rafael.santos@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-193",
+      "body": {
+        "confirmPassword": "Str0ng!Pass192",
+        "email": "emily.hartwell@example.com",
+        "firstName": "Emily",
+        "lastName": "Hartwell",
+        "passportNumber": "X00001217",
+        "password": "Str0ng!Pass192",
+        "username": "emily.hartwell@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-194",
+      "body": {
+        "confirmPassword": "Str0ng!Pass193",
+        "email": "tomasz.kowalski@example.com",
+        "firstName": "Tomasz",
+        "lastName": "Kowalski",
+        "passportNumber": "X00001218",
+        "password": "Str0ng!Pass193",
+        "username": "tomasz.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-195",
+      "body": {
+        "confirmPassword": "Str0ng!Pass194",
+        "email": "aisha.bello@example.com",
+        "firstName": "Aisha",
+        "lastName": "Bello",
+        "passportNumber": "X00001219",
+        "password": "Str0ng!Pass194",
+        "username": "aisha.bello@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-196",
+      "body": {
+        "confirmPassword": "Str0ng!Pass195",
+        "email": "lars.eriksen@example.com",
+        "firstName": "Lars",
+        "lastName": "Eriksen",
+        "passportNumber": "X00001220",
+        "password": "Str0ng!Pass195",
+        "username": "lars.eriksen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-197",
+      "body": {
+        "confirmPassword": "Str0ng!Pass196",
+        "email": "meiling.chen@example.com",
+        "firstName": "Mei-Ling",
+        "lastName": "Chen",
+        "passportNumber": "X00001221",
+        "password": "Str0ng!Pass196",
+        "username": "meiling.chen@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-198",
+      "body": {
+        "confirmPassword": "Str0ng!Pass197",
+        "email": "patrick.odonnell@example.com",
+        "firstName": "Patrick",
+        "lastName": "O'Donnell",
+        "passportNumber": "X00001222",
+        "password": "Str0ng!Pass197",
+        "username": "patrick.odonnell@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-199",
+      "body": {
+        "confirmPassword": "Str0ng!Pass198",
+        "email": "grace.mwangi@example.com",
+        "firstName": "Grace",
+        "lastName": "Mwangi",
+        "passportNumber": "X00001223",
+        "password": "Str0ng!Pass198",
+        "username": "grace.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-200",
+      "body": {
+        "confirmPassword": "Str0ng!Pass199",
+        "email": "nikolai.petrov@example.com",
+        "firstName": "Nikolai",
+        "lastName": "Petrov",
+        "passportNumber": "X00001224",
+        "password": "Str0ng!Pass199",
+        "username": "nikolai.petrov@example.com"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "registernewuserrequestdto-rejection-1",
+      "body": {
+        "confirmPassword": "",
+        "email": "",
+        "firstName": null,
+        "lastName": "",
+        "passportNumber": "",
+        "password": "",
+        "username": ""
+      },
+      "violates": {
+        "field": "FirstName",
+        "rule": "`FirstName` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "the validator in this file has a rule on FirstName"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-rejection-2",
+      "body": {
+        "confirmPassword": "",
+        "email": "",
+        "firstName": "",
+        "lastName": null,
+        "passportNumber": "",
+        "password": "",
+        "username": ""
+      },
+      "violates": {
+        "field": "LastName",
+        "rule": "`LastName` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "the validator in this file has a rule on LastName"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-rejection-3",
+      "body": {
+        "confirmPassword": "",
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "passportNumber": "",
+        "password": "",
+        "username": null
+      },
+      "violates": {
+        "field": "Username",
+        "rule": "`Username` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "the validator in this file has a rule on Username"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-rejection-4",
+      "body": {
+        "confirmPassword": "",
+        "email": null,
+        "firstName": "",
+        "lastName": "",
+        "passportNumber": "",
+        "password": "",
+        "username": ""
+      },
+      "violates": {
+        "field": "Email",
+        "rule": "`Email` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "the validator in this file has a rule on Email"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-rejection-5",
+      "body": {
+        "confirmPassword": "",
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "passportNumber": "",
+        "password": null,
+        "username": ""
+      },
+      "violates": {
+        "field": "Password",
+        "rule": "`Password` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "the validator in this file has a rule on Password"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-rejection-6",
+      "body": {
+        "confirmPassword": null,
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "passportNumber": "",
+        "password": "",
+        "username": ""
+      },
+      "violates": {
+        "field": "ConfirmPassword",
+        "rule": "`ConfirmPassword` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "the validator in this file has a rule on ConfirmPassword"
+      }
+    },
+    {
+      "ref": "registernewuserrequestdto-rejection-7",
+      "body": {
+        "confirmPassword": "",
+        "email": "",
+        "firstName": "",
+        "lastName": "",
+        "passportNumber": null,
+        "password": "",
+        "username": ""
+      },
+      "violates": {
+        "field": "PassportNumber",
+        "rule": "`PassportNumber` is declared NOT NULL"
+      },
+      "expect": {
+        "status": 400,
+        "why": "rejected by model binding"
+      }
+    }
+  ]
+}

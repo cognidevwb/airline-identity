@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-email-at-256",
+  "title": "Email at 256 characters",
+  "source": "staged scenario",
+  "why": "Tests the upper boundary of the email length limit.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with an Email exactly 256 characters long, built as 64 'a' characters, '@', then a domain of three 63-character labels joined by dots (63+1+63+1+63 = 191 characters). UserName long.email, FirstName Anna, LastName Meyer, PassPortNumber DE9876543, Password Str0ng!Pass1, matching ConfirmPassword."
+    }
+  ],
+  "expect": [
+    "Registration succeeds. The saved Email and NormalizedEmail are both exactly 256 characters, with no truncation."
+  ]
+}

@@ -1,0 +1,3045 @@
+{
+  "name": "UserLogin",
+  "kind": "table",
+  "layer": "database",
+  "source": "src/Identity/Identity/Models/UserLogin.cs:7",
+  "columns": [
+    "Version",
+    "LoginProvider",
+    "ProviderKey",
+    "ProviderDisplayName",
+    "UserId"
+  ],
+  "valid": [
+    {
+      "ref": "userlogin-aspnetuserstore",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001018",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-amara-okafor-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0002",
+        "UserId": "e0a63e12-0000-4000-8000-000000001019",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-liam-brennan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0003",
+        "UserId": "e0a63e12-0000-4000-8000-000000001020",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-sofia-marchetti-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0004",
+        "UserId": "e0a63e12-0000-4000-8000-000000001021",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kenji-watanabe-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0005",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0006",
+        "UserId": "e0a63e12-0000-4000-8000-000000001023",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0007",
+        "UserId": "e0a63e12-0000-4000-8000-000000001024",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0008",
+        "UserId": "e0a63e12-0000-4000-8000-000000001025",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-oluwaseun-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0009",
+        "UserId": "e0a63e12-0000-4000-8000-000000001026",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0010",
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0011",
+        "UserId": "e0a63e12-0000-4000-8000-000000001028",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-rossi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0012",
+        "UserId": "e0a63e12-0000-4000-8000-000000001029",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-tariq-hussain-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0013",
+        "UserId": "e0a63e12-0000-4000-8000-000000001030",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-grace-mwangi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0014",
+        "UserId": "e0a63e12-0000-4000-8000-000000001031",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-schneider-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0015",
+        "UserId": "e0a63e12-0000-4000-8000-000000001032",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-meiling-chen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0016",
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0017",
+        "UserId": "e0a63e12-0000-4000-8000-000000001034",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-alsayed-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0018",
+        "UserId": "e0a63e12-0000-4000-8000-000000001035",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-noah-thompson-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0019",
+        "UserId": "e0a63e12-0000-4000-8000-000000001036",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0020",
+        "UserId": "e0a63e12-0000-4000-8000-000000001037",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-carlos-mendoza-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0021",
+        "UserId": "e0a63e12-0000-4000-8000-000000001038",
+        "Version": 4
+      },
+      "links": {
+        "UserId": "user-aoife-gallagher-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0022",
+        "UserId": "e0a63e12-0000-4000-8000-000000001039",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0023",
+        "UserId": "e0a63e12-0000-4000-8000-000000001040",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-samuel-osei-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0024",
+        "UserId": "e0a63e12-0000-4000-8000-000000001041",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-ingrid-halvorsen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0025",
+        "UserId": "e0a63e12-0000-4000-8000-000000001042",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-jamal-washington-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0026",
+        "UserId": "e0a63e12-0000-4000-8000-000000001043",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-marquez-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0027",
+        "UserId": "e0a63e12-0000-4000-8000-000000001044",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0028",
+        "UserId": "e0a63e12-0000-4000-8000-000000001045",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-venkataraman-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0029",
+        "UserId": "e0a63e12-0000-4000-8000-000000001046",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oliver-haugen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0030",
+        "UserId": "e0a63e12-0000-4000-8000-000000001047",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-fatima-almansouri-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0031",
+        "UserId": "e0a63e12-0000-4000-8000-000000001048",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0032",
+        "UserId": "e0a63e12-0000-4000-8000-000000001049",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-dubois-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0033",
+        "UserId": "e0a63e12-0000-4000-8000-000000001051",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chiara-moretti-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0034",
+        "UserId": "e0a63e12-0000-4000-8000-000000001052",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-kwame-mensah-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0035",
+        "UserId": "e0a63e12-0000-4000-8000-000000001053",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-lindqvist-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0036",
+        "UserId": "e0a63e12-0000-4000-8000-000000001054",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-deshpande-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0037",
+        "UserId": "e0a63e12-0000-4000-8000-000000001055",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-emily-hargrove-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0038",
+        "UserId": "e0a63e12-0000-4000-8000-000000001056",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-wisniewski-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0039",
+        "UserId": "e0a63e12-0000-4000-8000-000000001057",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanabe-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0040",
+        "UserId": "e0a63e12-0000-4000-8000-000000001058",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-fatima-alrashid-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0041",
+        "UserId": "e0a63e12-0000-4000-8000-000000001059",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-cruz-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0042",
+        "UserId": "e0a63e12-0000-4000-8000-000000001060",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ingrid-solheim-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0043",
+        "UserId": "e0a63e12-0000-4000-8000-000000001061",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0044",
+        "UserId": "e0a63e12-0000-4000-8000-000000001062",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-venkataraman-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0045",
+        "UserId": "e0a63e12-0000-4000-8000-000000001063",
+        "Version": 5
+      },
+      "links": {
+        "UserId": "user-oliver-whitcombe-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0046",
+        "UserId": "e0a63e12-0000-4000-8000-000000001064",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-aisha-bello-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0047",
+        "UserId": "e0a63e12-0000-4000-8000-000000001065",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0048",
+        "UserId": "e0a63e12-0000-4000-8000-000000001066",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-kowalczyk-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0049",
+        "UserId": "e0a63e12-0000-4000-8000-000000001067",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-santiago-ortega-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0050",
+        "UserId": "e0a63e12-0000-4000-8000-000000001068",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-nadia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0051",
+        "UserId": "e0a63e12-0000-4000-8000-000000001068",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-nadia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0052",
+        "UserId": "e0a63e12-0000-4000-8000-000000001069",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-jamal-washington-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0053",
+        "UserId": "e0a63e12-0000-4000-8000-000000001070",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-zhang-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0054",
+        "UserId": "e0a63e12-0000-4000-8000-000000001071",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-gabriel-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0055",
+        "UserId": "e0a63e12-0000-4000-8000-000000001072",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-eleanor-prescott-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-29",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0056",
+        "UserId": "e0a63e12-0000-4000-8000-000000001073",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-arjun-malhotra-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0057",
+        "UserId": "e0a63e12-0000-4000-8000-000000001074",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-freya-henriksen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-30",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0058",
+        "UserId": "e0a63e12-0000-4000-8000-000000001075",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-liam-brennan-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0059",
+        "UserId": "e0a63e12-0000-4000-8000-000000001076",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chidi-nwosu-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-31",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0060",
+        "UserId": "e0a63e12-0000-4000-8000-000000001077",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0061",
+        "UserId": "e0a63e12-0000-4000-8000-000000001078",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-32",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0062",
+        "UserId": "e0a63e12-0000-4000-8000-000000001079",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raman-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0063",
+        "UserId": "e0a63e12-0000-4000-8000-000000001080",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-33",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0064",
+        "UserId": "e0a63e12-0000-4000-8000-000000001081",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-34",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0065",
+        "UserId": "e0a63e12-0000-4000-8000-000000001082",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aiko-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0066",
+        "UserId": "e0a63e12-0000-4000-8000-000000001083",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-samuel-mensah-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0067",
+        "UserId": "e0a63e12-0000-4000-8000-000000001084",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabelle-moreau-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-35",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0068",
+        "UserId": "e0a63e12-0000-4000-8000-000000001085",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rafael-santos-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0069",
+        "UserId": "e0a63e12-0000-4000-8000-000000001086",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-36",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0070",
+        "UserId": "e0a63e12-0000-4000-8000-000000001087",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-declan-oreilly-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0071",
+        "UserId": "e0a63e12-0000-4000-8000-000000001088",
+        "Version": 4
+      },
+      "links": {
+        "UserId": "user-yuki-nakamura-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-37",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0072",
+        "UserId": "e0a63e12-0000-4000-8000-000000001089",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-olivia-hartman-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0073",
+        "UserId": "e0a63e12-0000-4000-8000-000000001090",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-boateng-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-38",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0074",
+        "UserId": "e0a63e12-0000-4000-8000-000000001091",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-39",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0075",
+        "UserId": "e0a63e12-0000-4000-8000-000000001092",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-dmitri-volkov-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0076",
+        "UserId": "e0a63e12-0000-4000-8000-000000001093",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-naledi-dlamini-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-40",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0077",
+        "UserId": "e0a63e12-0000-4000-8000-000000001094",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-jonas-becker-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0078",
+        "UserId": "e0a63e12-0000-4000-8000-000000001095",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-chen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-41",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0079",
+        "UserId": "e0a63e12-0000-4000-8000-000000001096",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0080",
+        "UserId": "e0a63e12-0000-4000-8000-000000001097",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-zainab-hussain-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-42",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0081",
+        "UserId": "e0a63e12-0000-4000-8000-000000001098",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0082",
+        "UserId": "e0a63e12-0000-4000-8000-000000001099",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-anika-sharma-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-43",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0083",
+        "UserId": "e0a63e12-0000-4000-8000-000000001100",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-gabriel-torres-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-44",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0084",
+        "UserId": "e0a63e12-0000-4000-8000-000000001101",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0085",
+        "UserId": "e0a63e12-0000-4000-8000-000000001102",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-alvarez-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-45",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0086",
+        "UserId": "e0a63e12-0000-4000-8000-000000001103",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ingrid-solberg-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0087",
+        "UserId": "e0a63e12-0000-4000-8000-000000001104",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-mensah-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-46",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0088",
+        "UserId": "e0a63e12-0000-4000-8000-000000001105",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanabe-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0089",
+        "UserId": "e0a63e12-0000-4000-8000-000000001106",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-alsayed-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-47",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0090",
+        "UserId": "e0a63e12-0000-4000-8000-000000001107",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-declan-orourke-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0091",
+        "UserId": "e0a63e12-0000-4000-8000-000000001108",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chiara-bellini-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-48",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0092",
+        "UserId": "e0a63e12-0000-4000-8000-000000001109",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-wisniewski-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-49",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0093",
+        "UserId": "e0a63e12-0000-4000-8000-000000001110",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-bello-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0094",
+        "UserId": "e0a63e12-0000-4000-8000-000000001111",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hamish-fraser-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-50",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0095",
+        "UserId": "e0a63e12-0000-4000-8000-000000001112",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0096",
+        "UserId": "e0a63e12-0000-4000-8000-000000001113",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-facebook",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0097",
+        "UserId": "e0a63e12-0000-4000-8000-000000001114",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-camille-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-51",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0098",
+        "UserId": "e0a63e12-0000-4000-8000-000000001115",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-junho-park-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-29",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0099",
+        "UserId": "e0a63e12-0000-4000-8000-000000001116",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-nadia-haddad-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-52",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0100",
+        "UserId": "e0a63e12-0000-4000-8000-000000001117",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-lucas-ferreira-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-30",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0101",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0102",
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0103",
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0104",
+        "UserId": "e0a63e12-0000-4000-8000-000000001039",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0105",
+        "UserId": "e0a63e12-0000-4000-8000-000000001044",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0106",
+        "UserId": "e0a63e12-0000-4000-8000-000000001048",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0107",
+        "UserId": "e0a63e12-0000-4000-8000-000000001052",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-mensah-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-31",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0108",
+        "UserId": "e0a63e12-0000-4000-8000-000000001055",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-emily-hargrove-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0109",
+        "UserId": "e0a63e12-0000-4000-8000-000000001059",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-cruz-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0110",
+        "UserId": "e0a63e12-0000-4000-8000-000000001064",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-bello-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0111",
+        "UserId": "e0a63e12-0000-4000-8000-000000001067",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-santiago-ortega-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0112",
+        "UserId": "e0a63e12-0000-4000-8000-000000001071",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-gabriel-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0113",
+        "UserId": "e0a63e12-0000-4000-8000-000000001074",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-freya-henriksen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0114",
+        "UserId": "e0a63e12-0000-4000-8000-000000001076",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chidi-nwosu-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0115",
+        "UserId": "e0a63e12-0000-4000-8000-000000001080",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0116",
+        "UserId": "e0a63e12-0000-4000-8000-000000001084",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabelle-moreau-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-32",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0117",
+        "UserId": "e0a63e12-0000-4000-8000-000000001086",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0118",
+        "UserId": "e0a63e12-0000-4000-8000-000000001090",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-boateng-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0119",
+        "UserId": "e0a63e12-0000-4000-8000-000000001093",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-naledi-dlamini-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0120",
+        "UserId": "e0a63e12-0000-4000-8000-000000001097",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-zainab-hussain-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0121",
+        "UserId": "e0a63e12-0000-4000-8000-000000001101",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0122",
+        "UserId": "e0a63e12-0000-4000-8000-000000001105",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanabe-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0123",
+        "UserId": "e0a63e12-0000-4000-8000-000000001108",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chiara-bellini-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0124",
+        "UserId": "e0a63e12-0000-4000-8000-000000001112",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0125",
+        "UserId": "e0a63e12-0000-4000-8000-000000001115",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-junho-park-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0126",
+        "UserId": "e0a63e12-0000-4000-8000-000000001119",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oluwaseun-adeyemi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0127",
+        "UserId": "e0a63e12-0000-4000-8000-000000001123",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-pavel-novak-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0128",
+        "UserId": "e0a63e12-0000-4000-8000-000000001126",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-venkataraman-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-google-33",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0129",
+        "UserId": "e0a63e12-0000-4000-8000-000000001130",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0130",
+        "UserId": "e0a63e12-0000-4000-8000-000000001134",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0131",
+        "UserId": "e0a63e12-0000-4000-8000-000000001138",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ingrid-solberg-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0132",
+        "UserId": "e0a63e12-0000-4000-8000-000000001141",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oliver-hartley-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0133",
+        "UserId": "e0a63e12-0000-4000-8000-000000001145",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-henrik-nielsen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0134",
+        "UserId": "e0a63e12-0000-4000-8000-000000001149",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-thabo-nkosi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0135",
+        "UserId": "e0a63e12-0000-4000-8000-000000001152",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-whitfield-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0136",
+        "UserId": "e0a63e12-0000-4000-8000-000000001156",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-camila-restrepo-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-34",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0137",
+        "UserId": "e0a63e12-0000-4000-8000-000000001160",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-zhang-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0138",
+        "UserId": "e0a63e12-0000-4000-8000-000000001164",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-rahman-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0139",
+        "UserId": "e0a63e12-0000-4000-8000-000000001167",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0140",
+        "UserId": "e0a63e12-0000-4000-8000-000000001171",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0141",
+        "UserId": "e0a63e12-0000-4000-8000-000000001175",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-5"
+      }
+    },
+    {
+      "ref": "userlogin-apple-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0142",
+        "UserId": "e0a63e12-0000-4000-8000-000000001179",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0143",
+        "UserId": "e0a63e12-0000-4000-8000-000000001183",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-35",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0144",
+        "UserId": "e0a63e12-0000-4000-8000-000000001187",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mohammed-alfarsi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0145",
+        "UserId": "e0a63e12-0000-4000-8000-000000001191",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-brooks-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0146",
+        "UserId": "e0a63e12-0000-4000-8000-000000001195",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-chen-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0147",
+        "UserId": "e0a63e12-0000-4000-8000-000000001199",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-5"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0148",
+        "UserId": "e0a63e12-0000-4000-8000-000000001203",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-lindqvist-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0149",
+        "UserId": "e0a63e12-0000-4000-8000-000000001207",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-omar-haddad-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0150",
+        "UserId": "e0a63e12-0000-4000-8000-000000001211",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-google-36",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0151",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-37",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0152",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-38",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0153",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-39",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0154",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-53",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0155",
+        "UserId": "e0a63e12-0000-4000-8000-000000001170",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-papadopoulos-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-54",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0156",
+        "UserId": "e0a63e12-0000-4000-8000-000000001171",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-55",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0157",
+        "UserId": "e0a63e12-0000-4000-8000-000000001171",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0158",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-29",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0159",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-30",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0160",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-31",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0161",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-56",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0162",
+        "UserId": "e0a63e12-0000-4000-8000-000000001173",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-dmitri-volkov-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-57",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0163",
+        "UserId": "e0a63e12-0000-4000-8000-000000001174",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ngozi-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-58",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0164",
+        "UserId": "e0a63e12-0000-4000-8000-000000001174",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ngozi-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0165",
+        "UserId": "e0a63e12-0000-4000-8000-000000001175",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-5"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0166",
+        "UserId": "e0a63e12-0000-4000-8000-000000001175",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-5"
+      }
+    },
+    {
+      "ref": "userlogin-apple-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0167",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0168",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0169",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0170",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-59",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0171",
+        "UserId": "e0a63e12-0000-4000-8000-000000001177",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oliver-whitaker-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0172",
+        "UserId": "e0a63e12-0000-4000-8000-000000001178",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-4"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0173",
+        "UserId": "e0a63e12-0000-4000-8000-000000001178",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-4"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0174",
+        "UserId": "e0a63e12-0000-4000-8000-000000001178",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-4"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-60",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0175",
+        "UserId": "e0a63e12-0000-4000-8000-000000001179",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-61",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0176",
+        "UserId": "e0a63e12-0000-4000-8000-000000001179",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-40",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0177",
+        "UserId": "e0a63e12-0000-4000-8000-000000001180",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-41",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0178",
+        "UserId": "e0a63e12-0000-4000-8000-000000001180",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-google-42",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0179",
+        "UserId": "e0a63e12-0000-4000-8000-000000001180",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-62",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0180",
+        "UserId": "e0a63e12-0000-4000-8000-000000001181",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-jamal-carter-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-63",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0181",
+        "UserId": "e0a63e12-0000-4000-8000-000000001182",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-64",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0182",
+        "UserId": "e0a63e12-0000-4000-8000-000000001182",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com-3"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0183",
+        "UserId": "e0a63e12-0000-4000-8000-000000001183",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-facebook-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0184",
+        "UserId": "e0a63e12-0000-4000-8000-000000001183",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-32",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0185",
+        "UserId": "e0a63e12-0000-4000-8000-000000001184",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-microsoft-33",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0186",
+        "UserId": "e0a63e12-0000-4000-8000-000000001184",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-65",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0187",
+        "UserId": "e0a63e12-0000-4000-8000-000000001185",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-schmidt-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-66",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0188",
+        "UserId": "e0a63e12-0000-4000-8000-000000001186",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-nguyen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-67",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0189",
+        "UserId": "e0a63e12-0000-4000-8000-000000001187",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mohammed-alfarsi-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-43",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0190",
+        "UserId": "e0a63e12-0000-4000-8000-000000001188",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-santos-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-44",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0191",
+        "UserId": "e0a63e12-0000-4000-8000-000000001188",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-santos-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-google-45",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0192",
+        "UserId": "e0a63e12-0000-4000-8000-000000001188",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-santos-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-68",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0193",
+        "UserId": "e0a63e12-0000-4000-8000-000000001189",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-henrik-larsen-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-apple-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Rahul Chatterjee",
+        "ProviderKey": "STR_0194",
+        "UserId": "e0a63e12-0000-4000-8000-000000001190",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-grace-mwangi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-apple-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "ProviderDisplayName": "Fiona MacLeod",
+        "ProviderKey": "STR_0195",
+        "UserId": "e0a63e12-0000-4000-8000-000000001190",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-grace-mwangi-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-69",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Tomas Nowak",
+        "ProviderKey": "STR_0196",
+        "UserId": "e0a63e12-0000-4000-8000-000000001191",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-brooks-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Grace Adeyemi",
+        "ProviderKey": "STR_0197",
+        "UserId": "e0a63e12-0000-4000-8000-000000001192",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-linkedin-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "ProviderDisplayName": "Daniel Okafor",
+        "ProviderKey": "STR_0198",
+        "UserId": "e0a63e12-0000-4000-8000-000000001192",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com-2"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-70",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Priya Raman",
+        "ProviderKey": "STR_0199",
+        "UserId": "e0a63e12-0000-4000-8000-000000001193",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-benali-example-com"
+      }
+    },
+    {
+      "ref": "userlogin-aspnetuserstore-71",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "ProviderDisplayName": "Callum Sinclair",
+        "ProviderKey": "STR_0200",
+        "UserId": "e0a63e12-0000-4000-8000-000000001193",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-benali-example-com"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "userlogin-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "userlogin-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": null,
+        "ProviderDisplayName": "",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "violates": {
+        "field": "LoginProvider",
+        "rule": "`LoginProvider` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "userlogin-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "",
+        "ProviderKey": null,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "violates": {
+        "field": "ProviderKey",
+        "rule": "`ProviderKey` is declared NOT NULL"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "userlogin-case-1",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "userlogin-case-2",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "ProviderDisplayName": "text",
+        "ProviderKey": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "userlogin-case-3",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "STR_0001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "userlogin-case-4",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 100
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "userlogin-case-5",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "ProviderDisplayName": "",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "userlogin-case-6",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "ProviderDisplayName": "text",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "userlogin-case-7",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "text",
+        "ProviderKey": "STR_0001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "userlogin-case-8",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "ProviderDisplayName": "",
+        "ProviderKey": "STR_0001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "userlogin-case-9",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "ProviderDisplayName": "",
+        "ProviderKey": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "userlogin-case-10",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "userlogin-case-11",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "text",
+        "ProviderKey": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "userlogin-case-12",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "ProviderDisplayName": "text",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "userlogin-case-13",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "Alice Whitfield",
+        "ProviderKey": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0013"
+    },
+    {
+      "ref": "userlogin-case-14",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "",
+        "ProviderKey": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0014"
+    },
+    {
+      "ref": "userlogin-case-15",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "ProviderDisplayName": "",
+        "ProviderKey": "STR_0001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0015"
+    }
+  ],
+  "load": "exports/sql/ holds the same rows as INSERT scripts in load order"
+}

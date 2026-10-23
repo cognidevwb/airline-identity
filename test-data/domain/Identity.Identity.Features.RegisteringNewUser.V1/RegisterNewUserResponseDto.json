@@ -1,0 +1,2489 @@
+{
+  "name": "RegisterNewUserResponseDto",
+  "kind": "response",
+  "layer": "domain",
+  "source": "src/Identity/Identity/Features/RegisteringNewUser/V1/RegisterNewUser.cs:34",
+  "columns": [
+    "Id",
+    "FirstName",
+    "LastName",
+    "Username",
+    "PassportNumber"
+  ],
+  "valid": [
+    {
+      "ref": "user-x00001021",
+      "kind": "record",
+      "data": {
+        "FirstName": "Amara",
+        "Id": "e0a63e12-0000-4000-8000-000000001018",
+        "LastName": "Okafor",
+        "PassportNumber": "X00001021",
+        "Username": "amara.okafor@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001022",
+      "kind": "record",
+      "data": {
+        "FirstName": "Liam",
+        "Id": "e0a63e12-0000-4000-8000-000000001019",
+        "LastName": "Brennan",
+        "PassportNumber": "X00001022",
+        "Username": "liam.brennan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001023",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001020",
+        "LastName": "Marchetti",
+        "PassportNumber": "X00001023",
+        "Username": "sofia.marchetti@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001024",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kenji",
+        "Id": "e0a63e12-0000-4000-8000-000000001021",
+        "LastName": "Watanabe",
+        "PassportNumber": "X00001024",
+        "Username": "kenji.watanabe@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001025",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001022",
+        "LastName": "Raghunathan",
+        "PassportNumber": "X00001025",
+        "Username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001026",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001023",
+        "LastName": "Fernandez",
+        "PassportNumber": "X00001026",
+        "Username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001027",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": "e0a63e12-0000-4000-8000-000000001024",
+        "LastName": "Dubois",
+        "PassportNumber": "X00001027",
+        "Username": "chloe.dubois@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001028",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oluwaseun",
+        "Id": "e0a63e12-0000-4000-8000-000000001025",
+        "LastName": "Adeyemi",
+        "PassportNumber": "X00001028",
+        "Username": "oluwaseun.adeyemi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001029",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001026",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001029",
+        "Username": "hannah.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001030",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rohan",
+        "Id": "e0a63e12-0000-4000-8000-000000001027",
+        "LastName": "Mehta",
+        "PassportNumber": "X00001030",
+        "Username": "rohan.mehta@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001031",
+      "kind": "record",
+      "data": {
+        "FirstName": "Isabella",
+        "Id": "e0a63e12-0000-4000-8000-000000001028",
+        "LastName": "Rossi",
+        "PassportNumber": "X00001031",
+        "Username": "isabella.rossi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001032",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tariq",
+        "Id": "e0a63e12-0000-4000-8000-000000001029",
+        "LastName": "Hussain",
+        "PassportNumber": "X00001032",
+        "Username": "tariq.hussain@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001033",
+      "kind": "record",
+      "data": {
+        "FirstName": "Grace",
+        "Id": "e0a63e12-0000-4000-8000-000000001030",
+        "LastName": "Mwangi",
+        "PassportNumber": "X00001033",
+        "Username": "grace.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001034",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucas",
+        "Id": "e0a63e12-0000-4000-8000-000000001031",
+        "LastName": "Schneider",
+        "PassportNumber": "X00001034",
+        "Username": "lucas.schneider@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001035",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei Ling",
+        "Id": "e0a63e12-0000-4000-8000-000000001032",
+        "LastName": "Chen",
+        "PassportNumber": "X00001035",
+        "Username": "meiling.chen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001036",
+      "kind": "record",
+      "data": {
+        "FirstName": "Daniel",
+        "Id": "e0a63e12-0000-4000-8000-000000001033",
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001036",
+        "Username": "daniel.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001037",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001034",
+        "LastName": "Al-Sayed",
+        "PassportNumber": "X00001037",
+        "Username": "fatima.alsayed@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001038",
+      "kind": "record",
+      "data": {
+        "FirstName": "Noah",
+        "Id": "e0a63e12-0000-4000-8000-000000001035",
+        "LastName": "Thompson",
+        "PassportNumber": "X00001038",
+        "Username": "noah.thompson@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001039",
+      "kind": "record",
+      "data": {
+        "FirstName": "Elena",
+        "Id": "e0a63e12-0000-4000-8000-000000001036",
+        "LastName": "Petrova",
+        "PassportNumber": "X00001039",
+        "Username": "elena.petrova@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001040",
+      "kind": "record",
+      "data": {
+        "FirstName": "Carlos",
+        "Id": "e0a63e12-0000-4000-8000-000000001037",
+        "LastName": "Mendoza",
+        "PassportNumber": "X00001040",
+        "Username": "carlos.mendoza@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001041",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aoife",
+        "Id": "e0a63e12-0000-4000-8000-000000001038",
+        "LastName": "Gallagher",
+        "PassportNumber": "X00001041",
+        "Username": "aoife.gallagher@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001042",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yuki",
+        "Id": "e0a63e12-0000-4000-8000-000000001039",
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001042",
+        "Username": "yuki.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001043",
+      "kind": "record",
+      "data": {
+        "FirstName": "Samuel",
+        "Id": "e0a63e12-0000-4000-8000-000000001040",
+        "LastName": "Osei",
+        "PassportNumber": "X00001043",
+        "Username": "samuel.osei@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001044",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ingrid",
+        "Id": "e0a63e12-0000-4000-8000-000000001041",
+        "LastName": "Halvorsen",
+        "PassportNumber": "X00001044",
+        "Username": "ingrid.halvorsen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001045",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jamal",
+        "Id": "e0a63e12-0000-4000-8000-000000001042",
+        "LastName": "Washington",
+        "PassportNumber": "X00001045",
+        "Username": "jamal.washington@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001046",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001043",
+        "LastName": "Marquez",
+        "PassportNumber": "X00001046",
+        "Username": "sofia.marquez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001047",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hiroshi",
+        "Id": "e0a63e12-0000-4000-8000-000000001044",
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001047",
+        "Username": "hiroshi.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001048",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001045",
+        "LastName": "Venkataraman",
+        "PassportNumber": "X00001048",
+        "Username": "priya.venkataraman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001049",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oliver",
+        "Id": "e0a63e12-0000-4000-8000-000000001046",
+        "LastName": "Haugen",
+        "PassportNumber": "X00001049",
+        "Username": "oliver.haugen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001050",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001047",
+        "LastName": "Al-Mansouri",
+        "PassportNumber": "X00001050",
+        "Username": "fatima.almansouri@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001051",
+      "kind": "record",
+      "data": {
+        "FirstName": "Daniel",
+        "Id": "e0a63e12-0000-4000-8000-000000001048",
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001051",
+        "Username": "daniel.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001052",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": "e0a63e12-0000-4000-8000-000000001049",
+        "LastName": "Dubois",
+        "PassportNumber": "X00001052",
+        "Username": "chloe.dubois@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001053",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kwame",
+        "Id": "e0a63e12-0000-4000-8000-000000001050",
+        "LastName": "Mensah",
+        "PassportNumber": "X00001053",
+        "Username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001054",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chiara",
+        "Id": "e0a63e12-0000-4000-8000-000000001051",
+        "LastName": "Moretti",
+        "PassportNumber": "X00001054",
+        "Username": "chiara.moretti@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001055",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kwame",
+        "Id": "e0a63e12-0000-4000-8000-000000001052",
+        "LastName": "Mensah",
+        "PassportNumber": "X00001055",
+        "Username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001056",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001053",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001056",
+        "Username": "sofia.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001057",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rohan",
+        "Id": "e0a63e12-0000-4000-8000-000000001054",
+        "LastName": "Deshpande",
+        "PassportNumber": "X00001057",
+        "Username": "rohan.deshpande@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001058",
+      "kind": "record",
+      "data": {
+        "FirstName": "Emily",
+        "Id": "e0a63e12-0000-4000-8000-000000001055",
+        "LastName": "Hargrove",
+        "PassportNumber": "X00001058",
+        "Username": "emily.hargrove@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001059",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001056",
+        "LastName": "Wiśniewski",
+        "PassportNumber": "X00001059",
+        "Username": "tomasz.wisniewski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001060",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yuki",
+        "Id": "e0a63e12-0000-4000-8000-000000001057",
+        "LastName": "Tanabe",
+        "PassportNumber": "X00001060",
+        "Username": "yuki.tanabe@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001061",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001058",
+        "LastName": "Al-Rashid",
+        "PassportNumber": "X00001061",
+        "Username": "fatima.alrashid@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001062",
+      "kind": "record",
+      "data": {
+        "FirstName": "Daniel",
+        "Id": "e0a63e12-0000-4000-8000-000000001059",
+        "LastName": "Cruz",
+        "PassportNumber": "X00001062",
+        "Username": "daniel.cruz@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001063",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ingrid",
+        "Id": "e0a63e12-0000-4000-8000-000000001060",
+        "LastName": "Solheim",
+        "PassportNumber": "X00001063",
+        "Username": "ingrid.solheim@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001064",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001061",
+        "LastName": "Fernández",
+        "PassportNumber": "X00001064",
+        "Username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001065",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001062",
+        "LastName": "Venkataraman",
+        "PassportNumber": "X00001065",
+        "Username": "priya.venkataraman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001066",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oliver",
+        "Id": "e0a63e12-0000-4000-8000-000000001063",
+        "LastName": "Whitcombe",
+        "PassportNumber": "X00001066",
+        "Username": "oliver.whitcombe@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001067",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": "e0a63e12-0000-4000-8000-000000001064",
+        "LastName": "Bello",
+        "PassportNumber": "X00001067",
+        "Username": "aisha.bello@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001068",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucas",
+        "Id": "e0a63e12-0000-4000-8000-000000001065",
+        "LastName": "Dubois",
+        "PassportNumber": "X00001068",
+        "Username": "lucas.dubois@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001069",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001066",
+        "LastName": "Kowalczyk",
+        "PassportNumber": "X00001069",
+        "Username": "hannah.kowalczyk@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001070",
+      "kind": "record",
+      "data": {
+        "FirstName": "Santiago",
+        "Id": "e0a63e12-0000-4000-8000-000000001067",
+        "LastName": "Ortega",
+        "PassportNumber": "X00001070",
+        "Username": "santiago.ortega@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001071",
+      "kind": "record",
+      "data": {
+        "FirstName": "Nadia",
+        "Id": "e0a63e12-0000-4000-8000-000000001068",
+        "LastName": "Petrova",
+        "PassportNumber": "X00001071",
+        "Username": "nadia.petrova@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001072",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jamal",
+        "Id": "e0a63e12-0000-4000-8000-000000001069",
+        "LastName": "Washington",
+        "PassportNumber": "X00001072",
+        "Username": "jamal.washington@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001073",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei",
+        "Id": "e0a63e12-0000-4000-8000-000000001070",
+        "LastName": "Zhang",
+        "PassportNumber": "X00001073",
+        "Username": "mei.zhang@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001074",
+      "kind": "record",
+      "data": {
+        "FirstName": "Gabriel",
+        "Id": "e0a63e12-0000-4000-8000-000000001071",
+        "LastName": "Oliveira",
+        "PassportNumber": "X00001074",
+        "Username": "gabriel.oliveira@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001075",
+      "kind": "record",
+      "data": {
+        "FirstName": "Eleanor",
+        "Id": "e0a63e12-0000-4000-8000-000000001072",
+        "LastName": "Prescott",
+        "PassportNumber": "X00001075",
+        "Username": "eleanor.prescott@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001076",
+      "kind": "record",
+      "data": {
+        "FirstName": "Arjun",
+        "Id": "e0a63e12-0000-4000-8000-000000001073",
+        "LastName": "Malhotra",
+        "PassportNumber": "X00001076",
+        "Username": "arjun.malhotra@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001077",
+      "kind": "record",
+      "data": {
+        "FirstName": "Freya",
+        "Id": "e0a63e12-0000-4000-8000-000000001074",
+        "LastName": "Henriksen",
+        "PassportNumber": "X00001077",
+        "Username": "freya.henriksen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001078",
+      "kind": "record",
+      "data": {
+        "FirstName": "Liam",
+        "Id": "e0a63e12-0000-4000-8000-000000001075",
+        "LastName": "Brennan",
+        "PassportNumber": "X00001078",
+        "Username": "liam.brennan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001079",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chidi",
+        "Id": "e0a63e12-0000-4000-8000-000000001076",
+        "LastName": "Nwosu",
+        "PassportNumber": "X00001079",
+        "Username": "chidi.nwosu@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001080",
+      "kind": "record",
+      "data": {
+        "FirstName": "Elena",
+        "Id": "e0a63e12-0000-4000-8000-000000001077",
+        "LastName": "Petrova",
+        "PassportNumber": "X00001080",
+        "Username": "elena.petrova@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001081",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001078",
+        "LastName": "Fernandez",
+        "PassportNumber": "X00001081",
+        "Username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001082",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001079",
+        "LastName": "Raman",
+        "PassportNumber": "X00001082",
+        "Username": "priya.raman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001083",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001080",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001083",
+        "Username": "hannah.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001084",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001081",
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001084",
+        "Username": "tomasz.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001085",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aiko",
+        "Id": "e0a63e12-0000-4000-8000-000000001082",
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001085",
+        "Username": "aiko.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001086",
+      "kind": "record",
+      "data": {
+        "FirstName": "Samuel",
+        "Id": "e0a63e12-0000-4000-8000-000000001083",
+        "LastName": "Mensah",
+        "PassportNumber": "X00001086",
+        "Username": "samuel.mensah@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001087",
+      "kind": "record",
+      "data": {
+        "FirstName": "Isabelle",
+        "Id": "e0a63e12-0000-4000-8000-000000001084",
+        "LastName": "Moreau",
+        "PassportNumber": "X00001087",
+        "Username": "isabelle.moreau@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001088",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rafael",
+        "Id": "e0a63e12-0000-4000-8000-000000001085",
+        "LastName": "Santos",
+        "PassportNumber": "X00001088",
+        "Username": "rafael.santos@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001089",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001086",
+        "LastName": "Al-Mansoori",
+        "PassportNumber": "X00001089",
+        "Username": "fatima.almansoori@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001090",
+      "kind": "record",
+      "data": {
+        "FirstName": "Declan",
+        "Id": "e0a63e12-0000-4000-8000-000000001087",
+        "LastName": "O'Reilly",
+        "PassportNumber": "X00001090",
+        "Username": "declan.oreilly@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001091",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yuki",
+        "Id": "e0a63e12-0000-4000-8000-000000001088",
+        "LastName": "Nakamura",
+        "PassportNumber": "X00001091",
+        "Username": "yuki.nakamura@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001092",
+      "kind": "record",
+      "data": {
+        "FirstName": "Olivia",
+        "Id": "e0a63e12-0000-4000-8000-000000001089",
+        "LastName": "Hartman",
+        "PassportNumber": "X00001092",
+        "Username": "olivia.hartman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001093",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kwame",
+        "Id": "e0a63e12-0000-4000-8000-000000001090",
+        "LastName": "Boateng",
+        "PassportNumber": "X00001093",
+        "Username": "kwame.boateng@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001094",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001091",
+        "LastName": "Rossi",
+        "PassportNumber": "X00001094",
+        "Username": "sofia.rossi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001095",
+      "kind": "record",
+      "data": {
+        "FirstName": "Dmitri",
+        "Id": "e0a63e12-0000-4000-8000-000000001092",
+        "LastName": "Volkov",
+        "PassportNumber": "X00001095",
+        "Username": "dmitri.volkov@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001096",
+      "kind": "record",
+      "data": {
+        "FirstName": "Naledi",
+        "Id": "e0a63e12-0000-4000-8000-000000001093",
+        "LastName": "Dlamini",
+        "PassportNumber": "X00001096",
+        "Username": "naledi.dlamini@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001097",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jonas",
+        "Id": "e0a63e12-0000-4000-8000-000000001094",
+        "LastName": "Becker",
+        "PassportNumber": "X00001097",
+        "Username": "jonas.becker@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001098",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei",
+        "Id": "e0a63e12-0000-4000-8000-000000001095",
+        "LastName": "Chen",
+        "PassportNumber": "X00001098",
+        "Username": "mei.chen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001099",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucas",
+        "Id": "e0a63e12-0000-4000-8000-000000001096",
+        "LastName": "Oliveira",
+        "PassportNumber": "X00001099",
+        "Username": "lucas.oliveira@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001100",
+      "kind": "record",
+      "data": {
+        "FirstName": "Zainab",
+        "Id": "e0a63e12-0000-4000-8000-000000001097",
+        "LastName": "Hussain",
+        "PassportNumber": "X00001100",
+        "Username": "zainab.hussain@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001101",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ethan",
+        "Id": "e0a63e12-0000-4000-8000-000000001098",
+        "LastName": "Caldwell",
+        "PassportNumber": "X00001101",
+        "Username": "ethan.caldwell@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001102",
+      "kind": "record",
+      "data": {
+        "FirstName": "Anika",
+        "Id": "e0a63e12-0000-4000-8000-000000001099",
+        "LastName": "Sharma",
+        "PassportNumber": "X00001102",
+        "Username": "anika.sharma@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001103",
+      "kind": "record",
+      "data": {
+        "FirstName": "Gabriel",
+        "Id": "e0a63e12-0000-4000-8000-000000001100",
+        "LastName": "Torres",
+        "PassportNumber": "X00001103",
+        "Username": "gabriel.torres@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001104",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001101",
+        "LastName": "Raghunathan",
+        "PassportNumber": "X00001104",
+        "Username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001105",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001102",
+        "LastName": "Alvarez",
+        "PassportNumber": "X00001105",
+        "Username": "mateo.alvarez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001106",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ingrid",
+        "Id": "e0a63e12-0000-4000-8000-000000001103",
+        "LastName": "Solberg",
+        "PassportNumber": "X00001106",
+        "Username": "ingrid.solberg@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001107",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kwame",
+        "Id": "e0a63e12-0000-4000-8000-000000001104",
+        "LastName": "Mensah",
+        "PassportNumber": "X00001107",
+        "Username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001108",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yuki",
+        "Id": "e0a63e12-0000-4000-8000-000000001105",
+        "LastName": "Tanabe",
+        "PassportNumber": "X00001108",
+        "Username": "yuki.tanabe@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001109",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001106",
+        "LastName": "Al-Sayed",
+        "PassportNumber": "X00001109",
+        "Username": "fatima.alsayed@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001110",
+      "kind": "record",
+      "data": {
+        "FirstName": "Declan",
+        "Id": "e0a63e12-0000-4000-8000-000000001107",
+        "LastName": "O'Rourke",
+        "PassportNumber": "X00001110",
+        "Username": "declan.orourke@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001111",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chiara",
+        "Id": "e0a63e12-0000-4000-8000-000000001108",
+        "LastName": "Bellini",
+        "PassportNumber": "X00001111",
+        "Username": "chiara.bellini@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001112",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001109",
+        "LastName": "Wiśniewski",
+        "PassportNumber": "X00001112",
+        "Username": "tomasz.wisniewski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001113",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": "e0a63e12-0000-4000-8000-000000001110",
+        "LastName": "Bello",
+        "PassportNumber": "X00001113",
+        "Username": "aisha.bello@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001114",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hamish",
+        "Id": "e0a63e12-0000-4000-8000-000000001111",
+        "LastName": "Fraser",
+        "PassportNumber": "X00001114",
+        "Username": "hamish.fraser@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001115",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001112",
+        "LastName": "Petrova",
+        "PassportNumber": "X00001115",
+        "Username": "sofia.petrova@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001116",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rohan",
+        "Id": "e0a63e12-0000-4000-8000-000000001113",
+        "LastName": "Mehta",
+        "PassportNumber": "X00001116",
+        "Username": "rohan.mehta@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001117",
+      "kind": "record",
+      "data": {
+        "FirstName": "Camille",
+        "Id": "e0a63e12-0000-4000-8000-000000001114",
+        "LastName": "Dubois",
+        "PassportNumber": "X00001117",
+        "Username": "camille.dubois@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001118",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jun-ho",
+        "Id": "e0a63e12-0000-4000-8000-000000001115",
+        "LastName": "Park",
+        "PassportNumber": "X00001118",
+        "Username": "junho.park@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001119",
+      "kind": "record",
+      "data": {
+        "FirstName": "Nadia",
+        "Id": "e0a63e12-0000-4000-8000-000000001116",
+        "LastName": "Haddad",
+        "PassportNumber": "X00001119",
+        "Username": "nadia.haddad@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001120",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucas",
+        "Id": "e0a63e12-0000-4000-8000-000000001117",
+        "LastName": "Ferreira",
+        "PassportNumber": "X00001120",
+        "Username": "lucas.ferreira@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001121",
+      "kind": "record",
+      "data": {
+        "FirstName": "Emily",
+        "Id": "e0a63e12-0000-4000-8000-000000001118",
+        "LastName": "Thornton",
+        "PassportNumber": "X00001121",
+        "Username": "emily.thornton@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001122",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oluwaseun",
+        "Id": "e0a63e12-0000-4000-8000-000000001119",
+        "LastName": "Adeyemi",
+        "PassportNumber": "X00001122",
+        "Username": "oluwaseun.adeyemi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001123",
+      "kind": "record",
+      "data": {
+        "FirstName": "Greta",
+        "Id": "e0a63e12-0000-4000-8000-000000001120",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001123",
+        "Username": "greta.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001124",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mohammed",
+        "Id": "e0a63e12-0000-4000-8000-000000001121",
+        "LastName": "Rahman",
+        "PassportNumber": "X00001124",
+        "Username": "mohammed.rahman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001125",
+      "kind": "record",
+      "data": {
+        "FirstName": "Valentina",
+        "Id": "e0a63e12-0000-4000-8000-000000001122",
+        "LastName": "Cruz",
+        "PassportNumber": "X00001125",
+        "Username": "valentina.cruz@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001126",
+      "kind": "record",
+      "data": {
+        "FirstName": "Pavel",
+        "Id": "e0a63e12-0000-4000-8000-000000001123",
+        "LastName": "Novak",
+        "PassportNumber": "X00001126",
+        "Username": "pavel.novak@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001127",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001124",
+        "LastName": "Goldberg",
+        "PassportNumber": "X00001127",
+        "Username": "hannah.goldberg@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001128",
+      "kind": "record",
+      "data": {
+        "FirstName": "Thabo",
+        "Id": "e0a63e12-0000-4000-8000-000000001125",
+        "LastName": "Nkosi",
+        "PassportNumber": "X00001128",
+        "Username": "thabo.nkosi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001129",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001126",
+        "LastName": "Venkataraman",
+        "PassportNumber": "X00001129",
+        "Username": "priya.venkataraman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001130",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001127",
+        "LastName": "Alvarado",
+        "PassportNumber": "X00001130",
+        "Username": "mateo.alvarado@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001131",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": "e0a63e12-0000-4000-8000-000000001128",
+        "LastName": "Whitfield",
+        "PassportNumber": "X00001131",
+        "Username": "chloe.whitfield@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001132",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kwame",
+        "Id": "e0a63e12-0000-4000-8000-000000001129",
+        "LastName": "Asante",
+        "PassportNumber": "X00001132",
+        "Username": "kwame.asante@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001133",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001130",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001133",
+        "Username": "hannah.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001134",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001131",
+        "LastName": "Kowalczyk",
+        "PassportNumber": "X00001134",
+        "Username": "tomasz.kowalczyk@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001135",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": "e0a63e12-0000-4000-8000-000000001132",
+        "LastName": "Rahman",
+        "PassportNumber": "X00001135",
+        "Username": "aisha.rahman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001136",
+      "kind": "record",
+      "data": {
+        "FirstName": "Connor",
+        "Id": "e0a63e12-0000-4000-8000-000000001133",
+        "LastName": "Gallagher",
+        "PassportNumber": "X00001136",
+        "Username": "connor.gallagher@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001137",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei",
+        "Id": "e0a63e12-0000-4000-8000-000000001134",
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001137",
+        "Username": "mei.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001138",
+      "kind": "record",
+      "data": {
+        "FirstName": "Diego",
+        "Id": "e0a63e12-0000-4000-8000-000000001135",
+        "LastName": "Fernandes",
+        "PassportNumber": "X00001138",
+        "Username": "diego.fernandes@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001139",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001136",
+        "LastName": "Marchetti",
+        "PassportNumber": "X00001139",
+        "Username": "sofia.marchetti@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001140",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jamal",
+        "Id": "e0a63e12-0000-4000-8000-000000001137",
+        "LastName": "Hendricks",
+        "PassportNumber": "X00001140",
+        "Username": "jamal.hendricks@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001141",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ingrid",
+        "Id": "e0a63e12-0000-4000-8000-000000001138",
+        "LastName": "Solberg",
+        "PassportNumber": "X00001141",
+        "Username": "ingrid.solberg@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001142",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rafael",
+        "Id": "e0a63e12-0000-4000-8000-000000001139",
+        "LastName": "Mendoza",
+        "PassportNumber": "X00001142",
+        "Username": "rafael.mendoza@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001143",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001140",
+        "LastName": "Al-Sayed",
+        "PassportNumber": "X00001143",
+        "Username": "fatima.alsayed@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001144",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oliver",
+        "Id": "e0a63e12-0000-4000-8000-000000001141",
+        "LastName": "Hartley",
+        "PassportNumber": "X00001144",
+        "Username": "oliver.hartley@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001145",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucia",
+        "Id": "e0a63e12-0000-4000-8000-000000001142",
+        "LastName": "Ferrer",
+        "PassportNumber": "X00001145",
+        "Username": "lucia.ferrer@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001146",
+      "kind": "record",
+      "data": {
+        "FirstName": "Dmitri",
+        "Id": "e0a63e12-0000-4000-8000-000000001143",
+        "LastName": "Volkov",
+        "PassportNumber": "X00001146",
+        "Username": "dmitri.volkov@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001147",
+      "kind": "record",
+      "data": {
+        "FirstName": "Grace",
+        "Id": "e0a63e12-0000-4000-8000-000000001144",
+        "LastName": "Mutua",
+        "PassportNumber": "X00001147",
+        "Username": "grace.mutua@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001148",
+      "kind": "record",
+      "data": {
+        "FirstName": "Henrik",
+        "Id": "e0a63e12-0000-4000-8000-000000001145",
+        "LastName": "Nielsen",
+        "PassportNumber": "X00001148",
+        "Username": "henrik.nielsen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001149",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yara",
+        "Id": "e0a63e12-0000-4000-8000-000000001146",
+        "LastName": "Haddad",
+        "PassportNumber": "X00001149",
+        "Username": "yara.haddad@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001150",
+      "kind": "record",
+      "data": {
+        "FirstName": "Nathan",
+        "Id": "e0a63e12-0000-4000-8000-000000001147",
+        "LastName": "Cho",
+        "PassportNumber": "X00001150",
+        "Username": "nathan.cho@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001151",
+      "kind": "record",
+      "data": {
+        "FirstName": "Camille",
+        "Id": "e0a63e12-0000-4000-8000-000000001148",
+        "LastName": "Dubois",
+        "PassportNumber": "X00001151",
+        "Username": "camille.dubois@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001152",
+      "kind": "record",
+      "data": {
+        "FirstName": "Thabo",
+        "Id": "e0a63e12-0000-4000-8000-000000001149",
+        "LastName": "Nkosi",
+        "PassportNumber": "X00001152",
+        "Username": "thabo.nkosi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001153",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001150",
+        "LastName": "Raghunathan",
+        "PassportNumber": "X00001153",
+        "Username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001154",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001151",
+        "LastName": "Fernández",
+        "PassportNumber": "X00001154",
+        "Username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001155",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001152",
+        "LastName": "Whitfield",
+        "PassportNumber": "X00001155",
+        "Username": "hannah.whitfield@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001156",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kenji",
+        "Id": "e0a63e12-0000-4000-8000-000000001153",
+        "LastName": "Matsuda",
+        "PassportNumber": "X00001156",
+        "Username": "kenji.matsuda@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001157",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001154",
+        "LastName": "Al-Hashimi",
+        "PassportNumber": "X00001157",
+        "Username": "fatima.alhashimi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001158",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oliver",
+        "Id": "e0a63e12-0000-4000-8000-000000001155",
+        "LastName": "Hartley",
+        "PassportNumber": "X00001158",
+        "Username": "oliver.hartley@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001159",
+      "kind": "record",
+      "data": {
+        "FirstName": "Camila",
+        "Id": "e0a63e12-0000-4000-8000-000000001156",
+        "LastName": "Restrepo",
+        "PassportNumber": "X00001159",
+        "Username": "camila.restrepo@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001160",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sven",
+        "Id": "e0a63e12-0000-4000-8000-000000001157",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001160",
+        "Username": "sven.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001161",
+      "kind": "record",
+      "data": {
+        "FirstName": "Adaeze",
+        "Id": "e0a63e12-0000-4000-8000-000000001158",
+        "LastName": "Nwosu",
+        "PassportNumber": "X00001161",
+        "Username": "adaeze.nwosu@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001162",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jonas",
+        "Id": "e0a63e12-0000-4000-8000-000000001159",
+        "LastName": "Becker",
+        "PassportNumber": "X00001162",
+        "Username": "jonas.becker@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001163",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei",
+        "Id": "e0a63e12-0000-4000-8000-000000001160",
+        "LastName": "Zhang",
+        "PassportNumber": "X00001163",
+        "Username": "mei.zhang@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001164",
+      "kind": "record",
+      "data": {
+        "FirstName": "Declan",
+        "Id": "e0a63e12-0000-4000-8000-000000001161",
+        "LastName": "O'Sullivan",
+        "PassportNumber": "X00001164",
+        "Username": "declan.osullivan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001165",
+      "kind": "record",
+      "data": {
+        "FirstName": "Isabela",
+        "Id": "e0a63e12-0000-4000-8000-000000001162",
+        "LastName": "Monteiro",
+        "PassportNumber": "X00001165",
+        "Username": "isabela.monteiro@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001166",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001163",
+        "LastName": "Kowalczyk",
+        "PassportNumber": "X00001166",
+        "Username": "tomasz.kowalczyk@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001167",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": "e0a63e12-0000-4000-8000-000000001164",
+        "LastName": "Rahman",
+        "PassportNumber": "X00001167",
+        "Username": "aisha.rahman@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001168",
+      "kind": "record",
+      "data": {
+        "FirstName": "Gabriel",
+        "Id": "e0a63e12-0000-4000-8000-000000001165",
+        "LastName": "Tremblay",
+        "PassportNumber": "X00001168",
+        "Username": "gabriel.tremblay@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001169",
+      "kind": "record",
+      "data": {
+        "FirstName": "Noor",
+        "Id": "e0a63e12-0000-4000-8000-000000001166",
+        "LastName": "Khalid",
+        "PassportNumber": "X00001169",
+        "Username": "noor.khalid@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001170",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucas",
+        "Id": "e0a63e12-0000-4000-8000-000000001167",
+        "LastName": "Moreau",
+        "PassportNumber": "X00001170",
+        "Username": "lucas.moreau@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001171",
+      "kind": "record",
+      "data": {
+        "FirstName": "Zainab",
+        "Id": "e0a63e12-0000-4000-8000-000000001168",
+        "LastName": "Mwangi",
+        "PassportNumber": "X00001171",
+        "Username": "zainab.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001172",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ethan",
+        "Id": "e0a63e12-0000-4000-8000-000000001169",
+        "LastName": "Caldwell",
+        "PassportNumber": "X00001172",
+        "Username": "ethan.caldwell@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001173",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001170",
+        "LastName": "Papadopoulos",
+        "PassportNumber": "X00001173",
+        "Username": "sofia.papadopoulos@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001174",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rohan",
+        "Id": "e0a63e12-0000-4000-8000-000000001171",
+        "LastName": "Mehta",
+        "PassportNumber": "X00001174",
+        "Username": "rohan.mehta@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001175",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": "e0a63e12-0000-4000-8000-000000001172",
+        "LastName": "Anderson",
+        "PassportNumber": "X00001175",
+        "Username": "chloe.anderson@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001176",
+      "kind": "record",
+      "data": {
+        "FirstName": "Dmitri",
+        "Id": "e0a63e12-0000-4000-8000-000000001173",
+        "LastName": "Volkov",
+        "PassportNumber": "X00001176",
+        "Username": "dmitri.volkov@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001177",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ngozi",
+        "Id": "e0a63e12-0000-4000-8000-000000001174",
+        "LastName": "Adeyemi",
+        "PassportNumber": "X00001177",
+        "Username": "ngozi.adeyemi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001178",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001175",
+        "LastName": "Fernandez",
+        "PassportNumber": "X00001178",
+        "Username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001179",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hana",
+        "Id": "e0a63e12-0000-4000-8000-000000001176",
+        "LastName": "Takahashi",
+        "PassportNumber": "X00001179",
+        "Username": "hana.takahashi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001180",
+      "kind": "record",
+      "data": {
+        "FirstName": "Oliver",
+        "Id": "e0a63e12-0000-4000-8000-000000001177",
+        "LastName": "Whitaker",
+        "PassportNumber": "X00001180",
+        "Username": "oliver.whitaker@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001181",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001178",
+        "LastName": "Raghunathan",
+        "PassportNumber": "X00001181",
+        "Username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001182",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lucas",
+        "Id": "e0a63e12-0000-4000-8000-000000001179",
+        "LastName": "Moreau",
+        "PassportNumber": "X00001182",
+        "Username": "lucas.moreau@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001183",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001180",
+        "LastName": "Rossi",
+        "PassportNumber": "X00001183",
+        "Username": "sofia.rossi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001184",
+      "kind": "record",
+      "data": {
+        "FirstName": "Jamal",
+        "Id": "e0a63e12-0000-4000-8000-000000001181",
+        "LastName": "Carter",
+        "PassportNumber": "X00001184",
+        "Username": "jamal.carter@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001185",
+      "kind": "record",
+      "data": {
+        "FirstName": "Elena",
+        "Id": "e0a63e12-0000-4000-8000-000000001182",
+        "LastName": "Petrova",
+        "PassportNumber": "X00001185",
+        "Username": "elena.petrova@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001186",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001183",
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001186",
+        "Username": "tomasz.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001187",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": "e0a63e12-0000-4000-8000-000000001184",
+        "LastName": "Khan",
+        "PassportNumber": "X00001187",
+        "Username": "aisha.khan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001188",
+      "kind": "record",
+      "data": {
+        "FirstName": "Daniel",
+        "Id": "e0a63e12-0000-4000-8000-000000001185",
+        "LastName": "Schmidt",
+        "PassportNumber": "X00001188",
+        "Username": "daniel.schmidt@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001189",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": "e0a63e12-0000-4000-8000-000000001186",
+        "LastName": "Nguyen",
+        "PassportNumber": "X00001189",
+        "Username": "chloe.nguyen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001190",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mohammed",
+        "Id": "e0a63e12-0000-4000-8000-000000001187",
+        "LastName": "Al-Farsi",
+        "PassportNumber": "X00001190",
+        "Username": "mohammed.alfarsi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001191",
+      "kind": "record",
+      "data": {
+        "FirstName": "Isabella",
+        "Id": "e0a63e12-0000-4000-8000-000000001188",
+        "LastName": "Santos",
+        "PassportNumber": "X00001191",
+        "Username": "isabella.santos@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001192",
+      "kind": "record",
+      "data": {
+        "FirstName": "Henrik",
+        "Id": "e0a63e12-0000-4000-8000-000000001189",
+        "LastName": "Larsen",
+        "PassportNumber": "X00001192",
+        "Username": "henrik.larsen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001193",
+      "kind": "record",
+      "data": {
+        "FirstName": "Grace",
+        "Id": "e0a63e12-0000-4000-8000-000000001190",
+        "LastName": "Mwangi",
+        "PassportNumber": "X00001193",
+        "Username": "grace.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001194",
+      "kind": "record",
+      "data": {
+        "FirstName": "Ethan",
+        "Id": "e0a63e12-0000-4000-8000-000000001191",
+        "LastName": "Brooks",
+        "PassportNumber": "X00001194",
+        "Username": "ethan.brooks@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001195",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yuki",
+        "Id": "e0a63e12-0000-4000-8000-000000001192",
+        "LastName": "Tanaka",
+        "PassportNumber": "X00001195",
+        "Username": "yuki.tanaka@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001196",
+      "kind": "record",
+      "data": {
+        "FirstName": "Fatima",
+        "Id": "e0a63e12-0000-4000-8000-000000001193",
+        "LastName": "Benali",
+        "PassportNumber": "X00001196",
+        "Username": "fatima.benali@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001197",
+      "kind": "record",
+      "data": {
+        "FirstName": "Connor",
+        "Id": "e0a63e12-0000-4000-8000-000000001194",
+        "LastName": "O'Neill",
+        "PassportNumber": "X00001197",
+        "Username": "connor.oneill@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001198",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei Lin",
+        "Id": "e0a63e12-0000-4000-8000-000000001195",
+        "LastName": "Chen",
+        "PassportNumber": "X00001198",
+        "Username": "mei.chen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001199",
+      "kind": "record",
+      "data": {
+        "FirstName": "Andres",
+        "Id": "e0a63e12-0000-4000-8000-000000001196",
+        "LastName": "Gutierrez",
+        "PassportNumber": "X00001199",
+        "Username": "andres.gutierrez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001200",
+      "kind": "record",
+      "data": {
+        "FirstName": "Zainab",
+        "Id": "e0a63e12-0000-4000-8000-000000001197",
+        "LastName": "Yusuf",
+        "PassportNumber": "X00001200",
+        "Username": "zainab.yusuf@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001201",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lars",
+        "Id": "e0a63e12-0000-4000-8000-000000001198",
+        "LastName": "Johansson",
+        "PassportNumber": "X00001201",
+        "Username": "lars.johansson@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001202",
+      "kind": "record",
+      "data": {
+        "FirstName": "Priya",
+        "Id": "e0a63e12-0000-4000-8000-000000001199",
+        "LastName": "Raghunathan",
+        "PassportNumber": "X00001202",
+        "Username": "priya.raghunathan@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001203",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mateo",
+        "Id": "e0a63e12-0000-4000-8000-000000001200",
+        "LastName": "Fernández",
+        "PassportNumber": "X00001203",
+        "Username": "mateo.fernandez@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001204",
+      "kind": "record",
+      "data": {
+        "FirstName": "Hannah",
+        "Id": "e0a63e12-0000-4000-8000-000000001201",
+        "LastName": "Whitcombe",
+        "PassportNumber": "X00001204",
+        "Username": "hannah.whitcombe@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001205",
+      "kind": "record",
+      "data": {
+        "FirstName": "Kwame",
+        "Id": "e0a63e12-0000-4000-8000-000000001202",
+        "LastName": "Mensah",
+        "PassportNumber": "X00001205",
+        "Username": "kwame.mensah@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001206",
+      "kind": "record",
+      "data": {
+        "FirstName": "Sofia",
+        "Id": "e0a63e12-0000-4000-8000-000000001203",
+        "LastName": "Lindqvist",
+        "PassportNumber": "X00001206",
+        "Username": "sofia.lindqvist@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001207",
+      "kind": "record",
+      "data": {
+        "FirstName": "Daniel",
+        "Id": "e0a63e12-0000-4000-8000-000000001204",
+        "LastName": "Moreau",
+        "PassportNumber": "X00001207",
+        "Username": "daniel.moreau@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001208",
+      "kind": "record",
+      "data": {
+        "FirstName": "Yuki",
+        "Id": "e0a63e12-0000-4000-8000-000000001205",
+        "LastName": "Tanabe",
+        "PassportNumber": "X00001208",
+        "Username": "yuki.tanabe@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001209",
+      "kind": "record",
+      "data": {
+        "FirstName": "Isabella",
+        "Id": "e0a63e12-0000-4000-8000-000000001206",
+        "LastName": "Rossi",
+        "PassportNumber": "X00001209",
+        "Username": "isabella.rossi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001210",
+      "kind": "record",
+      "data": {
+        "FirstName": "Omar",
+        "Id": "e0a63e12-0000-4000-8000-000000001207",
+        "LastName": "Haddad",
+        "PassportNumber": "X00001210",
+        "Username": "omar.haddad@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001211",
+      "kind": "record",
+      "data": {
+        "FirstName": "Chloe",
+        "Id": "e0a63e12-0000-4000-8000-000000001208",
+        "LastName": "Nguyen",
+        "PassportNumber": "X00001211",
+        "Username": "chloe.nguyen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001212",
+      "kind": "record",
+      "data": {
+        "FirstName": "Rafael",
+        "Id": "e0a63e12-0000-4000-8000-000000001209",
+        "LastName": "Santos",
+        "PassportNumber": "X00001212",
+        "Username": "rafael.santos@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001213",
+      "kind": "record",
+      "data": {
+        "FirstName": "Emily",
+        "Id": "e0a63e12-0000-4000-8000-000000001210",
+        "LastName": "Hartwell",
+        "PassportNumber": "X00001213",
+        "Username": "emily.hartwell@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001214",
+      "kind": "record",
+      "data": {
+        "FirstName": "Tomasz",
+        "Id": "e0a63e12-0000-4000-8000-000000001211",
+        "LastName": "Kowalski",
+        "PassportNumber": "X00001214",
+        "Username": "tomasz.kowalski@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001215",
+      "kind": "record",
+      "data": {
+        "FirstName": "Aisha",
+        "Id": "e0a63e12-0000-4000-8000-000000001212",
+        "LastName": "Bello",
+        "PassportNumber": "X00001215",
+        "Username": "aisha.bello@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001216",
+      "kind": "record",
+      "data": {
+        "FirstName": "Lars",
+        "Id": "e0a63e12-0000-4000-8000-000000001213",
+        "LastName": "Eriksen",
+        "PassportNumber": "X00001216",
+        "Username": "lars.eriksen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001217",
+      "kind": "record",
+      "data": {
+        "FirstName": "Mei-Ling",
+        "Id": "e0a63e12-0000-4000-8000-000000001214",
+        "LastName": "Chen",
+        "PassportNumber": "X00001217",
+        "Username": "meiling.chen@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001218",
+      "kind": "record",
+      "data": {
+        "FirstName": "Patrick",
+        "Id": "e0a63e12-0000-4000-8000-000000001215",
+        "LastName": "O'Donnell",
+        "PassportNumber": "X00001218",
+        "Username": "patrick.odonnell@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001219",
+      "kind": "record",
+      "data": {
+        "FirstName": "Grace",
+        "Id": "e0a63e12-0000-4000-8000-000000001216",
+        "LastName": "Mwangi",
+        "PassportNumber": "X00001219",
+        "Username": "grace.mwangi@example.com"
+      }
+    },
+    {
+      "ref": "user-x00001220",
+      "kind": "record",
+      "data": {
+        "FirstName": "Nikolai",
+        "Id": "e0a63e12-0000-4000-8000-000000001217",
+        "LastName": "Petrov",
+        "PassportNumber": "X00001220",
+        "Username": "nikolai.petrov@example.com"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "registernewuserresponsedto-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": null,
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "Id",
+        "rule": "`Id` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresponsedto-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "not-a-uuid",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "Id",
+        "rule": "violates a declared constraint on `Id`"
+      }
+    },
+    {
+      "ref": "registernewuserresponsedto-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "FirstName": null,
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "FirstName",
+        "rule": "`FirstName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresponsedto-rejection-4",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": null,
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "violates": {
+        "field": "LastName",
+        "rule": "`LastName` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresponsedto-rejection-5",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": null
+      },
+      "violates": {
+        "field": "Username",
+        "rule": "`Username` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "registernewuserresponsedto-rejection-6",
+      "kind": "rejection",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": null,
+        "Username": ""
+      },
+      "violates": {
+        "field": "PassportNumber",
+        "rule": "`PassportNumber` is declared NOT NULL"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "registernewuserresponsedto-case-1",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-2",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "text",
+        "PassportNumber": "X00001001",
+        "Username": "text"
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-3",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "X00001002",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-4",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "text",
+        "PassportNumber": "",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-5",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "",
+        "Username": "text"
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-6",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001005",
+        "Username": "Alice Whitfield"
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-7",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "Alice Whitfield",
+        "PassportNumber": "X00001006",
+        "Username": ""
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-8",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001007",
+        "Username": "text"
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-9",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "text",
+        "PassportNumber": "X00001008",
+        "Username": ""
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-10",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001009",
+        "Username": ""
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-11",
+      "kind": "case",
+      "data": {
+        "FirstName": "",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001010",
+        "Username": ""
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-12",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "902b7e39-0000-4000-8000-000000001004",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-13",
+      "kind": "case",
+      "data": {
+        "FirstName": "text",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001012",
+        "Username": ""
+      },
+      "case": "covering-0013"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-14",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "902b7e39-0000-4000-8000-000000001001",
+        "LastName": "",
+        "PassportNumber": "",
+        "Username": ""
+      },
+      "case": "covering-0014"
+    },
+    {
+      "ref": "registernewuserresponsedto-case-15",
+      "kind": "case",
+      "data": {
+        "FirstName": "Alice Whitfield",
+        "Id": "00000000-0000-4000-8000-000000000000",
+        "LastName": "",
+        "PassportNumber": "X00001014",
+        "Username": ""
+      },
+      "case": "covering-0015"
+    }
+  ]
+}

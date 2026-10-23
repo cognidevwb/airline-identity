@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-username-is-",
+  "title": "Username is required",
+  "source": "staged scenario",
+  "why": "Shows that a username cannot be skipped even when the email and password are fine.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with UserName '' (empty). FirstName Anna, LastName Meyer, Email anna.meyer@example.com, PassPortNumber DE9876543, Password Str0ng!Pass1, matching ConfirmPassword."
+    }
+  ],
+  "expect": [
+    "Rejected with a validation error naming UserName as required. No User row is created."
+  ]
+}

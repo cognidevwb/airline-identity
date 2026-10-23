@@ -1,0 +1,34 @@
+{
+  "id": "post-identity-register-user-email-alread",
+  "title": "Email already registered",
+  "source": "staged scenario",
+  "why": "Checks that email uniqueness is case-insensitive, so one passenger cannot register twice with different casing.",
+  "setup": [
+    {
+      "ref": "existing-anna",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 0,
+        "Email": "anna.meyer@example.com",
+        "EmailConfirmed": false,
+        "FirstName": "Anna",
+        "LastName": "Meyer",
+        "LockoutEnabled": true,
+        "NormalizedEmail": "anna.meyer@example.com",
+        "NormalizedUserName": "ANNA.MEYER",
+        "PassPortNumber": "X90000000",
+        "UserName": "anna.meyer",
+        "Version": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user for a second passenger with FirstName Annabel, LastName Meier, Email 'Anna.Meyer@Example.com' (same address, different case), UserName annabel.meier, PassPortNumber DE1112223, Password Str0ng!Pass1, matching ConfirmPassword."
+    }
+  ],
+  "expect": [
+    "Rejected with a duplicate-email error. Only the original User row (existing-anna) remains and no second row is created."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-new-account-",
+  "title": "New account starts with safe defaults",
+  "source": "staged scenario",
+  "why": "Verifies that a new account is not trusted by default: unconfirmed email, lockout enabled, no failed logins.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with a valid passenger (Email ben.okafor@example.com, UserName ben.okafor, PassPortNumber NG4455667, Password Str0ng!Pass1, matching ConfirmPassword), then read the saved User."
+    }
+  ],
+  "expect": [
+    "Registration succeeds. The saved User has EmailConfirmed false, LockoutEnabled true, AccessFailedCount 0, TwoFactorEnabled false, and LockoutEnd empty."
+  ]
+}

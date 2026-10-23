@@ -1,0 +1,1209 @@
+{
+  "digest": "048361c2a5c0ec68",
+  "domain": "Airline reservations: aircraft, airports, flights and seats, passengers with passports, and bookings that reserve a seat",
+  "entity": "RoleClaim",
+  "personal": {},
+  "records": [
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "users.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "roles.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.manage",
+      "RoleId": 0,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "airports.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "reports.view",
+      "RoleId": 0,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "claims.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "settings.manage",
+      "RoleId": 0,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.create",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.view.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.cancel.own",
+      "RoleId": 1,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.edit.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.self",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "seats.select",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "loyalty.view",
+      "RoleId": 1,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "receipts.download",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.process",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boardingpass.print",
+      "RoleId": 2,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passport.verify",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "baggage.tag",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "seats.reassign",
+      "RoleId": 2,
+      "Version": 4
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.create.any",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.modify",
+      "RoleId": 3,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.cancel",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "fares.view",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.create",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "seats.hold",
+      "RoleId": 3,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "groups.manage",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boarding.scan",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boarding.close",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.assign.view",
+      "RoleId": 4,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "standby.clear",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passenger.offload",
+      "RoleId": 4,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.assign",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.schedule",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.delay",
+      "RoleId": 5,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.cancel",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.assign",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "crew.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "airports.slots",
+      "RoleId": 5,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.view.any",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "refunds.request",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.contact",
+      "RoleId": 6,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "complaints.manage",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.history",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.export",
+      "RoleId": 7,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "users.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "reports.export",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "logins.review",
+      "RoleId": 7,
+      "Version": 4
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "tokens.revoke",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "roles.assign",
+      "RoleId": 0,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "integrations.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "apikeys.manage",
+      "RoleId": 0,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "notifications.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "templates.manage",
+      "RoleId": 0,
+      "Version": 4
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.modify.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "seats.change.own",
+      "RoleId": 1,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "baggage.add.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "meals.select",
+      "RoleId": 1,
+      "Version": 5
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.view.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "tickets.view.own",
+      "RoleId": 1,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "loyalty.redeem",
+      "RoleId": 1,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "upgrades.request",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.override",
+      "RoleId": 2,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "baggage.weigh",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "baggage.excess.charge",
+      "RoleId": 2,
+      "Version": 6
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "documents.scan",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boardingpass.reissue",
+      "RoleId": 2,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "visa.check",
+      "RoleId": 2,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.hold",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.reissue",
+      "RoleId": 3,
+      "Version": 4
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "fares.override",
+      "RoleId": 3,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "itineraries.split",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "tickets.issue",
+      "RoleId": 3,
+      "Version": 7
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.merge",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "waitlist.manage",
+      "RoleId": 3,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boarding.reopen",
+      "RoleId": 4,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.announce",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boarding.priority",
+      "RoleId": 4,
+      "Version": 5
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "standby.list",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boarding.manifest.view",
+      "RoleId": 4,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.reroute",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.diversion",
+      "RoleId": 5,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.swap",
+      "RoleId": 5,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "crew.assign",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.status.update",
+      "RoleId": 5,
+      "Version": 8
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "airports.gates.manage",
+      "RoleId": 5,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "refunds.approve",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "compensation.issue",
+      "RoleId": 6,
+      "Version": 4
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "complaints.escalate",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.view.support",
+      "RoleId": 6,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "vouchers.issue",
+      "RoleId": 6,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "cases.close",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.export.view",
+      "RoleId": 7,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "logins.history.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "reports.financial.view",
+      "RoleId": 7,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "permissions.review",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.audit",
+      "RoleId": 7,
+      "Version": 6
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "refunds.audit",
+      "RoleId": 7,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "users.disable",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "users.unlock",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "users.password.reset",
+      "RoleId": 0,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "roles.view",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "claims.view",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "settings.view",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "logins.external.manage",
+      "RoleId": 0,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "profile.edit.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passport.update.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "contact.update.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "notifications.preferences.own",
+      "RoleId": 1,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.mobile",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boardingpass.view.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "baggage.track.own",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.search",
+      "RoleId": 1,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.baggage.accept",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.seat.assign",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.document.review",
+      "RoleId": 2,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.passenger.lookup",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "kiosk.assist",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "checkin.special.assist",
+      "RoleId": 2,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.create.group",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.name.correct",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "fares.quote",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.upgrade.apply",
+      "RoleId": 3,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.rebook",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "inventory.view",
+      "RoleId": 3,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "tickets.void",
+      "RoleId": 3,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.boarding.start",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.seat.swap",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.standby.upgrade",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.document.recheck",
+      "RoleId": 4,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "boarding.deny",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.baggage.gatecheck",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.gate.change",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.crew.notify",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.maintenance.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.manifest.export",
+      "RoleId": 5,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.turnaround.update",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "airports.runway.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "cases.create",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "cases.assign",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.notes.add",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.refund.status",
+      "RoleId": 6,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "messages.send",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.bookings.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.claims.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.changes.export",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "reports.compliance.view",
+      "RoleId": 7,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.passport.access.view",
+      "RoleId": 7,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.boarding.pause",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.passenger.page",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.boardingpass.scan.manual",
+      "RoleId": 4,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "gate.irregularity.report",
+      "RoleId": 4,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.fuel.plan.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.weather.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.slot.request",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.release.sign",
+      "RoleId": 5,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.configuration.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.rotation.plan",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "airports.stands.assign",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "airports.curfew.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "crew.duty.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.delay.codes.edit",
+      "RoleId": 5,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.cancel.notify",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.load.sheet.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "flights.ontime.report.view",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "aircraft.status.update",
+      "RoleId": 5,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "cases.reopen",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "cases.transfer",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "cases.notes.add",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.contact.history",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "refunds.status.view",
+      "RoleId": 6,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.preferences.view",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "complaints.respond",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "messages.templates.use",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "vouchers.view",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "compensation.view",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "loyalty.adjust",
+      "RoleId": 6,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "bookings.itinerary.resend",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "passengers.verify.identity",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "disruptions.rebook.assist",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "surveys.view",
+      "RoleId": 6,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.logins.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.roles.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.permissions.export",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.refunds.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.fares.override.view",
+      "RoleId": 7,
+      "Version": 2
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.tickets.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.users.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.settings.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.apikeys.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.integrations.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "reports.audit.generate",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "reports.refunds.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.baggage.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.boarding.view",
+      "RoleId": 7,
+      "Version": 3
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "audit.retention.view",
+      "RoleId": 7,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "settings.branding.manage",
+      "RoleId": 0,
+      "Version": 1
+    },
+    {
+      "ClaimType": "permission",
+      "ClaimValue": "tickets.download.own",
+      "RoleId": 1,
+      "Version": 1
+    }
+  ],
+  "source": "model, from the column names and constraints only"
+}

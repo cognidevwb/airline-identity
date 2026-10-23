@@ -1,0 +1,3057 @@
+{
+  "name": "UserToken",
+  "kind": "table",
+  "layer": "database",
+  "source": "src/Identity/Identity/Models/UserToken.cs:7",
+  "columns": [
+    "Version",
+    "UserId",
+    "LoginProvider",
+    "Name",
+    "Value"
+  ],
+  "valid": [
+    {
+      "ref": "usertoken-authenticatorkey",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001018",
+        "Value": "K7QZ3WJ5N2XRBM4DT6HVYPC2LF5GAUSE",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-amara-okafor-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001019",
+        "Value": "ya29.a0AfB_byC3x7Qm2LkVd9TnE5sWrZ8hUoJp4YgXcN1aKiF6bMv0RtHqDlSe-wPzG3yO7uA",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-liam-brennan-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001020",
+        "Value": "JBSWY3DPEHPK3PXPQ7ZM2ARTV5CLN4OE",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-sofia-marchetti-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001021",
+        "Value": "0.AXoAq1B2c3D4e5F6g7H8i9J0kLmNoPqRsTuVwXyZ-AbCdEfGhIjKlMnOpQrStUvWxYz01234.AgABAAEAAAD",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kenji-watanabe-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Value": "7KQ2M-X4DPA;B9TWE-3NHCR;ZL5VY-8GJU2;4FXNS-QD6KB;M3CAH-T7WZP;E8RJL-5YUV9;W2BQG-NK4XD;H6TFC-P3ZMA;9VEYS-L2QRJ;DX5NU-A8KWB",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001023",
+        "Value": "1//0gT7kQm2LxVd9CgYIARAAGBASNwF-L9IrXn4PzQe1RvTm6XhLs3UgJc9YoNa7BiFt2KxEq5Md",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001024",
+        "Value": "H4XN7BQ2VKD6TRPW3ZJEMYC5UAL2GS7F",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-dubois-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001025",
+        "Value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkJkWm5RMkx2VDl4RW5zV3JaOGhVb0pwNFlnIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20ifQ.Zx3Qm7LkVd9TnE5sWrZ8hUoJp4YgXcN1aK",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-oluwaseun-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001026",
+        "Value": "R2PD5YWKA7NLE3QX6CJTZVBM4UHD7KNA",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Value": "ya29.a0AfB_byDk8Wn4PzQe1RvTm6XhLs3UgJc9YoNa7BiFt2KxEq5MdHlVr0SuZw-CpG4yO8jA",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001028",
+        "Value": "TQ3LZM6WCV7EXA2NRD5KJHPB4YUQ6BDC",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-rossi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001029",
+        "Value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkNlQW82TTN3VWE5RmN0WHNaMWlWcEtxNUhsIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20ifQ.Ab4Rn8MlWe0UoF6tXsA9iVpKq5ZhDc2Gy",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-tariq-hussain-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001030",
+        "Value": "C4NXJ-7QWLE;R2DVA-M9TKZ;5HBGY-P3UXF;8ZMSQ-K6EAN;T7LWD-4CJVR;Y3FPH-B8NQX;2KAUE-V5DMS;J9RZT-6GWLC;N4XBQ-H7YPA;E5MVK-3TDFZ",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-grace-mwangi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001031",
+        "Value": "ya29.a0AfB_byEp5Xr9LtQn2WvKm7ZhDs4UgJc1YoNa8BiFd3TxEq6MkHlVz0SuRw-CpG5yO9jA",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-schneider-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001032",
+        "Value": "W5CEN2BRY7LQTK4AZDMVJ6XPNE5SA3FH",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-meiling-chen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Value": "1//0gU8lRn3MyWe0DhZJBSBBHCBTOxG-M0JsYo5QaRf2SwUn7YiMt4VhKd0ZpOb8CjGe3UyFr6Nl",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001034",
+        "Value": "ZX4MQ7TLD2BWNEK5CAV6RJYPTM2LQ7DK",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-alsayed-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001035",
+        "Value": "0.AXoAr2C3d4E5f6G7h8I9j0KlMnOpQrStUvWxYzA-BcDeFgHiJkLmNoPqRsTuVwXyZ12345.AgABAAEAAAD",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-noah-thompson-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001036",
+        "Value": "C6YB3NK7RTA2EPWQ5DLXMZV47SJHE2GA",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001037",
+        "Value": "ya29.a0AfB_byFq6Ys1MuRo3XwLn8AiEt5VhKd2ZpOb9CjGe4UyFr7NlImWa1TvSx-DqH6zP0kB",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-carlos-mendoza-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001038",
+        "Value": "6PWQD-J2XNE;A8KTM-5YBVC;H3GZL-R7UFS;Q4NDX-9EMWA;V5CJT-2LKPB;S7YHF-X3ZRG;M9ABE-6NQDU;K2TWV-C8JLP;D4XFZ-Y5HRN;U6GMQ-3AESB",
+        "Version": 4
+      },
+      "links": {
+        "UserId": "user-aoife-gallagher-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001039",
+        "Value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkRmQnA3TjR4VmIwR2R1WXRBMmpXcUxyNkltIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20ifQ.Bc5So9NmXf1VpG7uYtB0jWqLr6AiEd3Hz",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001040",
+        "Value": "MFRGGZDFMZTWQ2LKNNWG23TPOBYXE43U",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-samuel-osei-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001041",
+        "Value": "1//0gV9mSo4NzXf1EiAKCTCCIDCUPyH-N1KtZp6RbSg3TxVo8ZjNu5WiLe1AqPc9DkHf4VzGs7Om",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-ingrid-halvorsen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001042",
+        "Value": "P3KD7XQ2AWLN5CZE6VTMRJY4BHUG2F7S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-jamal-washington-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001043",
+        "Value": "ya29.a0AfB_byGr7Zt2NvSp4YxMo9BjFu6WiLe3AqPc0DkHf5VzGs8OmJnXb2UwTy-ErI7aQ1lC",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-marquez-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001044",
+        "Value": "Y2NB6TQ4EKX7DLWA3CVPMRZ5HJ2UGF4S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001045",
+        "Value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkVnQ3E4TzV5V2MxSGV2WnVCM2tYck03Sm5vIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20ifQ.Cd6Tp0OnYg2WqH8vZuC1kXrMs7BjFe4Ia",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-venkataraman-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001046",
+        "Value": "G7BNK-2WXQD;T4LZE-8VCMA;P9HYS-5RJFU;3XDQA-K6NTW;L2EVB-Y7GZC;R8MUF-4PHKJ;N5SWX-A3DLQ;Z6CTE-9BYVM;F4JAH-7QKRN;W3PXG-E2UDS",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oliver-haugen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001047",
+        "Value": "ya29.a0AfB_byHs8Au3OwTq5ZyNp0CkGv7XjMf4BrQd1ElIg6WaHt9PnKoYc3VxUz-FsJ8bR2mD",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-fatima-almansouri-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001048",
+        "Value": "D5LWM7XE2QBNK4TZ6AVCRYJP3HUG7F2S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001049",
+        "Value": "0.AXoAs3D4e5F6g7H8i9J0k1LmNoPqRsTuVwXyZaB-CdEfGhIjKlMnOpQrStUvWxYz23456.AgABAAEAAAD",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-dubois-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001051",
+        "Value": "Q7EV3CNA5LDTK2WB4XZMJYR6GHUP2F3S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chiara-moretti-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001052",
+        "Value": "ya29.a0AfB_byIt9Bv4PxUr6AzOq1DlHw8YkNg5CsRe2FmJh7XbIu0QoLpZd4WyVa-GtK9cS3nE",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-kwame-mensah-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001053",
+        "Value": "N6ZJ4KXT2DEQ7WLA5CVBMYR3UHG2FPS4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-lindqvist-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001054",
+        "Value": "1//0gW0nTp5OaYg2FjBLDUDDJEDVQzI-O2LuAq7ScTh4UyWp9AkOv6XjMf2BrQd0ElIg5WaHt8Pn",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-deshpande-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001055",
+        "Value": "B5QXM-8NDTA;Y2KWE-4LHVC;9GRZP-J3FUS;D7ANL-X6BQK;S4VYT-2MECH;K8PDW-R5ZJN;3UFXG-A9LBQ;H6CTE-V7YMD;N2QKA-5WSZR;E4JPX-L8GFU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-emily-hargrove-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001056",
+        "Value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkZoRHI5UDZ6WGQySWZ3QXZDNGxZc044S29wIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20ifQ.De7Uq1PoZh3XrI9wAvD2lYsNt8CkGf5Jb",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-wisniewski-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001057",
+        "Value": "B4TXM2QKEL7WND5ZAC6VRJYP3HGU2F7D",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanabe-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001058",
+        "Value": "ya29.a0AfB_byJu0Cw5QyVs7BaPr2EmIx9ZlOh6DtSf3GnKi8YcJv1RpMqAe5XzWb-HuL0dT4oF",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-fatima-alrashid-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001059",
+        "Value": "V3QA7NDK2LXW5TZEBM4CJYR6PHUG3F2S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-cruz-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001060",
+        "Value": "0.AXoAt4E5f6G7h8I9j0K1l2MnOpQrStUvWxYzAbC-DeFgHiJkLmNoPqRsTuVwXyZa34567.AgABAAEAAAD",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ingrid-solheim-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001061",
+        "Value": "F7MZ2TKQ4NDLEW6AXC5VBJYR3UHGP2S4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001062",
+        "Value": "ya29.a0AfB_byKv1Dx6RzWt8CbQs3FnJy0AmPi7EuTg4HoLj9ZdKw2SqNrBf6YaXc-IvM1eU5pG",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-venkataraman-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001063",
+        "Value": "M6DVA-3QXKE;U9HTN-B5WLZ;2CFYR-P7GJS;X4ENQ-8KDAM;J3ZBW-T6UVC;5LHPF-Y2RXD;A8GKS-N4EQM;V7TCJ-9BZWH;Q3XLU-D5FAN;R6MYE-K2PGT",
+        "Version": 5
+      },
+      "links": {
+        "UserId": "user-oliver-whitcombe-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001064",
+        "Value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkdpRXMwUTdBWWUzSmd4QnczRDVtWnRPOUxxIn0.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20ifQ.Ef8Vr2QpAi4YsJ0xBwE3mZtOu9DlHg6Kc",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-aisha-bello-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001065",
+        "Value": "X2LDW5NQ7KTEZ4AB6MCVRJYP3HU2GF7S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-dubois-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001066",
+        "Value": "1//0gX1oUq6PbZh3GkCMEVEEKFEWRaJ-P3MvBr8TdUi5VzXq0BlPw7YkNg3CsRe1FmJh6XbIu9Qo",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-kowalczyk-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001067",
+        "Value": "L5NBQ2TZK7DWEXA4C6MVRJYP3GHU2F7S",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-santiago-ortega-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001068",
+        "Value": "ya29.a0AfB_byLw2Ey7SaXu9DcRt4GoKz1BnQj8FvUh5IpMk0AeLx3TrOsCg7ZbYd-JwN2fV6qH",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-nadia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001068",
+        "Value": "K3QZ7WMTB2XN5HVRD4LPCJ6YF7GSA2EU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-nadia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001069",
+        "Value": "ya29.a0AfB_byC7Nq3xKd9LmT2vWe5RhZpY8sUoJ1gXcFt4aQ",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-jamal-washington-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001070",
+        "Value": "M5TRB4YHN7WQ2ZKD6XPFJ3CVA7LSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-zhang-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001071",
+        "Value": "k7x2m-9tq4w;b3nr8-5hy6c;p4vd2-7zj9f;w8ls5-3ga6e",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-gabriel-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001072",
+        "Value": "EwBwA8l6BAAUO9chh8cJscQLmU+LSWpbnr0vmwwAAWl9nRkQ2TfXe4hLz",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-eleanor-prescott-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001073",
+        "Value": "ZP2WLN6DQ4HRB7XKT3VYCF5JA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-arjun-malhotra-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001074",
+        "Value": "1//0gT4nQe8WvRk2CgYIARAAGBASNwF-L9IrXm5dPzH7bKqLs3uVoJ",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-freya-henriksen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001075",
+        "Value": "HC6VQ3NXT2BWD7LRK4PYJ5FZA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-liam-brennan-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001076",
+        "Value": "ya29.a0AfB_byDm4Rs8VeKq1TzWn6HxLp3YjCu9GfOa2BtN7c",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chidi-nwosu-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001077",
+        "Value": "QD7NXB3WLT5HRV2KZ4PCYJ6FA7MSE2GU",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001078",
+        "Value": "M.C507_BAY.0.U.-CkXq9TfNe3hWzR7LsVb2YpJd5GmUoKa1iHt8Ew",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001079",
+        "Value": "WT4BHN2XQ7LRD6VKZ3PCYJ5FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raman-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001080",
+        "Value": "ya29.a0AfB_byEp6Ut1XgMs3VaYn8JzNr5QwKd2HcLo9TbF4i",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001081",
+        "Value": "d5hj7-2qxm9;t8ve3-6nkb4;g2rw9-4cpy7;m6zf5-8sla3",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001082",
+        "Value": "XB3LQ7WNT4HRV2DKZ6PCYJ5FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aiko-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001083",
+        "Value": "EwBwA8l6BAAUO9chh8cJscQLmU+LSWpbnr0vmwwAAYt3MgPd7BqVn2KxC",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-samuel-mensah-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001084",
+        "Value": "1//0gR9wLk3NxEcCgYIARAAGBASNwF-L9IrHq7vTm2dYjZs6pUbWo",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabelle-moreau-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001085",
+        "Value": "NR5DXW3QLT7BHV2KZ4PCYJ6FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rafael-santos-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001086",
+        "Value": "ya29.a0AfB_byFt2Kd7LpMx9VqRs4WeHn1ZcYgJu6TaOb3NiC",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001087",
+        "Value": "LV2TQ6XNB4WHD7RKZ3PCYJ5FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-declan-oreilly-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001088",
+        "Value": "EwBwA8l6BAAUO9chh8cJscQLmU+LSWpbnr0vmwwAAZk8PrHs1WtDe5YqM",
+        "Version": 4
+      },
+      "links": {
+        "UserId": "user-yuki-nakamura-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-29",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001089",
+        "Value": "BK7WX3NQT2LHRV4DZ6PCYJ5FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-olivia-hartman-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001090",
+        "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjFmOGEzYyJ9.eyJzdWIiOiIxMDQ3MzgifQ.Xp9Lm2",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-boateng-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001091",
+        "Value": "q3wn8-5xhd2;c7tk4-9bvm6;z5pj2-3rfy8;h9ga6-7lse4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-30",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001092",
+        "Value": "TD4HNB7XQ3WLV2RKZ6PCYJ5FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-dmitri-volkov-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001093",
+        "Value": "ya29.a0AfB_byGv5Nm1XeQt8KpLs3RzWd6YhCj2UaOb9TfHi4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-naledi-dlamini-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-31",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001094",
+        "Value": "PW6XQ2LNT5BHD7VKZ3RCYJ4FA7MSE2GU",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-jonas-becker-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001095",
+        "Value": "M.C507_BAY.0.U.-DlYr4VgPe8jXaS2NtHc6QwKz9UbMoFi3Ty7Lq",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-chen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-32",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001096",
+        "Value": "CH3NQ7XWB4TLV2DKZ6RPYJ5FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001097",
+        "Value": "1//0gM6yBt2PwHnCgYIARAAGBASNwF-L9IrQs4kXv8cZeTj1rLdUo",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-zainab-hussain-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-33",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001098",
+        "Value": "FZ5BWL3XQ7NTH2VKD4PCYJ6RA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001099",
+        "Value": "ya29.a0AfB_byHn7Wd3ZqKs5MxTe2VpLr9YcGj4UaOb1NfBi8",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-anika-sharma-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001100",
+        "Value": "v2ym6-8dkt3;n9xc4-5qhw7;r4bs8-2jpf6;e7zl3-9gua5",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-gabriel-torres-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-34",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001101",
+        "Value": "JM2XQ6WNB5TLH7VKD3PCYR4FA7SZE2GU",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001102",
+        "Value": "EwBwA8l6BAAUO9chh8cJscQLmU+LSWpbnr0vmwwAAa7NhWvKd3TsPe9Ry",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-alvarez-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-35",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001103",
+        "Value": "SL4QX7NWB2THD6VKZ3PCYJ5RA7MFE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ingrid-solberg-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001104",
+        "Value": "ya29.a0AfB_byIp8Xe4RsLt6NqWd1MzKv3YcHj7UaOb2TgCi5",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-mensah-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-36",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001105",
+        "Value": "RG6WLN3XQ4BTH7VKD2PCYJ5FA7MSZ2EU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanabe-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001106",
+        "Value": "1//0gB3kWn7HsQcCgYIARAAGBASNwF-L9IrYt6mPx2dVeLj8zRfUo",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-alsayed-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-37",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001107",
+        "Value": "DT7XN2QWL5BHV3KZ6PCYJ4RFA7MSE2GU",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-declan-orourke-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001108",
+        "Value": "M.C507_BAY.0.U.-EmZs5WhQf9kYbT3OuId7RxLa2VcNpGj4Uy8Kr",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chiara-bellini-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001109",
+        "Value": "s6fh2-4mwz9;j8cq5-7ydn3;a3vt7-6kxb2;u5lp9-2rge8",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-wisniewski-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-38",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001110",
+        "Value": "VN3HBX7QLT2WD6KZ4PCYJ5RFA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-bello-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001111",
+        "Value": "ya29.a0AfB_byJq9Yf5StMu7OrXe2NaLw4ZdIk8VbPc3UgDj6",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hamish-fraser-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-39",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001112",
+        "Value": "YB5LQW2XN7THD3VKZ6PCRJ4FA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-29",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001113",
+        "Value": "EwBwA8l6BAAUO9chh8cJscQLmU+LSWpbnr0vmwwAAb2RqXyMn6KdHs4Tw",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-30",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001114",
+        "Value": "EAAGm0PX4ZCpsBO7Kq1ZBvNtWd3LxYhR8CjUeS5MgFaT2oPzIbV6nQ",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-camille-dubois-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-40",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001115",
+        "Value": "HQ2TXN6WB4LVD7KZ3PCYJ5RFA7MSE2GU",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-junho-park-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001116",
+        "Value": "1//0gD8nHv4RtKcCgYIARAAGBASNwF-L9IrWq2xMe7bZsPj5cLfUo",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-nadia-haddad-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-41",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001117",
+        "Value": "WL7BQN3XT6HDV2KZ4PCYJ5RFA7MSE2GU",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-lucas-ferreira-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Value": "2026-10-23T09:14:52.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001027",
+        "Value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI2ZTc0MTcyYi1iZTU2LTQ4NDMiLCJzdWIiOiJBQUFBQUJxM3RMdzhYbiJ9.Vq3tLw8XnR2yKd0HbZs5PmCe7JfUa4OgTiN1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001033",
+        "Value": "2026-12-18T16:40:21.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001039",
+        "Value": "r8f3a1c0e7b94d2a8e65f01c3d7b9a42.0.rrzw.QkT5mN2vYp8LxD0aHj3Rg",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-31",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001044",
+        "Value": "AQVx7Hn3kQ2mP9sT4wB6yE1uZ8cJ5dLrF0gNvXa3oKiMtUb7YhSe2WqCpDz",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-hiroshi-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001048",
+        "Value": "2026-10-23T11:02:37.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001052",
+        "Value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IlU4WDNOMksifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIiwic3ViIjoiMDAxMjM0LmE3YzFlOS4wODQxIn0.MEUCIQDk3hR7vWz2Lp9XnT0sYb4cJ8aGfEoUq1NiKtM",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-mensah-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-token-type",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "token_type",
+        "UserId": "e0a63e12-0000-4000-8000-000000001055",
+        "Value": "Bearer",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-emily-hargrove-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001059",
+        "Value": "2026-12-22T07:55:10.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-cruz-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-32",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001064",
+        "Value": "a2c91e04d7f84b63a5e0187c3d9b2f46.0.rrzw.Hn7Yt3KpQ9sLw2Xc",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-bello-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001067",
+        "Value": "AQDmP4x8vN2rK7tJ1cWq9LzY3hB6eUfS0oGdA5iXnTvMkR2yCbHaE7wZs",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-santiago-ortega-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-token-type-2",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "token_type",
+        "UserId": "e0a63e12-0000-4000-8000-000000001071",
+        "Value": "Bearer",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-gabriel-oliveira-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001074",
+        "Value": "AQXq3Lm9ZtV7wKd2RnYc5HbPs8JfUe1GxTa4OiNy6MvCzDk0BhWr",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-freya-henriksen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001076",
+        "Value": "2026-10-23T15:48:03.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chidi-nwosu-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-token-type-3",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "token_type",
+        "UserId": "e0a63e12-0000-4000-8000-000000001080",
+        "Value": "bearer",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001084",
+        "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImxpLTAxIn0.eyJpc3MiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vb2F1dGgiLCJzdWIiOiJ6UTh4TjJrIn0.Jd4Wp7LsN0cXr2VtGy9BhKaMeQ5iUzOf3TnYb1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabelle-moreau-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001086",
+        "Value": "2026-10-22T20:27:45.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-almansoori-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001090",
+        "Value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiI5MWM0ZTdhMi0zZDA1LTRiNjgiLCJzdWIiOiJCQkJCQ2s5UXIyWm4ifQ.Lm2Xv8TqPz4Yc7WjHs0KdNbRe5GaUfOi9Ct",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-kwame-boateng-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001093",
+        "Value": "2027-01-04T10:19:58.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-naledi-dlamini-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001097",
+        "Value": "r3d70b9a5e2f41c8b6a0d93e7f1c5a28.0.rrzw.Wp4Tn8ZqLx1VsKy6",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-zainab-hussain-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-33",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001101",
+        "Value": "AQTb9Kp2WmXz5Lq8NvYc1HdRs4JgUe7FxOa3TiMy0BhCwDk6ZrEn",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001105",
+        "Value": "2026-10-23T13:36:29.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanabe-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-6",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001108",
+        "Value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IlI3UTRNOVAifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIiwic3ViIjoiMDAyNTExLmIzZTgwZC4xNjUyIn0.MEQCIGp8Lw2NzXr5TvKc0YbHs9DaFeUo3QiJt7MnCx1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chiara-bellini-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001112",
+        "Value": "2026-12-19T22:11:46.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-petrova-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-34",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001115",
+        "Value": "c6e18f53b0a94d27e8c1a5d03b7f9e64.0.rrzw.Zy2Kn5RtQp9LwXs3",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-junho-park-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001119",
+        "Value": "AQBrN7y3kLw0ZpXc9VtHm2QsJd5EfUa8GoTi4MnYb1CxKv6RzDhW",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oluwaseun-adeyemi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001123",
+        "Value": "AQWd5Pr1ZnYt8LxKc3VsHq7MbJg2UeFa9OiTw4NyCz0BkDv6XhRm",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-pavel-novak-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001126",
+        "Value": "2026-10-23T18:05:14.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-venkataraman-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001130",
+        "Value": "2026-10-23T06:52:31.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-lindqvist-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-7",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001134",
+        "Value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJlNTJhMDdiMy1jOGQxLTQ5ZjYiLCJzdWIiOiJDQ0NDRGw0VnQ4S3EifQ.Rn6Yb3WpXz9LcQ2TsJh7KdNvEa0GfUo5MiCt1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-tanaka-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001138",
+        "Value": "2026-12-26T12:47:03.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ingrid-solberg-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001141",
+        "Value": "r5b92d1f8c04e7a36d9b0e5a2c7f1834.0.rrzw.Nm8Xv3LqTp6ZsKy1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oliver-hartley-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-35",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001145",
+        "Value": "AQUz4Ck8NxWp1Lq6TvYb9HsRd3JmEg7FaOi2MtUy5BhCwDn0ZrKe",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-henrik-nielsen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001149",
+        "Value": "2026-10-23T08:23:57.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-thabo-nkosi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-8",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001152",
+        "Value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IlQyWDVLOE0ifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIiwic3ViIjoiMDAzMzQ3LmM5ZDJhMS4wOTI3In0.MEUCIQC7Nr3KzXw8LpYt2VcBs0HdJaGfEoUq5MiTn1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hannah-whitfield-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-9",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001156",
+        "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImxpLTAyIn0.eyJpc3MiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20vb2F1dGgiLCJzdWIiOiJoNFd6UTdwIn0.Ek9Tc2LvNx5RyXb0WsHq3KdMjAf8UgOi6Zt",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-camila-restrepo-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001160",
+        "Value": "2026-10-23T17:39:20.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-zhang-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-36",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001164",
+        "Value": "e9a04c27d1b86f35a7e2c0914d8b3f60.0.rrzw.Ty5Lp2XnQw8VsKc4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-rahman-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001167",
+        "Value": "AQCvT8n2LxKp5WzY1RqHs9MbJd4EfUa7GoNi3CtYk6BhXw0ZrDmV",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-10",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001171",
+        "Value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiIwYjM3ZDVhOC0yZTY5LTQxYzQiLCJzdWIiOiJERERERm03WHEyTHcifQ.Hs1Kd9VtZp4NcRy7XbQeWj3LmAg0UfOi8Tn",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001175",
+        "Value": "2026-12-24T03:28:41.0000000+00:00",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-5"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001179",
+        "Value": "2026-10-23T20:14:36.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001183",
+        "Value": "2027-01-11T14:56:09.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-18",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001187",
+        "Value": "2026-10-22T23:03:18.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mohammed-alfarsi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001191",
+        "Value": "AQRm6Yt1KxZp3Lw8NvCb5HsQd9JgEe2FaUo7TiMy4BhWzDk0XrVn",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-brooks-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001195",
+        "Value": "r7c35e8a1f0d492b6e3a80c5d17f9b24.0.rrzw.Qs9Wn4LxTp2VcKy7",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mei-chen-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-19",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001199",
+        "Value": "2026-10-23T05:41:52.0000000+00:00",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-5"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-37",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001203",
+        "Value": "AQSn2Hw7ZkXp4Lq9TvYc6BdRs1JmEg8FaOi5MtUy3ChWzDk0NrKe",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-lindqvist-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-11",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001207",
+        "Value": "eyJhbGciOiJFUzI1NiIsImtpZCI6IkM5SzJWNEgifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIiwic3ViIjoiMDA0MTkyLmQ0YjdlMy4xMTgwIn0.MEYCIQDn5Xt1LwZq8RpVc3YbKs0HdJaGfEoUm7NiTk2",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-omar-haddad-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001211",
+        "Value": "AQAfK3z9NxLp6WtYc2VqHs8MbJd1EgUa5OoTi7MnYk4BhCw0ZrDv",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-38",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Value": "ya29.a0AfB_byDk3mQ7xT2vLp9RnW4sYhE6cJ8uZ1oXgF5",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-29",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Value": "1//0gHq8Vn2KcLmPCgYIARAAGBASNwF-L9IrT4xDw7eZs3YbU6",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-20",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Value": "2026-10-21T08:14:52Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-token-type-4",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "token_type",
+        "UserId": "e0a63e12-0000-4000-8000-000000001169",
+        "Value": "Bearer",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-caldwell-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-42",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001170",
+        "Value": "Q7XN4M2ZLFDVHA5RT3KC6WEPYB2GJU4S",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-papadopoulos-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-43",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001171",
+        "Value": "H4RTWB7XKP2ZMVNA6DJ5SQEC3YLG7UFO",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001171",
+        "Value": "k3x9m2qa;w7p4t8ze;b5n2c6vd;h9j3r7ly;f2s8g4ux;m6q1d5ka;t4y7e3wn;z8c2v9hb;p5l6r1jx;g3u9a7sf",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-rohan-mehta-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-39",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Value": "EwBwA8l6BAAUkG3mT7xQ2vPz9RnW4sYhE6cJ8uZ1oXgF5aD0bC",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-30",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Value": "M.R3_BAY.-CfQ8vNk2Lp7XtDw4eZs9YbU6hGj1mTa5oRc0iVn3",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-21",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Value": "2026-10-22T13:47:09Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-12",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001172",
+        "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ik1uX3F6In0.eyJzdWIiOiJBQUVrOWRRMiIsInRpZCI6IjkxMmYifQ.Xk4Lq9TnV2wZpD7sYhE6c",
+        "Version": 2
+      },
+      "links": {
+        "UserId": "user-chloe-anderson-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-44",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001173",
+        "Value": "M5CPY2EQJ7TXKA4NWBZ3VHRD6LGS2UF7",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-dmitri-volkov-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-45",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001174",
+        "Value": "T2LKN6VDXQ4YAWE7PBJ3ZCRH5GMUS4OF",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ngozi-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001174",
+        "Value": "d4h8n2xk;r7c3v9ma;y5t1p6qe;j9w4z2sb;l3g8f5ud;a6k2x7hn;e1m9r4cy;v8b5j3tq;u2p7d6wl;n4z1s9gf",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ngozi-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-40",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001175",
+        "Value": "EAAGm0PX4ZCpsBO7kQ2vLxTnW9RzYhE6cJ8uZ1oXgF5aD0bCmN3",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-5"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-22",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001175",
+        "Value": "2026-12-19T10:02:33Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mateo-fernandez-example-com-5"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-13",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Value": "eyJraWQiOiJXNldjT0tCIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJodHRwczovL2FwcGxlaWQuYXBwbGUuY29tIn0.Rt7Qx2KpLw9",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-31",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Value": "r8a3f1c9d2b74e60a5c8d1f3b7e92a40.0.mrtyw.Hq5Vn2Kc",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-41",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Value": "a4e7c1b9d03f4825b6a1c8e2d7f53b90.0.mrtyw.Tp9Lx3Wz",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-23",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001176",
+        "Value": "2026-10-23T06:31:18Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-hana-takahashi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-46",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001177",
+        "Value": "B6ZQ3HNWT5KXP7DYJ2ELA4RCVMGU6SF3",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-oliver-whitaker-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-42",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001178",
+        "Value": "AQVd7Kp3Lx9TnW2vRzYhE6cJ8uZ1oXgF5aD0bCmN4sQ7",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-4"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-24",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001178",
+        "Value": "2026-12-02T15:20:44Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-4"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-32",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001178",
+        "Value": "AQXm2Hq8Vn5KcLpTdw7eZs3YbU6hGj1mRa4oXc9iBn0Fy",
+        "Version": 3
+      },
+      "links": {
+        "UserId": "user-priya-raghunathan-example-com-4"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-47",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001179",
+        "Value": "X3EV7JKQ5NPDWZ2YTA4MBRHL6CGU7SO4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001179",
+        "Value": "q2m7x5ha;c9t3k8nw;f6y1p4zd;s5r8e2jv;b3l9g7uq;x4w6a1hc;n8d2v5tk;h1j7z3my;e9q4c6rb;p7f2s8lx",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-lucas-moreau-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-14",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001180",
+        "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ0YTkifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwic3ViIjoiMTA4In0.Wk3Zp8Qx",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-43",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001180",
+        "Value": "ya29.a0AfB_byFn7KcLp2RxT9vQmW4sYhE6dJ8uZ1oXgG3",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-25",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001180",
+        "Value": "2026-10-19T17:55:06Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-sofia-rossi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-48",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001181",
+        "Value": "R4DNZ6WXHP2QKT7LVJ5YEABC3MGU4SF6",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-jamal-carter-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-49",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001182",
+        "Value": "F7YJQ2KWN5XTDP4ZHEA6VMBRL3CGS2UO",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001182",
+        "Value": "z6k1t9wd;m3b8h4qy;g7c5v2ne;a9x4r6sj;u2p8l3fk;y5d1j7ma;w8n4z9tc;h3q6e2xb;r1s7g5vp;l4f9a8uh",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-elena-petrova-example-com-3"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-44",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001183",
+        "Value": "EAAGm0PX4ZCpsBO3vRnW8kQ2LxTzYhE6cJ4uZ1oXgF7aD9bCsT5",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-token-type-5",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Facebook",
+        "Name": "token_type",
+        "UserId": "e0a63e12-0000-4000-8000-000000001183",
+        "Value": "bearer",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-tomasz-kowalski-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-45",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001184",
+        "Value": "EwBwA8l6BAAUnH5rT2xQ9vPz4KnW7sYhE3cJ8uZ6oXgF1aD0bCmL",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-26",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Microsoft",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001184",
+        "Value": "2026-10-17T21:09:37Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-aisha-khan-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-50",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001185",
+        "Value": "L2WTP6XNQ4KVDJ7YZ5HEARBC3MGU6SF4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-daniel-schmidt-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-51",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001186",
+        "Value": "D5NXQ7KWTP3ZJ2VYLEA4HMBRC6GUS7OF",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-chloe-nguyen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-16",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001187",
+        "Value": "c8v2n6ka;t4h9x1wq;j7m3d5ze;p1y8b4rs;f6g2l9ux;k5a7q3hd;n9w1c8tm;e3z6s4jy;r2x5p7vb;d8l4f1ga",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-mohammed-alfarsi-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-refresh-token-33",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "refresh_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001188",
+        "Value": "1//0gTw5Ln3KcQmPCgYIARAAGBASNwF-L9IrZ8xDw2eYs7YbU4",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-santos-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-46",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001188",
+        "Value": "ya29.a0AfB_byGp4KcLn8RxT3vQmW9sYhE2dJ6uZ5oXgH1",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-santos-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-27",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Google",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001188",
+        "Value": "2026-10-23T11:26:50Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-isabella-santos-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-52",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001189",
+        "Value": "V6HZP2QKXN4TWD7JYL5EAMBRC3GU4SF2",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-henrik-larsen-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-47",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001190",
+        "Value": "c2b8e4a7f1d94036a9c5e1b3d7f82a64.0.mrtyw.Km6Rx4Vp",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-grace-mwangi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-expires-at-28",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "Apple",
+        "Name": "expires_at",
+        "UserId": "e0a63e12-0000-4000-8000-000000001190",
+        "Value": "2026-10-20T04:38:21Z",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-grace-mwangi-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-53",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001191",
+        "Value": "N3QXT7KWP5ZDJV2YHLEA6MBRC4GUS7OF",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-ethan-brooks-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-id-token-15",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "id_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001192",
+        "Value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImxpLTIwMjYifQ.eyJpc3MiOiJodHRwczovL3d3dy5saW5rZWRpbi5jb20ifQ.Hd5Tn2Qw",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-access-token-48",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "LinkedIn",
+        "Name": "access_token",
+        "UserId": "e0a63e12-0000-4000-8000-000000001192",
+        "Value": "AQUt9Rk4Mx2LpVnW7zQhE3cJ6uY8oXgF1aD5bCsN0vTe",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-yuki-tanaka-example-com-2"
+      }
+    },
+    {
+      "ref": "usertoken-authenticatorkey-54",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "AuthenticatorKey",
+        "UserId": "e0a63e12-0000-4000-8000-000000001193",
+        "Value": "G4PWZ7JNQ2XKT5DVYL6EAMBRC3HU7SF2",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-benali-example-com"
+      }
+    },
+    {
+      "ref": "usertoken-recoverycodes-17",
+      "kind": "record",
+      "data": {
+        "LoginProvider": "[AspNetUserStore]",
+        "Name": "RecoveryCodes",
+        "UserId": "e0a63e12-0000-4000-8000-000000001193",
+        "Value": "b7q3x9nd;h2w6k4ta;m8c1v5zy;s4j9r7fe;x5l2p8gu;a3d7y1hk;t9e4n6wc;f1z8b3sq;v6m5j2xr;k8u4g9la",
+        "Version": 1
+      },
+      "links": {
+        "UserId": "user-fatima-benali-example-com"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "usertoken-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "usertoken-rejection-2",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": null,
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "LoginProvider",
+        "rule": "`LoginProvider` is declared NOT NULL"
+      }
+    },
+    {
+      "ref": "usertoken-rejection-3",
+      "kind": "rejection",
+      "data": {
+        "LoginProvider": "",
+        "Name": null,
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "violates": {
+        "field": "Name",
+        "rule": "`Name` is declared NOT NULL"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "usertoken-case-1",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "usertoken-case-2",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "usertoken-case-3",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "usertoken-case-4",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "usertoken-case-5",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "usertoken-case-6",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "text",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "usertoken-case-7",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "usertoken-case-8",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Value": "",
+        "Version": 100
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "usertoken-case-9",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "text",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "usertoken-case-10",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "STR_0001",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "",
+        "Version": 1
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "usertoken-case-11",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "STR_0001",
+        "Version": 100
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "usertoken-case-12",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "text",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "usertoken-case-13",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "Alice Whitfield",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "",
+        "Version": 1
+      },
+      "case": "covering-0013"
+    },
+    {
+      "ref": "usertoken-case-14",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0014"
+    },
+    {
+      "ref": "usertoken-case-15",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Value": "STR_0001",
+        "Version": 1
+      },
+      "case": "covering-0015"
+    },
+    {
+      "ref": "usertoken-case-16",
+      "kind": "case",
+      "data": {
+        "LoginProvider": "",
+        "Name": "",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Value": "text",
+        "Version": 1
+      },
+      "case": "covering-0016"
+    }
+  ],
+  "load": "exports/sql/ holds the same rows as INSERT scripts in load order"
+}

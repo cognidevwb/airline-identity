@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-email-over-2",
+  "title": "Email over 256 characters",
+  "source": "staged scenario",
+  "why": "Tests one character past the email length limit.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with an Email of 257 characters (the 256-character address above with one more 'a' added to the local part). All other fields are valid."
+    }
+  ],
+  "expect": [
+    "Rejected with a validation error saying Email is too long (maximum 256). No User row is created."
+  ]
+}

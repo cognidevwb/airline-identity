@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-single-lette",
+  "title": "Single-letter and very long names",
+  "source": "staged scenario",
+  "why": "Checks that short first names and long hyphenated or apostrophe-containing last names are accepted and stored intact.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with FirstName 'Li' and a LastName over 100 characters made of repeated segments such as \"O'Brien-Smythe-\" (hyphens and apostrophes included), Email li.long@example.com, UserName li.long, PassPortNumber CN3322110, Password Str0ng!Pass1, matching ConfirmPassword."
+    }
+  ],
+  "expect": [
+    "Registration succeeds. The saved FirstName is 'Li' and the saved LastName matches the submitted string exactly, with hyphens and apostrophes preserved."
+  ]
+}

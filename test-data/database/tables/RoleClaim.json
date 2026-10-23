@@ -1,0 +1,2991 @@
+{
+  "name": "RoleClaim",
+  "kind": "table",
+  "layer": "database",
+  "source": "src/Identity/Identity/Models/RoleClaim.cs:7",
+  "columns": [
+    "Id",
+    "Version",
+    "ClaimType",
+    "ClaimValue",
+    "RoleId"
+  ],
+  "valid": [
+    {
+      "ref": "roleclaim-permission",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "users.manage",
+        "Id": 1013,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-2",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "roles.manage",
+        "Id": 1014,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-3",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.manage",
+        "Id": 1015,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-4",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.manage",
+        "Id": 1016,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-5",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "airports.manage",
+        "Id": 1017,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-6",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "reports.view",
+        "Id": 1018,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-7",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "claims.manage",
+        "Id": 1019,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-8",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "settings.manage",
+        "Id": 1020,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-9",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.create",
+        "Id": 1021,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-10",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.view.own",
+        "Id": 1022,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-11",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.cancel.own",
+        "Id": 1023,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-12",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.edit.own",
+        "Id": 1024,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-13",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.self",
+        "Id": 1025,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-14",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "seats.select",
+        "Id": 1026,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-15",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "loyalty.view",
+        "Id": 1027,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-16",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "receipts.download",
+        "Id": 1028,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-17",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.process",
+        "Id": 1029,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-18",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boardingpass.print",
+        "Id": 1030,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-19",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passport.verify",
+        "Id": 1031,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-20",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "baggage.tag",
+        "Id": 1032,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-21",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "seats.reassign",
+        "Id": 1033,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-22",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.create.any",
+        "Id": 1034,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-23",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.modify",
+        "Id": 1035,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-24",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.cancel",
+        "Id": 1036,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-25",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "fares.view",
+        "Id": 1037,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-26",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.create",
+        "Id": 1038,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-27",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "seats.hold",
+        "Id": 1039,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-28",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "groups.manage",
+        "Id": 1040,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-29",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boarding.scan",
+        "Id": 1041,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-30",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boarding.close",
+        "Id": 1042,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-31",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.assign.view",
+        "Id": 1043,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-32",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "standby.clear",
+        "Id": 1044,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-33",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passenger.offload",
+        "Id": 1045,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-34",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.assign",
+        "Id": 1046,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-35",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.schedule",
+        "Id": 1047,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-36",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.delay",
+        "Id": 1048,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-37",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.cancel",
+        "Id": 1049,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-38",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.assign",
+        "Id": 1050,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-39",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "crew.view",
+        "Id": 1051,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-40",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "airports.slots",
+        "Id": 1052,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-41",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.view.any",
+        "Id": 1053,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-42",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "refunds.request",
+        "Id": 1054,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-43",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.contact",
+        "Id": 1055,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-44",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "complaints.manage",
+        "Id": 1056,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-45",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.history",
+        "Id": 1057,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-46",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.view",
+        "Id": 1058,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-47",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.export",
+        "Id": 1059,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-48",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "users.view",
+        "Id": 1060,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-49",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "reports.export",
+        "Id": 1061,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-50",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "logins.review",
+        "Id": 1062,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-51",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "tokens.revoke",
+        "Id": 1063,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-52",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "roles.assign",
+        "Id": 1064,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-53",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "integrations.manage",
+        "Id": 1065,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-54",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "apikeys.manage",
+        "Id": 1066,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-55",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "notifications.manage",
+        "Id": 1067,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-56",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "templates.manage",
+        "Id": 1068,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-57",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.modify.own",
+        "Id": 1069,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-58",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "seats.change.own",
+        "Id": 1070,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-59",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "baggage.add.own",
+        "Id": 1071,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-60",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "meals.select",
+        "Id": 1072,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 5
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-61",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.view.own",
+        "Id": 1073,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-62",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "tickets.view.own",
+        "Id": 1074,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-63",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "loyalty.redeem",
+        "Id": 1075,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-64",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "upgrades.request",
+        "Id": 1076,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-65",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.override",
+        "Id": 1077,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-66",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "baggage.weigh",
+        "Id": 1078,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-67",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "baggage.excess.charge",
+        "Id": 1079,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 6
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-68",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "documents.scan",
+        "Id": 1080,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-69",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boardingpass.reissue",
+        "Id": 1081,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-70",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "visa.check",
+        "Id": 1082,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-71",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.hold",
+        "Id": 1083,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-72",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.reissue",
+        "Id": 1084,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-73",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "fares.override",
+        "Id": 1085,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-74",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "itineraries.split",
+        "Id": 1086,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-75",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "tickets.issue",
+        "Id": 1087,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 7
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-76",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.merge",
+        "Id": 1088,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-77",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "waitlist.manage",
+        "Id": 1089,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-78",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boarding.reopen",
+        "Id": 1090,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-79",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.announce",
+        "Id": 1091,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-80",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boarding.priority",
+        "Id": 1092,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 5
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-81",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "standby.list",
+        "Id": 1093,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-82",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boarding.manifest.view",
+        "Id": 1094,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-83",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.reroute",
+        "Id": 1095,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-84",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.diversion",
+        "Id": 1096,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-85",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.swap",
+        "Id": 1097,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-86",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "crew.assign",
+        "Id": 1098,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-87",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.status.update",
+        "Id": 1099,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 8
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-88",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "airports.gates.manage",
+        "Id": 1100,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-89",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "refunds.approve",
+        "Id": 1101,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-90",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "compensation.issue",
+        "Id": 1102,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-91",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "complaints.escalate",
+        "Id": 1103,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-92",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.view.support",
+        "Id": 1104,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-93",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "vouchers.issue",
+        "Id": 1105,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-94",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "cases.close",
+        "Id": 1106,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-95",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.export.view",
+        "Id": 1107,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-96",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "logins.history.view",
+        "Id": 1108,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-97",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "reports.financial.view",
+        "Id": 1109,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-98",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "permissions.review",
+        "Id": 1110,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-99",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.audit",
+        "Id": 1111,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 6
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-100",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "refunds.audit",
+        "Id": 1112,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-101",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "users.disable",
+        "Id": 1113,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-102",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "users.unlock",
+        "Id": 1114,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-103",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "users.password.reset",
+        "Id": 1115,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-104",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "roles.view",
+        "Id": 1116,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-105",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "claims.view",
+        "Id": 1117,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-106",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "settings.view",
+        "Id": 1118,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-107",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "logins.external.manage",
+        "Id": 1119,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-108",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "profile.edit.own",
+        "Id": 1120,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-109",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passport.update.own",
+        "Id": 1121,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-110",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "contact.update.own",
+        "Id": 1122,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-111",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "notifications.preferences.own",
+        "Id": 1123,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-112",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.mobile",
+        "Id": 1124,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-113",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boardingpass.view.own",
+        "Id": 1125,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-114",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "baggage.track.own",
+        "Id": 1126,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-115",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.search",
+        "Id": 1127,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-116",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.baggage.accept",
+        "Id": 1128,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-117",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.seat.assign",
+        "Id": 1129,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-118",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.document.review",
+        "Id": 1130,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-119",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.passenger.lookup",
+        "Id": 1131,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-120",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "kiosk.assist",
+        "Id": 1132,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-121",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "checkin.special.assist",
+        "Id": 1133,
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-checkinagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-122",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.create.group",
+        "Id": 1134,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-123",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.name.correct",
+        "Id": 1135,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-124",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "fares.quote",
+        "Id": 1136,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-125",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.upgrade.apply",
+        "Id": 1137,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-126",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.rebook",
+        "Id": 1138,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-127",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "inventory.view",
+        "Id": 1139,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-128",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "tickets.void",
+        "Id": 1140,
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-reservationsagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-129",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.boarding.start",
+        "Id": 1141,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-130",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.seat.swap",
+        "Id": 1142,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-131",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.standby.upgrade",
+        "Id": 1143,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-132",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.document.recheck",
+        "Id": 1144,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-133",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "boarding.deny",
+        "Id": 1145,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-134",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.baggage.gatecheck",
+        "Id": 1146,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-135",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.gate.change",
+        "Id": 1147,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-136",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.crew.notify",
+        "Id": 1148,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-137",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.maintenance.view",
+        "Id": 1149,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-138",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.manifest.export",
+        "Id": 1150,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-139",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.turnaround.update",
+        "Id": 1151,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-140",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "airports.runway.view",
+        "Id": 1152,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-141",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "cases.create",
+        "Id": 1153,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-142",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "cases.assign",
+        "Id": 1154,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-143",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.notes.add",
+        "Id": 1155,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-144",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.refund.status",
+        "Id": 1156,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-145",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "messages.send",
+        "Id": 1157,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-146",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.bookings.view",
+        "Id": 1158,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-147",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.claims.view",
+        "Id": 1159,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-148",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.changes.export",
+        "Id": 1160,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-149",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "reports.compliance.view",
+        "Id": 1161,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-150",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.passport.access.view",
+        "Id": 1162,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-151",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.boarding.pause",
+        "Id": 1163,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-152",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.passenger.page",
+        "Id": 1164,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-153",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.boardingpass.scan.manual",
+        "Id": 1165,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-154",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "gate.irregularity.report",
+        "Id": 1166,
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-gateagent"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-155",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.fuel.plan.view",
+        "Id": 1167,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-156",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.weather.view",
+        "Id": 1168,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-157",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.slot.request",
+        "Id": 1169,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-158",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.release.sign",
+        "Id": 1170,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-159",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.configuration.view",
+        "Id": 1171,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-160",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.rotation.plan",
+        "Id": 1172,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-161",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "airports.stands.assign",
+        "Id": 1173,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-162",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "airports.curfew.view",
+        "Id": 1174,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-163",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "crew.duty.view",
+        "Id": 1175,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-164",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.delay.codes.edit",
+        "Id": 1176,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-165",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.cancel.notify",
+        "Id": 1177,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-166",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.load.sheet.view",
+        "Id": 1178,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-167",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "flights.ontime.report.view",
+        "Id": 1179,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-168",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "aircraft.status.update",
+        "Id": 1180,
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-flightoperations"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-169",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "cases.reopen",
+        "Id": 1181,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-170",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "cases.transfer",
+        "Id": 1182,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-171",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "cases.notes.add",
+        "Id": 1183,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-172",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.contact.history",
+        "Id": 1184,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-173",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "refunds.status.view",
+        "Id": 1185,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-174",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.preferences.view",
+        "Id": 1186,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-175",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "complaints.respond",
+        "Id": 1187,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-176",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "messages.templates.use",
+        "Id": 1188,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-177",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "vouchers.view",
+        "Id": 1189,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-178",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "compensation.view",
+        "Id": 1190,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-179",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "loyalty.adjust",
+        "Id": 1191,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-180",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "bookings.itinerary.resend",
+        "Id": 1192,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-181",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "passengers.verify.identity",
+        "Id": 1193,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-182",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "disruptions.rebook.assist",
+        "Id": 1194,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-183",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "surveys.view",
+        "Id": 1195,
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customersupport"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-184",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.logins.view",
+        "Id": 1196,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-185",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.roles.view",
+        "Id": 1197,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-186",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.permissions.export",
+        "Id": 1198,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-187",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.refunds.view",
+        "Id": 1199,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-188",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.fares.override.view",
+        "Id": 1200,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-189",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.tickets.view",
+        "Id": 1201,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-190",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.users.view",
+        "Id": 1202,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-191",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.settings.view",
+        "Id": 1203,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-192",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.apikeys.view",
+        "Id": 1204,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-193",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.integrations.view",
+        "Id": 1205,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-194",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "reports.audit.generate",
+        "Id": 1206,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-195",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "reports.refunds.view",
+        "Id": 1207,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-196",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.baggage.view",
+        "Id": 1208,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-197",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.boarding.view",
+        "Id": 1209,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-198",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "audit.retention.view",
+        "Id": 1210,
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-auditor"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-199",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "settings.branding.manage",
+        "Id": 1211,
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-admin"
+      }
+    },
+    {
+      "ref": "roleclaim-permission-200",
+      "kind": "record",
+      "data": {
+        "ClaimType": "permission",
+        "ClaimValue": "tickets.download.own",
+        "Id": 1212,
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "roleclaim-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "",
+        "Id": 1213,
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "roleclaim-case-1",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "",
+        "Id": 1000,
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "roleclaim-case-2",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "text",
+        "Id": 1001,
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "roleclaim-case-3",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "STR_0001",
+        "Id": 1002,
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "roleclaim-case-4",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "text",
+        "Id": 1003,
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "Version": 100
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "roleclaim-case-5",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "",
+        "Id": 1004,
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "roleclaim-case-6",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "",
+        "Id": 1005,
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "roleclaim-case-7",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "STR_0001",
+        "Id": 1006,
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "roleclaim-case-8",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "STR_0001",
+        "Id": 1007,
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "roleclaim-case-9",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "text",
+        "Id": 1008,
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "roleclaim-case-10",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "text",
+        "Id": 1009,
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "Version": 1
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "roleclaim-case-11",
+      "kind": "case",
+      "data": {
+        "ClaimType": "",
+        "ClaimValue": "STR_0001",
+        "Id": 1010,
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "Version": 1
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "roleclaim-case-12",
+      "kind": "case",
+      "data": {
+        "ClaimType": "text",
+        "ClaimValue": "",
+        "Id": 1011,
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "Version": 1
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "roleclaim-case-13",
+      "kind": "case",
+      "data": {
+        "ClaimType": "CLAIM-01",
+        "ClaimValue": "STR_0001",
+        "Id": 1012,
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "Version": 1
+      },
+      "case": "covering-0013"
+    }
+  ],
+  "load": "exports/sql/ holds the same rows as INSERT scripts in load order"
+}

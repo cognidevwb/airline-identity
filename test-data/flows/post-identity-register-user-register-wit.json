@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-register-wit",
+  "title": "Register with phone number",
+  "source": "staged scenario",
+  "why": "Checks that the optional phone number is saved and not confirmed automatically.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with valid passenger fields (Email carla.rossi@example.com, UserName carla.rossi, PassPortNumber IT5550123) and PhoneNumber +14155550123."
+    }
+  ],
+  "expect": [
+    "Registration succeeds. The User row has PhoneNumber +14155550123 and PhoneNumberConfirmed false."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-first-name-i",
+  "title": "First name is required",
+  "source": "staged scenario",
+  "why": "Confirms that a blank first name is rejected even when everything else is valid.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with FirstName '' (a blank value, and a second attempt with only spaces). LastName Meyer, Email anna.meyer@example.com, UserName anna.meyer, PassPortNumber DE9876543, Password Str0ng!Pass1, matching ConfirmPassword."
+    }
+  ],
+  "expect": [
+    "Rejected with a validation error naming FirstName as required. No User row is created."
+  ]
+}

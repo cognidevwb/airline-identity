@@ -1,0 +1,37 @@
+{
+  "id": "across-post-api-v1-identity-register-use",
+  "title": "Register user across services",
+  "source": "project join",
+  "crosses": [
+    "airline-identity",
+    "airline-passenger"
+  ],
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "repo": "airline-identity",
+      "call": "POST api/v1/identity/register-user",
+      "body": {
+        "confirmPassword": "Str0ng!Pass000",
+        "email": "amara.okafor@example.com",
+        "firstName": "Amara",
+        "lastName": "Okafor",
+        "passportNumber": "X00001025",
+        "password": "Str0ng!Pass000",
+        "username": "amara.okafor@example.com"
+      }
+    },
+    {
+      "n": 2,
+      "repo": "airline-passenger",
+      "event": "UserCreated",
+      "by": "airline-identity",
+      "handled": "consumes it"
+    }
+  ],
+  "expect": [
+    "POST api/v1/identity/register-user answers 200",
+    "airline-passenger receives UserCreated"
+  ]
+}

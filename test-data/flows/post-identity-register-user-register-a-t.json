@@ -1,0 +1,16 @@
+{
+  "id": "post-identity-register-user-register-a-t",
+  "title": "Register a typical passenger",
+  "source": "staged scenario",
+  "why": "Confirms the baseline registration works and persists a passenger with passport details.",
+  "setup": [],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with FirstName Anna, LastName Meyer, Email anna.meyer@example.com, UserName anna.meyer, PassPortNumber DE9876543, Password Str0ng!Pass1, ConfirmPassword Str0ng!Pass1."
+    }
+  ],
+  "expect": [
+    "Registration succeeds (success status). One User row exists with FirstName Anna, LastName Meyer, Email anna.meyer@example.com, PassPortNumber DE9876543, and a hashed password (not the plaintext)."
+  ]
+}

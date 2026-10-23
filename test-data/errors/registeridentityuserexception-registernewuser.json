@@ -1,0 +1,15 @@
+{
+  "id": "registeridentityuserexception-registernewuser",
+  "title": "RegisterNewUser: RegisterIdentityUserException",
+  "kind": "rule broken",
+  "exception": "RegisterIdentityUserException",
+  "base": "AppException",
+  "thrownAt": "src/Identity/Identity/Features/RegisteringNewUser/V1/RegisterNewUser.cs:122",
+  "condition": "if (identityResult.Succeeded == false)",
+  "field": null,
+  "expect": {
+    "status": 400,
+    "error": "RegisterIdentityUserException",
+    "note": null
+  }
+}

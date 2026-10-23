@@ -1,0 +1,34 @@
+{
+  "id": "post-identity-register-user-identity-cre",
+  "title": "Identity creation fails",
+  "source": "staged scenario",
+  "why": "Shows that when the identity store refuses the user, registration aborts cleanly with the store's errors and nothing partial is left behind.",
+  "setup": [
+    {
+      "ref": "taken-username-user",
+      "table": "User",
+      "values": {
+        "AccessFailedCount": 0,
+        "Email": "tom.berg@example.com",
+        "EmailConfirmed": false,
+        "FirstName": "Tom",
+        "LastName": "Berg",
+        "LockoutEnabled": true,
+        "NormalizedEmail": "tom.berg@example.com",
+        "NormalizedUserName": "SHARED.NAME",
+        "PassPortNumber": "X90000000",
+        "UserName": "shared.name",
+        "Version": 1
+      }
+    }
+  ],
+  "steps": [
+    {
+      "n": 1,
+      "does": "POST …/identity/register-user with a different Email (new.person@example.com) but UserName 'shared.name', which is already taken. All other fields are valid, with Password Str0ng!Pass1 and a matching ConfirmPassword. As a second case, submit a unique username with a password the identity store's policy rejects."
+    }
+  ],
+  "expect": [
+    "Both requests fail with the identity store's error (duplicate username, or password policy violation). Registration is aborted, no new User row exists, and the existing taken-username-user row is unchanged."
+  ]
+}

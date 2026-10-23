@@ -1,0 +1,17 @@
+{
+  "id": "registernewusertests-should-create-new-u",
+  "title": "should create new user to db and publish message to broker",
+  "source": "repository test",
+  "file": "tests/IntegrationTest/Identity/Features/RegisterNewUserTests.cs:16",
+  "steps": [
+    {
+      "n": 1,
+      "does": "var response = await Fixture.SendAsync(command)"
+    }
+  ],
+  "expect": [
+    "response?.Should().NotBeNull()",
+    "response?.Username.Should().Be(command.Username)",
+    "(await Fixture.WaitForPublishing<UserCreated>()).Should().Be(true)"
+  ]
+}

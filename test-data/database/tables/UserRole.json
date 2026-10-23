@@ -1,0 +1,308 @@
+{
+  "name": "UserRole",
+  "kind": "table",
+  "layer": "database",
+  "source": "src/Identity/Identity/Models/UserRole.cs:7",
+  "columns": [
+    "Version",
+    "UserId",
+    "RoleId"
+  ],
+  "valid": [
+    {
+      "ref": "userrole-1",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "UserId": "e0a63e12-0000-4000-8000-000000001018",
+        "Version": 0
+      },
+      "links": {
+        "RoleId": "role-admin",
+        "UserId": "user-amara-okafor-example-com"
+      }
+    },
+    {
+      "ref": "userrole-2",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001008",
+        "UserId": "e0a63e12-0000-4000-8000-000000001019",
+        "Version": 1
+      },
+      "links": {
+        "RoleId": "role-customer",
+        "UserId": "user-liam-brennan-example-com"
+      }
+    },
+    {
+      "ref": "userrole-3",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001009",
+        "UserId": "e0a63e12-0000-4000-8000-000000001020",
+        "Version": 2
+      },
+      "links": {
+        "RoleId": "role-checkinagent",
+        "UserId": "user-sofia-marchetti-example-com"
+      }
+    },
+    {
+      "ref": "userrole-4",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001010",
+        "UserId": "e0a63e12-0000-4000-8000-000000001021",
+        "Version": 3
+      },
+      "links": {
+        "RoleId": "role-reservationsagent",
+        "UserId": "user-kenji-watanabe-example-com"
+      }
+    },
+    {
+      "ref": "userrole-5",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001011",
+        "UserId": "e0a63e12-0000-4000-8000-000000001022",
+        "Version": 5
+      },
+      "links": {
+        "RoleId": "role-gateagent",
+        "UserId": "user-priya-raghunathan-example-com"
+      }
+    },
+    {
+      "ref": "userrole-6",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001012",
+        "UserId": "e0a63e12-0000-4000-8000-000000001023",
+        "Version": 4
+      },
+      "links": {
+        "RoleId": "role-flightoperations",
+        "UserId": "user-mateo-fernandez-example-com"
+      }
+    },
+    {
+      "ref": "userrole-7",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001013",
+        "UserId": "e0a63e12-0000-4000-8000-000000001024",
+        "Version": 6
+      },
+      "links": {
+        "RoleId": "role-customersupport",
+        "UserId": "user-chloe-dubois-example-com"
+      }
+    },
+    {
+      "ref": "userrole-8",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001014",
+        "UserId": "e0a63e12-0000-4000-8000-000000001025",
+        "Version": 7
+      },
+      "links": {
+        "RoleId": "role-auditor",
+        "UserId": "user-oluwaseun-adeyemi-example-com"
+      }
+    },
+    {
+      "ref": "userrole-9",
+      "kind": "record",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001007",
+        "UserId": "e0a63e12-0000-4000-8000-000000001026",
+        "Version": 8
+      },
+      "links": {
+        "RoleId": "role-admin",
+        "UserId": "user-hannah-lindqvist-example-com"
+      }
+    }
+  ],
+  "invalid": [
+    {
+      "ref": "userrole-rejection-1",
+      "kind": "rejection",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": null
+      },
+      "violates": {
+        "field": "Version",
+        "rule": "`Version` is declared NOT NULL"
+      }
+    }
+  ],
+  "coverage": [
+    {
+      "ref": "userrole-case-1",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0001"
+    },
+    {
+      "ref": "userrole-case-2",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0002"
+    },
+    {
+      "ref": "userrole-case-3",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0003"
+    },
+    {
+      "ref": "userrole-case-4",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0004"
+    },
+    {
+      "ref": "userrole-case-5",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 100
+      },
+      "case": "covering-0005"
+    },
+    {
+      "ref": "userrole-case-6",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 100
+      },
+      "case": "covering-0006"
+    },
+    {
+      "ref": "userrole-case-7",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 100
+      },
+      "case": "covering-0007"
+    },
+    {
+      "ref": "userrole-case-8",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 100
+      },
+      "case": "covering-0008"
+    },
+    {
+      "ref": "userrole-case-9",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0009"
+    },
+    {
+      "ref": "userrole-case-10",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "UserId": "e0a63e12-0000-4000-8000-000000001000",
+        "Version": 1
+      },
+      "case": "covering-0010"
+    },
+    {
+      "ref": "userrole-case-11",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001002",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0011"
+    },
+    {
+      "ref": "userrole-case-12",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001003",
+        "UserId": "e0a63e12-0000-4000-8000-000000001004",
+        "Version": 1
+      },
+      "case": "covering-0012"
+    },
+    {
+      "ref": "userrole-case-13",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0013"
+    },
+    {
+      "ref": "userrole-case-14",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001008",
+        "Version": 1
+      },
+      "case": "covering-0014"
+    },
+    {
+      "ref": "userrole-case-15",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001000",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0015"
+    },
+    {
+      "ref": "userrole-case-16",
+      "kind": "case",
+      "data": {
+        "RoleId": "902b7e39-0000-4000-8000-000000001001",
+        "UserId": "e0a63e12-0000-4000-8000-000000001012",
+        "Version": 1
+      },
+      "case": "covering-0016"
+    }
+  ],
+  "load": "exports/sql/ holds the same rows as INSERT scripts in load order"
+}
