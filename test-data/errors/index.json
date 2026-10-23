@@ -1,0 +1,13 @@
+{
+  "folder": "errors/",
+  "what": "Every exception the code throws: where, the call that triggers it, the status the API answers.",
+  "folders": [],
+  "files": [
+    {
+      "file": "registeridentityuserexception-registernewuser.json",
+      "item": "RegisterIdentityUserException",
+      "layer": "Errors",
+      "status": 400
+    }
+  ]
+}

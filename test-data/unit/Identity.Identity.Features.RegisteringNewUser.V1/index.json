@@ -1,0 +1,11 @@
+{
+  "folder": "unit/Identity.Identity.Features.RegisteringNewUser.V1/",
+  "what": "Argument sets for unit tests of each method, by namespace and class. Nested objects are whole records.",
+  "folders": [
+    {
+      "folder": "RegisterNewUserHandler/",
+      "files": 1
+    }
+  ],
+  "files": []
+}

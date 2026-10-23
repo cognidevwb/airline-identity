@@ -1,0 +1,15 @@
+{
+  "folder": "domain/",
+  "what": "Domain objects by namespace: commands, events, read models, aggregates, value objects, requests and responses.",
+  "folders": [
+    {
+      "folder": "Identity.Configurations/",
+      "files": 1
+    },
+    {
+      "folder": "Identity.Identity.Features.RegisteringNewUser.V1/",
+      "files": 4
+    }
+  ],
+  "files": []
+}

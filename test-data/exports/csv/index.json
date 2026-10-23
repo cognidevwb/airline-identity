@@ -1,0 +1,63 @@
+{
+  "folder": "exports/csv/",
+  "what": "The same rows as SQL and CSV.",
+  "folders": [],
+  "files": [
+    {
+      "file": "AuthOptions.csv",
+      "item": "AuthOptions"
+    },
+    {
+      "file": "GET--.csv",
+      "item": "GET--"
+    },
+    {
+      "file": "RegisterNewUser.csv",
+      "item": "RegisterNewUser"
+    },
+    {
+      "file": "RegisterNewUserHandler-Handle.csv",
+      "item": "RegisterNewUserHandler-Handle"
+    },
+    {
+      "file": "RegisterNewUserRequestDto.csv",
+      "item": "RegisterNewUserRequestDto"
+    },
+    {
+      "file": "RegisterNewUserResponseDto.csv",
+      "item": "RegisterNewUserResponseDto"
+    },
+    {
+      "file": "RegisterNewUserResult.csv",
+      "item": "RegisterNewUserResult"
+    },
+    {
+      "file": "Role.csv",
+      "item": "Role"
+    },
+    {
+      "file": "RoleClaim.csv",
+      "item": "RoleClaim"
+    },
+    {
+      "file": "User.csv",
+      "item": "User"
+    },
+    {
+      "file": "UserClaim.csv",
+      "item": "UserClaim"
+    },
+    {
+      "file": "UserLogin.csv",
+      "item": "UserLogin"
+    },
+    {
+      "file": "UserRole.csv",
+      "item": "UserRole"
+    },
+    {
+      "file": "UserToken.csv",
+      "item": "UserToken"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "folder": "exports/sql/",
+  "what": "The same rows as SQL and CSV.",
+  "folders": [],
+  "files": [
+    {
+      "file": "000_reset.sql",
+      "item": "000_reset"
+    },
+    {
+      "file": "010_Role.sql",
+      "item": "010_Role"
+    },
+    {
+      "file": "010_Role_cases.sql",
+      "item": "010_Role_cases"
+    },
+    {
+      "file": "010_Role_invalid.sql",
+      "item": "010_Role_invalid"
+    },
+    {
+      "file": "020_User.sql",
+      "item": "020_User"
+    },
+    {
+      "file": "020_User_cases.sql",
+      "item": "020_User_cases"
+    },
+    {
+      "file": "020_User_invalid.sql",
+      "item": "020_User_invalid"
+    },
+    {
+      "file": "030_RoleClaim.sql",
+      "item": "030_RoleClaim"
+    },
+    {
+      "file": "030_RoleClaim_cases.sql",
+      "item": "030_RoleClaim_cases"
+    },
+    {
+      "file": "030_RoleClaim_invalid.sql",
+      "item": "030_RoleClaim_invalid"
+    },
+    {
+      "file": "040_UserClaim.sql",
+      "item": "040_UserClaim"
+    },
+    {
+      "file": "040_UserClaim_cases.sql",
+      "item": "040_UserClaim_cases"
+    },
+    {
+      "file": "040_UserClaim_invalid.sql",
+      "item": "040_UserClaim_invalid"
+    },
+    {
+      "file": "050_UserLogin.sql",
+      "item": "050_UserLogin"
+    },
+    {
+      "file": "050_UserLogin_cases.sql",
+      "item": "050_UserLogin_cases"
+    },
+    {
+      "file": "050_UserLogin_invalid.sql",
+      "item": "050_UserLogin_invalid"
+    },
+    {
+      "file": "060_UserRole.sql",
+      "item": "060_UserRole"
+    },
+    {
+      "file": "060_UserRole_cases.sql",
+      "item": "060_UserRole_cases"
+    },
+    {
+      "file": "060_UserRole_invalid.sql",
+      "item": "060_UserRole_invalid"
+    },
+    {
+      "file": "070_UserToken.sql",
+      "item": "070_UserToken"
+    },
+    {
+      "file": "070_UserToken_cases.sql",
+      "item": "070_UserToken_cases"
+    },
+    {
+      "file": "070_UserToken_invalid.sql",
+      "item": "070_UserToken_invalid"
+    }
+  ]
+}

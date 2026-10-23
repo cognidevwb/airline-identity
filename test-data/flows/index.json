@@ -1,0 +1,121 @@
+{
+  "folder": "flows/",
+  "what": "Test flows: from the repository's tests, staged scenarios, and across services.",
+  "folders": [],
+  "files": [
+    {
+      "file": "across-post-api-v1-identity-register-use.json",
+      "item": "Register user across services",
+      "layer": "Flows · across services",
+      "steps": 2
+    },
+    {
+      "file": "post-identity-register-user-confirm-pass.json",
+      "item": "Confirm password must match",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-email-alread.json",
+      "item": "Email already registered",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-email-at-256.json",
+      "item": "Email at 256 characters",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-email-is-req.json",
+      "item": "Email is required",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-email-must-b.json",
+      "item": "Email must be well formed",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-email-over-2.json",
+      "item": "Email over 256 characters",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-first-name-i.json",
+      "item": "First name is required",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-identity-cre.json",
+      "item": "Identity creation fails",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-last-name-is.json",
+      "item": "Last name is required",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-new-account-.json",
+      "item": "New account starts with safe defaults",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-password-is-.json",
+      "item": "Password is required and strong enough",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-register-a-t.json",
+      "item": "Register a typical passenger",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-register-wit.json",
+      "item": "Register with phone number",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-security-and.json",
+      "item": "Security and concurrency stamps issued",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-single-lette.json",
+      "item": "Single-letter and very long names",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-username-at-.json",
+      "item": "Username at 256 characters and 1 character",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "post-identity-register-user-username-is-.json",
+      "item": "Username is required",
+      "layer": "Flows · scenarios",
+      "steps": 1
+    },
+    {
+      "file": "registernewusertests-should-create-new-u.json",
+      "item": "should create new user to db and publish message to broker",
+      "layer": "Flows · from the tests",
+      "steps": 1
+    }
+  ]
+}

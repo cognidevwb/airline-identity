@@ -1,0 +1,31 @@
+{
+  "folder": "vocabulary/",
+  "what": "The domain values the records were written from.",
+  "folders": [],
+  "files": [
+    {
+      "file": "Role.json",
+      "item": "Role"
+    },
+    {
+      "file": "RoleClaim.json",
+      "item": "RoleClaim"
+    },
+    {
+      "file": "User.json",
+      "item": "User"
+    },
+    {
+      "file": "UserClaim.json",
+      "item": "UserClaim"
+    },
+    {
+      "file": "UserRole.json",
+      "item": "UserRole"
+    },
+    {
+      "file": "UserToken.json",
+      "item": "UserToken"
+    }
+  ]
+}

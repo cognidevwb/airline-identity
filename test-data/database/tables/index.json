@@ -1,0 +1,63 @@
+{
+  "folder": "database/tables/",
+  "what": "Rows to load for each table, in load order; exports/sql holds the same rows as INSERT scripts.",
+  "folders": [],
+  "files": [
+    {
+      "file": "Role.json",
+      "item": "Role",
+      "layer": "Database · tables",
+      "valid": 8,
+      "invalid": 3,
+      "coverage": 7
+    },
+    {
+      "file": "RoleClaim.json",
+      "item": "RoleClaim",
+      "layer": "Database · tables",
+      "valid": 200,
+      "invalid": 1,
+      "coverage": 13
+    },
+    {
+      "file": "User.json",
+      "item": "User",
+      "layer": "Database · tables",
+      "valid": 200,
+      "invalid": 14,
+      "coverage": 18
+    },
+    {
+      "file": "UserClaim.json",
+      "item": "UserClaim",
+      "layer": "Database · tables",
+      "valid": 200,
+      "invalid": 1,
+      "coverage": 13
+    },
+    {
+      "file": "UserLogin.json",
+      "item": "UserLogin",
+      "layer": "Database · tables",
+      "valid": 200,
+      "invalid": 3,
+      "coverage": 15
+    },
+    {
+      "file": "UserRole.json",
+      "item": "UserRole",
+      "layer": "Database · tables",
+      "valid": 9,
+      "invalid": 1,
+      "coverage": 16
+    },
+    {
+      "file": "UserToken.json",
+      "item": "UserToken",
+      "layer": "Database · tables",
+      "valid": 200,
+      "invalid": 3,
+      "coverage": 16
+    }
+  ]
+}

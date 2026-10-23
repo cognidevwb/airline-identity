@@ -1,0 +1,39 @@
+{
+  "folder": "domain/Identity.Identity.Features.RegisteringNewUser.V1/",
+  "what": "Domain objects by namespace: commands, events, read models, aggregates, value objects, requests and responses.",
+  "folders": [],
+  "files": [
+    {
+      "file": "RegisterNewUser.json",
+      "item": "RegisterNewUser",
+      "layer": "Domain · commands",
+      "valid": 200,
+      "invalid": 13,
+      "coverage": 10
+    },
+    {
+      "file": "RegisterNewUserRequestDto.json",
+      "item": "RegisterNewUserRequestDto",
+      "layer": "Domain · requests",
+      "valid": 200,
+      "invalid": 7,
+      "coverage": 18
+    },
+    {
+      "file": "RegisterNewUserResponseDto.json",
+      "item": "RegisterNewUserResponseDto",
+      "layer": "Domain · responses",
+      "valid": 200,
+      "invalid": 6,
+      "coverage": 15
+    },
+    {
+      "file": "RegisterNewUserResult.json",
+      "item": "RegisterNewUserResult",
+      "layer": "Domain · responses",
+      "valid": 200,
+      "invalid": 6,
+      "coverage": 15
+    }
+  ]
+}
